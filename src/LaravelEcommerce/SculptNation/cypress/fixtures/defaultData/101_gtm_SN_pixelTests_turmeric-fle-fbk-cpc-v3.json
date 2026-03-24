@@ -1,0 +1,63 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "sp/turmeric-black/turmeric-fle-fbk-cpc-v3",
+        "productDescription": "TURMERIC BLACK (3) + Fat Loss Extreme FREE",
+        "checkoutUrl": "turmeric-black-turmeric-black-us",
+        "productPrice": "$132.00 USD",
+        "productBundle": ["TURMERIC BLACK (3)", "Fat Loss Extreme"]
+    },
+    "pixelDetail": {
+        "quizcompleted": {
+            "eventId": "EEquizCompleted",
+            "gtm": {
+                "internal": "Ly2SCI28tqcDEInM_aEC",
+                "kendago": "UvCjCOm8tswYEPOXs9IC"
+            }
+        },
+        "startcheckout": {
+            "eventId": "EEcheckoutStart",
+            "gtm": {
+                "internal": "SiArCKW0sNoDEInM_aEC",
+                "internalvsl": "sduVCNSW0t4DEMjU0too",
+                "kendago": "UvCjCOm8tswYEPOXs9IC"
+            }
+        },
+        "addtocart": {
+            "eventId": "EEaddToCart",
+            "gtm": {
+                "internal": "SiArCKW0sNoDEInM_aEC",
+                "internalvsl": "sduVCNSW0t4DEMjU0too",
+                "kendago": "UvCjCOm8tswYEPOXs9IC"
+            }
+        },
+        "purchase": {
+            "eventId": "EEpurchase",
+            "gtm": {
+                "internal": "flfzCOnt-NkBEInM_aEC",
+                "internalvsl": "G46iCOyPvMMDEMjU0too",
+                "kendago": "ZCHOCLq4tcwYEPOXs9IC"
+            },
+            "value": "153.01"
+        },
+        "upsell": {
+            "eventId": "EEupsell",
+            "gtm": {
+                "internal": "jzBKCL3boNoDEInM_aEC"
+            },
+            "value": "87.00"
+        },
+        "viewOffer": {
+            "eventId": "EEviewOffer"
+        }
+    },
+    "firstName": "Pixel Gtm",
+    "lastName": "Turmeric",
+    "clientName": "PixelGtm Turmeric",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

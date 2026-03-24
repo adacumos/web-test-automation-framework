@@ -1,0 +1,43 @@
+{
+    "surveyLandingPage": {
+        "landingPage": "https://staging.vshred.com",
+        "checkoutUrl": "the-booty-builder",
+        "productDescription": "The Booty Builder",
+        "productPrice": "$34.95 USD",
+        "productBundle": ["The Booty Builder"]
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs"
+    },
+    "CDP": {
+        "funnelUrl": "cdp-cs-v2"
+    },
+    "cdpBumper": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Custom Diet Plan",
+        "The Booty Builder"
+    ],
+    "cdpFunnel": [
+        "GREENS REGULAR - DISCOUNTED",
+        "Custom Diet Plan - 4 weeks",
+        "The Booty Builder"
+    ],
+    "trainerData": {
+        "assignedTrainer": "Trainer Three",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-three@example.com"
+    },
+    "clientName": "bootyBuilder vsProgram",
+    "firstName": "bootyBuilder",
+    "lastName": "vsProgram",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

@@ -1,0 +1,25 @@
+{
+    "addOffer": {
+        "offerSku": ["sku_CKcwR4TEg54IeG", "sku_ETz4R4WE6B0Fuf"],
+        "offerTitle": ["Fat Loss Extreme for Her", "Custom Diet Plan"]
+    },
+    "vsUserInfo": {
+        "Trainer": {
+            "name": "Newt Trainer",
+            "password": "12345678",
+            "role": "Trainer",
+            "gender": "Male",
+            "leader": "Trainer One",
+            "utm": "nTrainer.",
+            "coupon": "ntrainer."
+        },
+        "Member": {
+            "name": "Merry Pip",
+            "password": "12345678",
+            "role": "Member",
+            "leader": "",
+            "utm": "",
+            "coupon": ""
+        }
+    }
+}

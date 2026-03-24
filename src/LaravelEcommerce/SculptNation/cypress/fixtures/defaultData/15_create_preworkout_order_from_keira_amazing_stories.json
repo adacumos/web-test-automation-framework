@@ -1,0 +1,95 @@
+{
+    "productLandingPage": {
+        "productName": "PRE WORKOUT - FRUIT PUNCH",
+        "productUrl": "pre-workout",
+        "oneBottlePrice": "$37.00",
+        "sixBottlePrice": "$30.50",
+        "threeBottlePrice": "$33.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "PRE WORKOUT - FRUIT PUNCH - Monthly",
+            "quantity": "1",
+            "subtotal": "$32.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$2.68",
+            "totalPrice": "$44.63"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$41.44",
+            "secondItemOrderTotal": "42.50",
+            "thirdItemOrderTotal": "$43.95",
+            "firstSubscriptionName": "PROTEIN - CHOCOLATE - Monthly",
+            "secondSubscriptionName": "PRE WORKOUT - FRUIT PUNCH - Monthly",
+            "firstSubscriptionPricePerMonth": "$40.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.95 / month"
+        }
+    },
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "PRE WORKOUT - FRUIT PUNCH",
+            "quantity": "1",
+            "subtotal": "$37.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.10",
+            "totalPrice": "$50.05"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$41.44 for 1 items",
+            "secondItemOrderTotal": "$49.94 for 1 items",
+            "thirdItemOrderTotal": "$49.26 for 1 items"
+        }
+    },
+    "sixBottle": {
+        "cartDetails": {
+            "productName": "PRE WORKOUT - FRUIT PUNCH - Six Bottle",
+            "quantity": "1",
+            "subtotal": "$183.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$15.33",
+            "totalPrice": "$208.28"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$41.44 for 1 items",
+            "secondItemOrderTotal": "$242.25 for 1 items",
+            "thirdItemOrderTotal": "$204.39 for 1 items"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "PRE WORKOUT - FRUIT PUNCH - Three Bottle",
+            "quantity": "1",
+            "subtotal": "$99.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$8.29",
+            "totalPrice": "$117.24"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$41.44 for 1 items",
+            "secondItemOrderTotal": "$127.50 for 1 items",
+            "thirdItemOrderTotal": "$115.14 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "Test Address",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "702-212-0785"
+}

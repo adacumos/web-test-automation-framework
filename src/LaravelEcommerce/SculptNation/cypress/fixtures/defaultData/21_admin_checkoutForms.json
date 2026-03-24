@@ -1,0 +1,60 @@
+{
+    "landingPage": {
+        "bumperTemplateHeader": ["ID", "Template", "Created At", "Updated At"],
+        "bumpersHeader": [
+            "ID",
+            "Name",
+            "Created At",
+            "Updated At",
+            "Image",
+            "Offer",
+            "Template"
+        ],
+        "carouselsHeader": [
+            "ID",
+            "Name",
+            "Created At",
+            "Updated At",
+            "Media",
+            "Description"
+        ],
+        "reviewsHeader": ["ID", "Name", "Comment", "Avatar", "Rating"]
+    },
+    "createNewForm": {
+        "bumperTemplates": {
+            "templateName": "Test --Template-- Test"
+        },
+        "bumpers": {
+            "bumperName": "Test --Bumper-- Test",
+            "filePath": "cypress/fixtures/uploadFile/burnPM.jpeg",
+            "bumperOffer": "Vitality Booster Bundle",
+            "bumperTemplate": "Test --Template-- Test",
+            "templateOptions": {
+                "title": {
+                    "highlight": "SPECIAL OFFER!",
+                    "text": "over 25% off"
+                },
+                "body": {
+                    "paragraphs": [
+                        "Start burning fat around the clock. BURN PM is designed to put your body into fat-melting mode all night long."
+                    ]
+                },
+                "footer": {
+                    "highlight": "Regularly $67",
+                    "text": ", yours today for only $25! (that’s over 60% off!)"
+                }
+            }
+        },
+        "carousels": {
+            "carouselName": "New --Carousel-- Test",
+            "filePath": "cypress/fixtures/uploadFile/burnPM.jpeg",
+            "description": "Test --Carousel Description-- Test"
+        },
+        "reviews": {
+            "reviewName": "Bella Test",
+            "comment": "New --Review-- Test",
+            "filePath": "cypress/fixtures/uploadFile/burnPM.jpeg",
+            "rating": "5"
+        }
+    }
+}

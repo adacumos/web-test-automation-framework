@@ -1,0 +1,44 @@
+{
+    "offerLandingPage": {
+        "checkoutUrl": "/checkout-v3"
+    },
+    "productLandingPage": {
+        "productName": "GREENS",
+        "productUrl": "greens",
+        "oneBottlePrice": "$59.00",
+        "sixBottlePrice": "$54.00",
+        "threeBottlePrice": "$59.00"
+    },
+    "subscription": {
+        "cartDetails": {
+            "productName": "GREENS - Monthly",
+            "quantity": "1",
+            "subtotal": "$59.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.43",
+            "totalPrice": "$53.51"
+        },
+
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$44.43",
+            "secondItemOrderTotal": "$44.43",
+            "thirdItemOrderTotal": "$124.83",
+            "firstSubscriptionName": "NEUROCTANE - Monthly",
+            "secondSubscriptionName": "TURMERIC BLACK - Monthly",
+            "firstSubscriptionPricePerMonth": "$41.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.00 / month"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785"
+}

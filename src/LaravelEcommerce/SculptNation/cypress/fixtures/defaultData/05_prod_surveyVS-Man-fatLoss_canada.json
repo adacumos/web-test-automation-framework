@@ -1,0 +1,42 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga",
+        "checkoutUrl": "fat-loss-extreme-bundle-bt-f3",
+        "productDescription": "Fat Loss Extreme",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "Big Arms Program"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm"
+    },
+    "skipAllFunnels": ["Fat Loss Extreme for Him $57"],
+    "selectAllFunnels": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Ultimate Fat Loss Recipes Collection",
+        "BURN PM - Monthly",
+        "Burn Evolved 2.0 - 3 Bottles $87",
+        "BURN EVOLVED 2.0 - 3 bottles",
+        "Custom Diet Plan",
+        "Fat Loss Extreme for Him $57"
+    ],
+    "firstName": "Automation",
+    "lastName": "QA-Test",
+    "clientName": "Automation QA-Test",
+    "country": "CAN",
+    "address": "510 17 Ave SW",
+    "city": "Calgary",
+    "state": "Alberta",
+    "postalCode": "T2S 0B1",
+    "phoneNumber": "7022120785"
+}

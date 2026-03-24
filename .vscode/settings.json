@@ -1,0 +1,17 @@
+{
+    "eslint.workingDirectories": [
+        { "directory": "../", "changeProcessCWD": true }
+    ],
+    "cucumberautocomplete.steps": [
+        "src/LaravelEcommerce/SculptNation/cypress/support/step_definitions/**/*.{js,ts}",
+        "src/LaravelEcommerce/LE_Vshred/cypress/support/step_definitions/**/*.{js,ts}",
+        "src/LaravelEcommerce/Marketing_Funnels/cypress/support/step_definitions/**/*.{js,ts}",
+        "src/Vshred/Marketing_Funnels/cypress/support/step_definitions/**/*.{js,ts}",
+        "src/Vshred/Vshred_TrainerTool/cypress/support/step_definitions/**/*.{js,ts}",
+        "src/LaravelEcommerce/_libs/step_definitions/**/*.{js,ts}",
+        "src/Vshred/_libs/step_definitions/**/*.{js,ts}"
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "prettier.prettierPath": "./node_modules/prettier/index.cjs",
+    "circleci.persistedProjectSelection": []
+}

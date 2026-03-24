@@ -1,0 +1,24 @@
+{
+    "productLandingPage": {
+        "productName": "HGH BOOST",
+        "productUrl": "hgh-boost"
+    },
+    "productName": "HGH Boost",
+    "productPrice": "$49.00",
+    "productQuantity": "1",
+    "productTax": "$4.10",
+    "shippingCost": "$9.95",
+    "totalAmount": "$62.01",
+    "shippingOption": "Priority Flat Rate",
+    "orderTransaction": {
+        "orderItem": "HGH Boost"
+    },
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "Test Address",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "702-212-0785"
+}

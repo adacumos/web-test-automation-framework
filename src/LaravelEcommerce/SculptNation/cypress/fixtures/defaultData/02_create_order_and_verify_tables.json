@@ -1,0 +1,46 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "Orders Test",
+    "phone": "(617) 389-0046",
+    "address": "4530 South Decatur Boulevard",
+    "address2": "Suite 103",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89103",
+
+    "productName": "TURMERIC",
+    "productPrice": "$49.00",
+    "productQuantity": "1",
+    "productTax": "$4.10",
+    "shippingCost": "$9.95",
+    "totalAmount": "$63.05",
+    "baseCurrencyTotalAmount": "$63.05",
+    "baseCurrencySubtotal": "$49.00",
+    "refundedAmount": "$0",
+    "refundableAmount": "$53.10",
+    "discountedAmount": "$0.00",
+    "COGSAmount": "$0.00",
+    "noTaxAmount": "$0.00",
+
+    "typeProduct": "product",
+    "typeTax": "tax",
+    "typeShipping": "shipping",
+    "shippingOption": "Priority Flat Rate - $9.95 - expected",
+    "shipmentStatus": "pending",
+
+    "subscriptionStatus": "new",
+    "orderStatus": "fulfilled",
+
+    "invoiceStatus": "paid",
+
+    "paymentStatus": "complete",
+    "paymentGateway": "Braintree",
+    "netRevenue": "$0",
+
+    "usersQuery": "select users.id, first_name, last_name, email from users where email = $1",
+    "ordersQuery": "select orders.id, orders.amount, orders.status, orders.created_at, orders.checked_out_at, orders.paid_at, offers.title offers, users.email as user from orders join users on orders.user_id = users.id join order_offers on orders.id = order_offers.order_id join offers on order_offers.offer_id = offers.id where users.email = $1",
+    "paymentsQuery": "select payments.id, payments.base_currency_amount amount, payments.amount_refunded, sum(payments.base_currency_amount) - sum(payments.base_currency_amount_refunded) as net_revenue, payments.status, payments.transaction_ref transaction_reference, payments.gateway, payments.created_at, users.email from payments join invoices on invoices.id = payments.invoice_id join orders on orders.id = invoices.order_id join users on orders.user_id = users.id where users.email = $1 group by payments.id, users.email",
+    "shipmentsQuery": "select shipments.id, shipments.reference_number, shipments.status, shipments.created_at, users.email from shipments join users on users.id = shipments.user_id where users.email = $1",
+    "invoicesQuery": "select invoices.id, invoices.base_currency_amount base_amount, invoices.amount, invoices.status, invoices.paid_at, users.email from invoices join orders on orders.id = invoices.order_id join users on users.id = orders.user_id where users.email = $1"
+}

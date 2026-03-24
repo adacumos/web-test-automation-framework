@@ -1,0 +1,43 @@
+{
+    "videoReference": {
+        "videoUrl": "/sp/survey/fbk-cpc"
+    },
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc",
+        "checkoutUrl": "toned-in-90-days-bundle-bt-f3",
+        "productDescription": "Toned In 90 Days",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Toned In 90 Days",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs"
+    },
+    "cdpBumper": ["Custom Diet Plan", "Toned In 90 Days $57"],
+    "trainerData": {
+        "assignedTrainer": "Trainer Two",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-two@example.com",
+        "trainerPassw": "asdfasdf"
+    },
+    "firstName": "survey-fbk-cpc",
+    "lastName": "cdpBumper",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

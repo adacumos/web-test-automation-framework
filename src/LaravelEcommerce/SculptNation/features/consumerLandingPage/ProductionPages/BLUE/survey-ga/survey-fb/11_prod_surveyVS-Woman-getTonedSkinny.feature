@@ -1,0 +1,15 @@
+@Prodution @survey-fl @woman @survey-fl-blue
+Feature: LE Move Landing page - survey-fl - Toned Skinny
+    Background: Load test data
+        Given The user loads the LE test data
+
+    Scenario: Woman VS Survey - Get Toned Skip All Funnel Offers
+        Then Connects to SN Blue Production Server
+        Given The user navigates to "Survey GA" Sculptnation Survey page
+        When The user starts new Survey FL Funnel for "Woman"
+        When The Female user describes self as "I'm skinny. I need to add toned muscle"
+        Then The user clicks 57 button
+        And The user fills out the survey order form
+        When The User "Declines" the CDP Bumper Offer and submits the order
+        Then The user "Skips All" Funnel Offers
+        Then The user checks "Order Confirmation" email

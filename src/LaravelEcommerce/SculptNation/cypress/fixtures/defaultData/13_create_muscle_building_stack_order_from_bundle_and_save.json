@@ -1,0 +1,68 @@
+{
+    "productLandingPage": {
+        "productName": "MULSCLE BUILDING STACK",
+        "productUrl": "muscle-building-stack",
+        "subscriptionPrice": "$95.00",
+        "threeBottlePrice": "$110.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "Muscle Building Stack TB2 - Monthly",
+            "quantity": "1",
+            "subtotal": "$95.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$5.94",
+            "totalPrice": "$110.89"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$34.00",
+            "secondItemOrderTotal": "$43.56",
+            "thirdItemOrderTotal": "$76.50",
+            "fourthItemOrderTotal": "$153.00",
+            "fifthItemOrderTotal": "$110.89",
+            "firstSubscriptionName": "Creatine Fruit Punch - Monthly",
+            "secondSubscriptionName": "HGH Boost - Monthly",
+            "thirdSubscriptionName": "Muscle Building Stack TB2 - Monthly",
+            "firstSubscriptionPricePerMonth": "$32.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.00 / month",
+            "thirdSubscriptionPricePerMonth": "$104.95 / month"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "Muscle Building Stack TB2",
+            "quantity": "1",
+            "subtotal": "$110.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$6.88",
+            "totalPrice": "$126.83"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$105.19 for 1 items",
+            "secondItemOrderTotal": "$140.25 for 1 items",
+            "thirdItemOrderTotal": "$76.50 for 1 items",
+            "fourthItemOrderTotal": "$153.00 for 1 items",
+            "fifthItemOrderTotal": "$126.83 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "Test Address",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "702-212-0785"
+}

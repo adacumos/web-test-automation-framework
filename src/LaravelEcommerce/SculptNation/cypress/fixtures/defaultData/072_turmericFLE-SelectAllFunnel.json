@@ -1,0 +1,51 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/turmeric-black/turmeric-fle-fbk-cpc",
+        "offerBundle": ["TURMERIC BLACK"]
+    },
+    "funnelOfferUrl": [
+        "turmeric-black-us",
+        "turmeric-black-ds",
+        "burn-lg",
+        "burn-pm",
+        "fl-cdp-us",
+        "coupon-greens"
+    ],
+    "threeBottle-SelectAllFunnels": [
+        "Special Offer Coupon - Greens",
+        "Custom Diet Plan - 4 weeks",
+        "BURN PM - Monthly",
+        "BURN EVOLVED 2.0 - Monthly",
+        "TURMERIC BLACK - Six Bottle (Discounted 50)",
+        "TURMERIC BLACK (3) + Fat Loss Extreme FREE"
+    ],
+    "facilityId": "65216c7a-6e21-416e-a5bc-77a2c1f2ef09",
+    "itemSKUs": [
+        {
+            "quantity": 9,
+            "sku": "10-011003-90-000-30"
+        },
+        {
+            "quantity": 1,
+            "sku": "10-011001-90-000-30"
+        },
+        {
+            "quantity": 1,
+            "sku": "10-011005-90-000-30"
+        },
+        {
+            "quantity": 1,
+            "sku": "10-014002-91-800-30"
+        }
+    ],
+    "firstName": "PageMove",
+    "lastName": "TurmericBlk",
+    "clientName": "Turmeric Fatloss",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

@@ -1,0 +1,26 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "LoginTestUser",
+    "defaultPassword": "asdfasdf",
+    "roleNameList": {
+        "admin": "Admin",
+        "customerService": "Customer Service",
+        "developer": "Developer",
+        "managesDiscounts": "Manages Discounts",
+        "marketer": "Marketer",
+        "mediaBuyer": "Media Buyer",
+        "salesAgent": "Sales Agent",
+        "salesManager": "Sales Manager",
+        "salesSupervisor": "Sales Supervisor",
+        "socialMedia": "Social Media",
+        "qualityEngineer": "Quality Engineer",
+        "trainer": "Trainer",
+        "viewMyselfOnly": "View Myself Only",
+        "adminMyselfOnly": "Admin Myself Only"
+    },
+    "tableQuery": {
+        "usersQuery": "select id, email from users where email = $1",
+        "enable2fa": "update user_2fa set google2fa_enable = TRUE where user_id = $1",
+        "user2faQuery": "select user_id, google2fa_secret from user_2fa where user_id = $1"
+    }
+}

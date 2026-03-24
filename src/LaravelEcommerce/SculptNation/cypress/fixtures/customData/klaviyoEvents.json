@@ -1,0 +1,320 @@
+{
+  "events": [
+    {
+      "eventId": "QUG7qH",
+      "eventName": "Trainer Assigned"
+    },
+    {
+      "eventId": "R25f7B",
+      "eventName": "viewoffer"
+    },
+    {
+      "eventId": "RDWsPA",
+      "eventName": "Subscription Cancelled"
+    },
+    {
+      "eventId": "RH9zri",
+      "eventName": "Received Automated Response SMS"
+    },
+    {
+      "eventId": "RLH2Es",
+      "eventName": "Trainer Unassigned"
+    },
+    {
+      "eventId": "RSq686",
+      "eventName": "Opened Email"
+    },
+    {
+      "eventId": "RUXZ5u",
+      "eventName": "add_to_cart"
+    },
+    {
+      "eventId": "RVr25i",
+      "eventName": "ClickBank Email Updated"
+    },
+    {
+      "eventId": "RX8Gim",
+      "eventName": "Placed order"
+    },
+    {
+      "eventId": "RZjzps",
+      "eventName": "view_cart1"
+    },
+    {
+      "eventId": "RdQvkh",
+      "eventName": "Unsubscribed from Email Marketing"
+    },
+    {
+      "eventId": "RnAm4Y",
+      "eventName": "Quiz Completed"
+    },
+    {
+      "eventId": "RtduDg",
+      "eventName": "Questionnaire Completed"
+    },
+    {
+      "eventId": "RvYuyv",
+      "eventName": "Added To Cart"
+    },
+    {
+      "eventId": "Ryhuxn",
+      "eventName": "Clickbank Subscription Changed"
+    },
+    {
+      "eventId": "RzJtK8",
+      "eventName": "begin_checkout"
+    },
+    {
+      "eventId": "S8Fx6F",
+      "eventName": "Order Refund"
+    },
+    {
+      "eventId": "SC6qeF",
+      "eventName": "Subscribed to Challenge"
+    },
+    {
+      "eventId": "SJdcEn",
+      "eventName": "Ordered Product"
+    },
+    {
+      "eventId": "SMujQn",
+      "eventName": "Order Chargeback"
+    },
+    {
+      "eventId": "SV8txh",
+      "eventName": "Added to Cart"
+    },
+    {
+      "eventId": "SXbEEy",
+      "eventName": "Received SMS"
+    },
+    {
+      "eventId": "SZNQeE",
+      "eventName": "page_view"
+    },
+    {
+      "eventId": "SazNaz",
+      "eventName": "Purchase"
+    },
+    {
+      "eventId": "She3KD",
+      "eventName": "ClickBank Subscription Renewed"
+    },
+    {
+      "eventId": "SkaC3V",
+      "eventName": "Subscribed to SMS Marketing"
+    },
+    {
+      "eventId": "SnJxPT",
+      "eventName": "Viewed Product"
+    },
+    {
+      "eventId": "SqMSpj",
+      "eventName": "Marked Email as Spam"
+    },
+    {
+      "eventId": "SuQkzw",
+      "eventName": "Subscribed to List"
+    },
+    {
+      "eventId": "SyRwfB",
+      "eventName": "Manually Suppressed from Email Marketing"
+    },
+    {
+      "eventId": "T4e5jB",
+      "eventName": "Survey Completed"
+    },
+    {
+      "eventId": "TBm2p9",
+      "eventName": "Placed Order"
+    },
+    {
+      "eventId": "THTdbE",
+      "eventName": "Weekly Trainer Email Trigger"
+    },
+    {
+      "eventId": "TLmkai",
+      "eventName": "Plan Checkout Initiated"
+    },
+    {
+      "eventId": "TZdFA5",
+      "eventName": "purchase"
+    },
+    {
+      "eventId": "TaqR6W",
+      "eventName": "Start Checkout"
+    },
+    {
+      "eventId": "TgUExP",
+      "eventName": "Quiz Completed Customer Email"
+    },
+    {
+      "eventId": "ThAXLh",
+      "eventName": "Updated Subscription"
+    },
+    {
+      "eventId": "TvzsVM",
+      "eventName": "Failed to Deliver Automated Response SMS"
+    },
+    {
+      "eventId": "TxtMqK",
+      "eventName": "Received Push"
+    },
+    {
+      "eventId": "U89rtx",
+      "eventName": "ClickBank Order Completed"
+    },
+    {
+      "eventId": "UHPXeB",
+      "eventName": "Second Event"
+    },
+    {
+      "eventId": "UJHeyy",
+      "eventName": "Custom Plan Uploaded"
+    },
+    {
+      "eventId": "UKByb3",
+      "eventName": "Clicked SMS"
+    },
+    {
+      "eventId": "UQeNwr",
+      "eventName": "Active on Site"
+    },
+    {
+      "eventId": "UddKTN",
+      "eventName": "Bounced Email"
+    },
+    {
+      "eventId": "UdqaLN",
+      "eventName": "view_cart"
+    },
+    {
+      "eventId": "Uhge5Z",
+      "eventName": "Subscribed to Email Marketing"
+    },
+    {
+      "eventId": "UjnbQj",
+      "eventName": "Placed Order"
+    },
+    {
+      "eventId": "UpAviC",
+      "eventName": "Masterclass Sign Up"
+    },
+    {
+      "eventId": "V2NYXm",
+      "eventName": "purchased_product "
+    },
+    {
+      "eventId": "VMvLHi",
+      "eventName": "Product Removed"
+    },
+    {
+      "eventId": "VRKuz6",
+      "eventName": "Upsell"
+    },
+    {
+      "eventId": "VV2p4T",
+      "eventName": "Sent SMS"
+    },
+    {
+      "eventId": "VWCy44",
+      "eventName": "add_payment_info"
+    },
+    {
+      "eventId": "VY8MkT",
+      "eventName": "user_engagement"
+    },
+    {
+      "eventId": "VZDDqh",
+      "eventName": "Dropped Email"
+    },
+    {
+      "eventId": "VdW4Kc",
+      "eventName": "scroll"
+    },
+    {
+      "eventId": "VfhvNk",
+      "eventName": "OrderedProduct"
+    },
+    {
+      "eventId": "VjTEVe",
+      "eventName": "Opened Push"
+    },
+    {
+      "eventId": "VmCKxr",
+      "eventName": "view_item"
+    },
+    {
+      "eventId": "VzjTie",
+      "eventName": "Subscription Renewed"
+    },
+    {
+      "eventId": "W8F9QV",
+      "eventName": "Merged Profile"
+    },
+    {
+      "eventId": "W8jhYW",
+      "eventName": "Subscribed to Email List"
+    },
+    {
+      "eventId": "WCEG2U",
+      "eventName": "Received Email"
+    },
+    {
+      "eventId": "WfC4Gz",
+      "eventName": "Started Checkout"
+    },
+    {
+      "eventId": "WkxcBr",
+      "eventName": "Updated Email"
+    },
+    {
+      "eventId": "WmdAd6",
+      "eventName": "Cart Viewed"
+    },
+    {
+      "eventId": "Wy3rFw",
+      "eventName": "Failed to Deliver SMS"
+    },
+    {
+      "eventId": "X2Tsiq",
+      "eventName": "newsletter_signup"
+    },
+    {
+      "eventId": "X3DzRB",
+      "eventName": "Clickbank Order Completed"
+    },
+    {
+      "eventId": "X8jyrH",
+      "eventName": "Bounced Push"
+    },
+    {
+      "eventId": "XSGMga",
+      "eventName": "Clicked Email"
+    },
+    {
+      "eventId": "XhKVcj",
+      "eventName": "Order Refunded"
+    },
+    {
+      "eventId": "XjiTMd",
+      "eventName": "add_shipping_info"
+    },
+    {
+      "eventId": "Xsv6Hi",
+      "eventName": "Order Completed"
+    },
+    {
+      "eventId": "Y2z3AE",
+      "eventName": "Plan Purchased"
+    },
+    {
+      "eventId": "YktjbZ",
+      "eventName": "Unsubscribed from SMS Marketing"
+    },
+    {
+      "eventId": "Yr6zxp",
+      "eventName": "Clicked email to unsubscribe"
+    }
+  ]
+}

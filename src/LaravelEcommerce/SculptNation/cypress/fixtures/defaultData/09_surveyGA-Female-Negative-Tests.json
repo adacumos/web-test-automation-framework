@@ -1,0 +1,17 @@
+{
+    "funnelUrls": {
+        "Overweight": "/checkout-fle?offer=fat-loss-extreme-bundle-f-bt-f3&funnel=vs-btq-full-burn-f&offer_skus=bun_c8ce2e6207cd384c&vid_rdr=false",
+        "Soft": "/sp/survey/checkout?offer=toned-in-90-days-bundle-bt-f3&funnel=vsquiz-924-f&offer_skus=bun_59eb9f8317f1b",
+        "Slim": "/sp/survey/checkout?offer=toned-in-90-days-bundle-bt-f3&funnel=vs-btq-full-burn-f&offer_skus=bun_59eb9f8317f1b"
+    },
+    "billingInfo": {
+        "name": "Negative Test",
+        "email": "negative@test.com",
+        "phone": "7022120785",
+        "address": "221 Las Vegas Blvd N",
+        "city": "Las Vegas",
+        "country": "USA",
+        "state": "NV",
+        "postal": "89101"
+    }
+}

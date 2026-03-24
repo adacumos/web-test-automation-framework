@@ -1,0 +1,31 @@
+const vsTrainerToolAssignedPlansLocators = {
+    filterRecord: {
+        byName: () => cy.get('#table-filter-customer_name'),
+        byEmail: () => cy.get('#table-filter-email'),
+        byPlan: () => cy.get('#__BVID__17'),
+        byUploadStatus: () => cy.get('#__BVID__19'),
+        byNeedsInfo: () => cy.get('#__BVID__20'),
+        byStatus: () => cy.get('#__BVID__18'),
+        byUploadDate: () => cy.get('th:nth-child(7) .btn'),
+        byFormSubmissionDate: () => cy.get('th:nth-child(8) .btn'),
+        byNextUploadDate: () => cy.get('th:nth-child(9) .btn'),
+        byRenewalDate: () => cy.get('th:nth-child(10) .btn'),
+        byTrainer: () => cy.get('input[placeholder="Select trainer"]'),
+    },
+    planStatus: () => cy.get('td.vuetable-td-status'),
+    assignedTrainer: () => cy.get('.vuetable-td-trainer_name'),
+    uploadButton: () => cy.findByRole('button', { name: /upload/i }),
+    uploadFile: () => cy.get('input[type="file"]'),
+    uploadAndSendButton: () =>
+        cy.findByRole('button', { name: /upload & send/i }),
+    cancelButton: () => cy.findByRole('button', { name: /cancel/i }),
+    uploadedButton: () => cy.findByRole('button', { name: /uploaded/i }),
+    fileFolderIcon: () => cy.get('i.fas.fa-folder'),
+    unassignTrainerButton: () => cy.findByRole('button', { name: /unassign/i }),
+    notesButton: () => cy.findByRole('button', { name: /notes/i }),
+    shoppingCartIcon: () => cy.get('i.fas.fa-shopping-cart'),
+    resetDateButton: () => cy.findByRole('button', { name: /reset/i }),
+    selectDateButton: () => cy.findByRole('button', { name: /select/i }),
+    planName: () => cy.get('td:nth-child(3)'),
+};
+export default vsTrainerToolAssignedPlansLocators;

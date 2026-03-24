@@ -1,0 +1,39 @@
+{
+    "videoReference": {
+        "videoUrl": "/sp/survey/fbk-cpc"
+    },
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc",
+        "checkoutUrl": "toned-in-90-days-bundle-bt-f3",
+        "productDescription": "Toned In 90 Days",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Toned In 90 Days",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs"
+    },
+    "cdpFunnel": [
+        "Custom Diet Plan - 4 weeks",
+        "BURN EVOLVED 2.0 - Monthly",
+        "Toned In 90 Days $57"
+    ],
+    "firstName": "fbodyQuiz",
+    "lastName": "skinnyFat",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

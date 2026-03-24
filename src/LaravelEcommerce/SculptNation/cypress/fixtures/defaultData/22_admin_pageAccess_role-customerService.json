@@ -1,0 +1,23 @@
+{
+    "roleName": "Customer Service",
+    "firstName": "QA Automation",
+    "lastName": "TestUserRole",
+    "roleNameList": {
+        "admin": "Admin",
+        "customerService": "Customer Service",
+        "developer": "Developer",
+        "managesDiscounts": "Manages Discounts",
+        "marketer": "Marketer",
+        "mediaBuyer": "Media Buyer",
+        "salesAgent": "Sales Agent",
+        "salesManager": "Sales Manager",
+        "salesSupervisor": "Sales Supervisor",
+        "socialMedia": "Social Media",
+        "qualityEngineer": "Quality Engineer",
+        "trainer": "Trainer",
+        "viewMyselfOnly": "View Myself Only",
+        "adminMyselfOnly": "Admin Myself Only"
+    },
+    "guardName": "nova",
+    "resourcePageUrl": "roles"
+}

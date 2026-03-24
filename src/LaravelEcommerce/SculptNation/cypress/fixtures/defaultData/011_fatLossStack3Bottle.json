@@ -1,0 +1,64 @@
+{
+    "productLandingPage": {
+        "productName": "FAT LOSS STACK",
+        "productUrl": "fat-loss-stack",
+        "subscriptionPrice": "$95.00",
+        "threeBottlePrice": "$110.00"
+    },
+
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "FAT LOSS STACK with Burn Evolved 2.0",
+            "quantity": "1",
+            "subtotal": "$110.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$6.88",
+            "totalPrice": "$126.83"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $188.06 for 1 items",
+            "secondItemOrderTotal": " $140.25 for 1 items",
+            "thirdItemOrderTotal": "$153.00 for 1 items",
+            "fourthItemOrderTotal": "$126.83 for 1 items",
+            "firstOrderItemName": "GREENS - Three Bottles x 1",
+            "secondOrderItemName": "HGH BOOST - Three Bottles x 1",
+            "thirdOrderItemName": "BURN Fat Burner - Six Bottles (Discounted) x 1",
+            "fourthOrderItemName": "FAT LOSS STACK x 1"
+        }
+    },
+    "itemSKUs": [
+        {
+            "quantity": 1,
+            "sku": "10-011005-90-000-30"
+        },
+        {
+            "quantity": 1,
+            "sku": "10-011003-90-000-30"
+        },
+        {
+            "quantity": 7,
+            "sku": "10-011001-90-000-30"
+        },
+        {
+            "quantity": 3,
+            "sku": "10-011004-90-000-30"
+        },
+        {
+            "quantity": 3,
+            "sku": "10-014002-91-800-30"
+        }
+    ],
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785"
+}

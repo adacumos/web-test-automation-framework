@@ -1,0 +1,70 @@
+{
+    "landingPage": {
+        "productEndpoint": "/products/burn-pm",
+        "sn_endpoint": "/products",
+        "aka1v3": "/sp/survey/survey-aka1-v3?g=female&ref=home",
+        "surveyga": "/sp/survey/survey-ga",
+        "surveygahash": "/sp/survey/survey-ga#",
+        "surveyaka1": "/sp/survey/survey-aka1-v3?g=female&ref=home",
+        "flbtv5": "/sp/survey/results-female-fl-bt-v5",
+        "fbkcpcv3": "/sp/survey/fbk-cpc-v3",
+        "fbkcpcv5": "/sp/survey/fbk-cpc-v5",
+        "surveyaka1v13": "/sp/survey/survey-aka1-v13",
+        "fbkcpc": "/sp/survey/fbk-cpc",
+        "aka1hash": "/sp/survey/survey-aka1#",
+        "fbkcpcv2": "/sp/survey/fbk-cpc-v2",
+        "burnEvolvedfbkcpcv19": "/sp/survey/burn-evolved-fbk-cpc-v19",
+        "testBoostMaxfbkcpcv1": "/sp/test-boost-max/fbk-cpc-v1"
+    },
+    "event": {
+        "addtocart": "ADD_CART",
+        "startCheckout": "START_CHECKOUT",
+        "pageview": "PAGE_VIEW",
+        "quizCompleted": "CUSTOM_EVENT_1",
+        "purchase": "PURCHASE"
+    },
+    "snapchatID": {
+        "internal": "2f592d06-bf1b-4562-9b5f-07c30910ee2b",
+        "kendago": "86bcfeab-554d-4447-843a-14075b17b993"
+    },
+    "vshredPixelDetail": {
+        "internal": "2f592d06-bf1b-4562-9b5f-07c30910ee2b",
+        "kendago": "86bcfeab-554d-4447-843a-14075b17b993"
+    },
+    "sculptNationPixelDetail": {
+        "internal": "000000",
+        "kendago": "0000000"
+    },
+    "interceptNameInternal": "0000000",
+    "interceptNameKendago": "0000000",
+    "offerLandingPage": {
+        "pageUrl": "sp/burn-evolved/burn-fbk-cpc",
+        "offerBundle": ["BURN EVOLVED", "Fat Loss Extreme"]
+    },
+    "waitElement": "#survey .watch-btn",
+    "productBundle": [
+        "Toned In 90 Days",
+        "Six-Pack Shred",
+        "Recipe Guide",
+        "The Booty Builder",
+        "FREE Supplement Guide"
+    ],
+    "checkoutUrl": "toned-in-90-days-bundle-bt-f3",
+    "productDescription": "Toned In 90 Days $57 Bundle",
+    "productPrice": "$57.00 USD",
+    "buttonText": "Everything for just $57",
+    "skipAllFunnels": ["Toned In 90 Days $57 Bundle"],
+    "name": "tonedSkinny",
+    "firstName": "tonedSkinny",
+    "lastName": "vsSurvey-ga",
+    "clientName": "tonedSkinny surveyGa",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "postalCode": "89158",
+    "phone": "7022120785",
+    "phoneNumber": "7022120785"
+}

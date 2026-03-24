@@ -1,0 +1,101 @@
+{
+    "productLandingPage": {
+        "productName": "APPLE CIDER VINEGAR GUMMIES",
+        "productUrl": "apple-cider-vinegar-gummies",
+        "oneBottlePrice": "$29.00",
+        "sixBottlePrice": "$24.00",
+        "threeBottlePrice": "$19.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "APPLE CIDER VINEGAR GUMMIES - Monthly",
+            "quantity": "1",
+            "subtotal": "$22.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$1.56",
+            "totalPrice": "$36.51"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$43.56",
+            "secondItemOrderTotal": "$43.56",
+            "thirdItemOrderTotal": "$33.33",
+            "firstSubscriptionName": "TURMERIC BLACK - Monthly",
+            "secondSubscriptionName": "BURN PM - Monthly",
+            "thirdSubscriptionName": "APPLE CIDER VINEGAR GUMMIES - Monthly",
+            "firstSubscriptionPricePerMonth": "$41.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.00 / month",
+            "thirdSubscriptionPricePerMonth": "$31.95 / month"
+        }
+    },
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "APPLE CIDER VINEGAR GUMMIES",
+            "quantity": "1",
+            "subtotal": "$29.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$1.81",
+            "totalPrice": "$40.76"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $52.06 for 1 items",
+            "secondItemOrderTotal": " $52.06 for 1 items",
+            "thirdItemOrderTotal": "$153.00 for 1 items",
+            "fourthItemOrderTotal": "$40.76 for 1 items"
+        }
+    },
+    "sixBottle": {
+        "cartDetails": {
+            "productName": "APPLE CIDER VINEGAR GUMMIES - Six Bottles",
+            "quantity": "1",
+            "subtotal": "$114.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$7.13",
+            "totalPrice": "$131.08"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $140.25 for 1 items",
+            "secondItemOrderTotal": " $140.25 for 1 items",
+            "thirdItemOrderTotal": "$131.08 for 1 items"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "APPLE CIDER VINEGAR GUMMIES - Three Bottles",
+            "quantity": "1",
+            "subtotal": "$72.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$4.50",
+            "totalPrice": "$86.45"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $140.25 for 1 items",
+            "secondItemOrderTotal": " $140.25 for 1 items",
+            "thirdItemOrderTotal": "$153.00 for 1 items",
+            "fourthItemOrderTotal": "$86.45 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "Test Address",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "702-212-0785"
+}

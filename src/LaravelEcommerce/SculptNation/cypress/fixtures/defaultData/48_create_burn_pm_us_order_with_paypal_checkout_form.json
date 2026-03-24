@@ -1,0 +1,36 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "/products/burn-pm",
+        "checkoutUrl": "/checkout-paypal"
+    },
+    "productLandingPage": {
+        "productName": "BURN PM",
+        "productUrl": "burn-pm",
+        "oneBottlePrice": "$41.00",
+        "sixBottlePrice": "$32.50",
+        "threeBottlePrice": "$44.00"
+    },
+
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "BURN PM",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$4.10",
+            "totalPrice": "$63.05"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $61.95 for 1 items"
+        }
+    },
+
+    "billingFirstName": "QA",
+    "billingLastName": "Automation",
+    "billingAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "billingCity": "Las Vegas",
+    "billingZipCode": "89158",
+    "billingCountry": "USA",
+    "billingPhone": "7022120785"
+}

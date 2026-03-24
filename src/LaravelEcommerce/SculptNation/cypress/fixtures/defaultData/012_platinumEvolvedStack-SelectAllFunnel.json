@@ -1,0 +1,26 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/burn/burnpm-fle-fbk-cpc-eco-v5",
+        "checkoutReference": "burn_burnpm_free_shaker_fle?funnel=burn-burnpm-fle-funnel-burn-us",
+        "offerPrice": "$49.00",
+        "offerBundle": ["BURN EVOLVED", "BURN PM", "FAT LOSS EXTREME"]
+    },
+    "funnelOfferUrl": ["burn-us-1", "burn-pm-cs", "turmeric-cs", "enzymes-cs"],
+    "selectAllFunnels": [
+        "ENZYMES - Three Bottle (Discounted 50)",
+        "TURMERIC BLACK - Three Bottle (Discounted 50)",
+        "BURN PM - Three Bottle (Discounted 50)",
+        "BURN EVOLVED 2.0 - 3-Bottle Upgrade",
+        "3 Burn Evolved + 3 Burn PM (FREE) + Shaker Cup (FREE) + Fat"
+    ],
+    "firstName": "Platinum",
+    "lastName": "Evolved",
+    "clientName": "Platinum Evolved",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

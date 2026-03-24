@@ -1,0 +1,23 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga"
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm"
+    },
+    "firstName": "Automation",
+    "lastName": "NegativeTests",
+    "clientName": "Automation NegativeTests",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

@@ -1,0 +1,26 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "sp/survey/burn-evolved-fbk-cpc-v19"
+    },
+    "offerLandingPage": {
+        "pageUrl": "sp/burn-evolved/burn-fbk-cpc",
+        "offerBundle": ["BURN EVOLVED", "Fat Loss Extreme"]
+    },
+    "checkoutOffers": {
+        "1 Bottle BURN + FLE": {
+            "checkoutUrl": "burn2_fat_loss_extreme",
+            "offerTitle": "BURN EVOLVED 2.0 + Fat Loss Extreme",
+            "offerPrice": "$49"
+        },
+        "3 Bottle BURN + FLE": {
+            "checkoutUrl": "burn2_fat_loss_extreme_3",
+            "offerTitle": "BURN EVOLVED 2.0 (3) + Fat Loss Extreme",
+            "offerPrice": "$132"
+        },
+        "6 Bottle BURN + FLE": {
+            "checkoutUrl": "burn2_fat_loss_extreme_6",
+            "offerTitle": "BURN EVOLVED 2.0 (6) + Fat Loss Extreme",
+            "offerPrice": "$195"
+        }
+    }
+}

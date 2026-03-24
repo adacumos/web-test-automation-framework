@@ -1,0 +1,35 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "sp/survey/burn-evolved-fbk-cpc-v19"
+    },
+    "offerLandingPage": {
+        "pageUrl": "sp/burn-evolved/burn-fbk-cpc",
+        "offerBundle": ["BURN EVOLVED", "Fat Loss Extreme"]
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": [
+            "BURN PM - Twelve Bottle (Discounted)",
+            "BURN EVOLVED 2.0 - 6-Bottle Upgrade",
+            "BURN EVOLVED 2.0 (6) + Fat Loss Extreme FREE"
+        ],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "sixBottle-SelectedFunnelsOnly": [
+        "BURN PM - Twelve Bottle (Discounted)",
+        "BURN EVOLVED 2.0 - 6-Bottle Upgrade",
+        "BURN EVOLVED 2.0 (6) + Fat Loss Extreme FREE"
+    ],
+    "firstName": "BurnEvolved",
+    "lastName": "Survey",
+    "clientName": "BurnEvolved Survey",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

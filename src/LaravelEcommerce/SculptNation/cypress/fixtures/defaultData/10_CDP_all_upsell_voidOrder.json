@@ -1,0 +1,42 @@
+{
+    "surveyLandingPage": {
+        "landingPage": "/programs/fat-loss-extreme",
+        "checkoutUrl": "fat-loss-extreme",
+        "productDescription": "Fat Loss Extreme for Him",
+        "productPrice": "$47.00",
+        "productBundle": ["Fat Loss Extreme for Him", "FREE Supplement Guide"]
+    },
+    "total": "Total",
+    "orderTotal": "$156.27",
+    "salesTaxTotal": "$0.00",
+    "salesTax": "Sales Tax",
+    "fatLossExtremeHim": "Fat Loss Extreme for Him",
+    "fatLossExtremeHimPrice": "$47.00",
+    "VSU": "VSU - Monthly - 9.95 (30 Days Free)",
+    "VSUPrice": "FREE!",
+    "customDietPlan": "Custom Diet Plan",
+    "cdpPrice": "$67.00",
+
+    "clientName": "fatLoss vsProgram",
+    "firstName": "FatLoss_Automation",
+    "lastName": "Test vsProgram",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785",
+    "postcode": "89158",
+    "country": "United States",
+
+    "subscriptionButtonText": {
+        "Cancel": "Cancel",
+        "Restore": "Restore"
+    },
+
+    "voidButtonText": {
+        "Void": "Void",
+        "Sync": "Sync",
+        "ReasonForVoid": "Changed Mind"
+    }
+}

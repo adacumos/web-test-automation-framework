@@ -1,0 +1,24 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "Process Order Shipment",
+    "phone": "(617) 389-0046",
+    "address": "4530 South Decatur Boulevard",
+    "address2": "Suite 103",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89103",
+
+    "productName": "APPLE CIDER VINEGAR GUMMIES",
+    "productPrice": "$29.00",
+    "productQuantity": "1",
+    "productTax": "$2.43",
+    "totalAmount": "$41.38",
+    "shippingCost": "$9.95",
+    "shippingOption": "Priority Flat Rate - $9.95 - expected",
+
+    "shippingDetails": {
+        "itemQty": "1",
+        "itemSKU": "10-019001-92-801-30"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "productLandingPage": {
+        "productName": "BURN PM",
+        "productUrl": "burn-pm",
+        "oneBottlePrice": "$41.00",
+        "sixBottlePrice": "$32.50",
+        "threeBottlePrice": "$44.00"
+    },
+
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "BURN PM",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$0.00",
+            "totalPrice": "$62.01"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "54 Highland Park Rd",
+    "city": "Norht Haven",
+    "state": "CT",
+    "postcode": "06473",
+    "phone": "702-212-0785"
+}

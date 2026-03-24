@@ -1,0 +1,23 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga"
+    },
+    "pixelDetail": {
+        "quizcompleted": {
+            "eventId": "EEquizCompleted",
+            "gtm": {
+                "internal": "fbTqCN26w54ZEMjU0too",
+                "kendago": "UvCjCOm8tswYEPOXs9IC"
+            },
+            "tiba": {
+                "femaleSkinny": "Quiz Results: Skinny Fat",
+                "femaleFatloss": "Quiz Results: Fat Loss Extreme",
+                "femaleToned": "Quiz Results: Get Toned",
+                "maleFatloss": "Quiz Results: Fat Loss Extreme",
+                "maleSkinnyFat": "Quiz Results: Skinny Fat",
+                "maleRipped": "Quiz Results: GET RIPPED",
+                "maleCleanBulk": "Quiz Results: Clean Bulk"
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "/products/burn-evolved",
+        "checkoutUrl": "/checkout-paypal"
+    },
+    "productLandingPage": {
+        "productName": "BURN EVOLVED 2.0",
+        "productUrl": "burn-evolved",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$195.50",
+        "threeBottlePrice": "$132.00"
+    },
+
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "BURN EVOLVED 2.0",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$4.09",
+            "totalPrice": "$53.09"
+        }
+    },
+
+    "billingFirstName": "QA",
+    "billingLastName": "Automation",
+    "billingAddress": "2987 Bloor Street",
+    "billingCity": "New Sarepta",
+    "billingZipCode": "T0B 3M0",
+    "billingCountry": "CAN",
+    "billingPhone": "7809414779"
+}

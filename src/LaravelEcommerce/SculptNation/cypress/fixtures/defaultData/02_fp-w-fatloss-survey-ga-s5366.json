@@ -1,0 +1,47 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga?show=5366",
+        "checkoutUrl": "fat-loss-extreme-bundle-f-bt-f3",
+        "productDescription": "Fat Loss Extreme for Her $57",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme for Her",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs"
+    },
+    "selectAllFunnels": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Ultimate Fat Loss Recipes Collection",
+        "BURN PM - Monthly",
+        "BURN EVOLVED 2.0 - Monthly",
+        "Custom Diet Plan",
+        "Fat Loss Extreme for Her $57"
+    ],
+    "selectSomeFunnels": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Custom Diet Plan - 4 weeks",
+        "BURN PM - Three Bottle",
+        "BURN EVOLVED 2.0",
+        "Fat Loss Extreme for Her $57"
+    ],
+    "firstName": "fatLossHer",
+    "lastName": "vsSurvey-ga5366",
+    "clientName": "wfle surveyGa5366",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

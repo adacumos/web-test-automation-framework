@@ -1,0 +1,49 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-aka1#",
+        "checkoutUrl": "toned-in-90-days-bundle-bt-f3",
+        "productDescription": "Toned In 90 Days",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Toned In 90 Days",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs"
+    },
+    "skipAllFunnels": ["Toned In 90 Days $57"],
+    "selectSomeFunnels": [
+        "Ultimate Fat Loss Recipes Collection",
+        "BURN PM - Three Bottle",
+        "Custom Diet Plan",
+        "Toned In 90 Days $57"
+    ],
+    "facilityId": "65216c7a-6e21-416e-a5bc-77a2c1f2ef09",
+    "itemSKUs": [
+        {
+            "quantity": 3,
+            "sku": "10-011005-90-000-30"
+        },
+        {
+            "quantity": 1,
+            "sku": "10-014002-91-800-30"
+        }
+    ],
+    "firstName": "toned90D",
+    "lastName": "vsSurvey",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

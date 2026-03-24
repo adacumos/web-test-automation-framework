@@ -1,0 +1,41 @@
+{
+    "firstName": "PayPal",
+    "lastName": "Refund",
+    "phone": "(617) 389-0046",
+    "address": "565 Nauset Rd",
+    "address2": "4th Street",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89122",
+    "email": "d3b856131c-59d30c+grn13+0906+hard@inbox.mailtrap.io",
+
+    "productName": "PAYPAL REFUND TEST OFFER",
+    "productPrice": "$3,000.00",
+    "productQuantity": "1",
+    "productTax": "$251.25",
+    "shippingCost": "$9.95",
+    "totalAmount": "$3261.20",
+    "shippingOption": "Priority Flat Rate - $9.95 - expected",
+
+    "baseCurrencyTotalAmount": "$3261.20",
+    "baseCurrencySubtotal": "$3000.00",
+    "refundedAmount": "$2000.00",
+    "refundableAmount": "$1251.25",
+    "discountedAmount": "$0.00",
+    "COGSAmount": "$38.30",
+    "noTaxAmount": "$0.00",
+    "netRevenue": "$1261.20",
+
+    "typeProduct": "product",
+    "typeTax": "tax",
+    "typeShipping": "shipping",
+
+    "refundAmount": "$2000.00",
+    "refundReason": "Soft Decline",
+
+    "orderStatus": "refunded",
+    "invoiceStatus": "partially_paid",
+    "paymentStatus": "partially_refunded",
+    "shipmentStatus": "cancelled"
+}

@@ -1,0 +1,13 @@
+{
+    "bundleID": "bun_6215bbb72e9b5",
+    "bundleSource": "vshred",
+    "bundleTitle": "V SHRED ACCELERATOR Plus+",
+    "bundleDescription": "V SHRED ACCELERATOR Plus+",
+    "bundlePrice": "1997",
+    "newBundlePrice": "1497",
+    "bundleOffer": {
+        "offer1": "sku_gold_plus_accelerator_plus_3_months",
+        "offer2": "SKU_VSU_ALL_Access_Annual_Pass",
+        "offer3": "sku_move_program_full"
+    }
+}

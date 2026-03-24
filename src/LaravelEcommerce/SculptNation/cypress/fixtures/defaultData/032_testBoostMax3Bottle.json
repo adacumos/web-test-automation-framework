@@ -1,0 +1,47 @@
+{
+    "productLandingPage": {
+        "productName": "Test Boost Max 2.0",
+        "productUrl": "testboost-max",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$195.50",
+        "threeBottlePrice": "$132.00"
+    },
+
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "Test Boost Max 2.0 - three bottles",
+            "quantity": "1",
+            "subtotal": "$132.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$11.06",
+            "totalPrice": "$143.06"
+        }
+    },
+
+    "itemSKUs": [
+        {
+            "quantity": 12,
+            "sku": "10-011002-90-000-30"
+        },
+        {
+            "quantity": 3,
+            "sku": "10-011004-90-000-30"
+        },
+        {
+            "quantity": 3,
+            "sku": "10-014001-91-802-30"
+        },
+        {
+            "quantity": 1,
+            "sku": "10-011001-90-000-30"
+        }
+    ],
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785"
+}

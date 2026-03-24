@@ -1,0 +1,33 @@
+{
+    "firstName": "QA",
+    "lastName": "Automation",
+    "phone": "(617) 389-0046",
+    "address": "4530 South Decatur Boulevard",
+    "address2": "Suite 103",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89103",
+
+    "productName": "FAT LOSS STACK - Monthly",
+    "productPrice": "$95.00",
+    "productQuantity": "1",
+    "productTax": "$7.96",
+    "totalAmount": "$112.91",
+    "shippingCost": "$9.95",
+    "shippingOption": "Priority Flat Rate - $9.95 - expected",
+    "itemSKUs": [
+        {
+            "quantity": 1,
+            "sku": "10-011005-90-000-30"
+        },
+        {
+            "quantity": 1,
+            "sku": "10-011003-90-000-30"
+        },
+        {
+            "quantity": 1,
+            "sku": "10-011001-90-000-30"
+        }
+    ]
+}

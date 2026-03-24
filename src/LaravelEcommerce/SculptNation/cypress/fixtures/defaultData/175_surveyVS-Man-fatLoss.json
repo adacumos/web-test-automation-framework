@@ -1,0 +1,40 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc-v3",
+        "checkoutUrl": "fat-loss-extreme-bundle-bt-f3",
+        "productDescription": "Fat Loss Extreme",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme",
+            "Six-Pack Shred",
+            "Big Arms Program"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm"
+    },
+    "skipAllFunnels": ["Fat Loss Extreme for Him $57"],
+    "selectAllFunnels": [
+        "Ultimate Fat Loss Recipes Collection",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM - Monthly",
+        "BURN EVOLVED 2.0 - 3 bottles",
+        "Custom Diet Plan",
+        "Fat Loss Extreme for Him $57"
+    ],
+    "firstName": "mfleAutomation",
+    "lastName": "cpc-fbk-v3",
+    "clientName": "fbk-cpcv3 Automation",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

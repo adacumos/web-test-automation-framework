@@ -1,0 +1,41 @@
+{
+    "productLandingPage": {
+        "productName": "BURN EVOLVED 2.0",
+        "productUrl": "burn-evolved",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$195.50",
+        "threeBottlePrice": "$132.00"
+    },
+
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "BURN EVOLVED 2.0",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$4.09",
+            "totalPrice": "$53.09"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$53.10 for 1 items",
+            "thirdItemOrderTotal": "$53.10 for 1 items",
+            "fourthItemOrderTotal": "$156.06 for 1 items",
+            "fifthItemOrderTotal": "$63.05 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "CAN",
+    "streetAddress": "45 Ridge Street",
+    "city": "Whitby",
+    "state": "ON",
+    "postcode": "L1R 3A3",
+    "phone": "437-550-0319"
+}

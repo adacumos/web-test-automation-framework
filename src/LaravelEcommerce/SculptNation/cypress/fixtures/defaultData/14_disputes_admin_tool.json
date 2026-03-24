@@ -1,0 +1,8 @@
+{
+    "Key": "KeyTest",
+    "Value": "ValueTest",
+    "Payment": "6495378",
+    "createdDispute": "The dispute was created!",
+    "deletedDispute": "The dispute was deleted!",
+    "emptyTable": "No dispute matched the given criteria."
+}

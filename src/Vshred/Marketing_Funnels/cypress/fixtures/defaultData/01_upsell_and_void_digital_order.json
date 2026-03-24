@@ -1,0 +1,34 @@
+{
+    "name": "Web Automation",
+    "phoneNumber": "8153211010",
+    "cardNumber": "4111111111111111",
+    "expirationDate": "1225",
+    "cvv": "333",
+    "postalCode": "89123",
+    "shippingName": "Web Automation",
+    "shippingStreet": "1217 W Hammer Ln",
+    "shippingCity": "North Las Vegas",
+    "shippingPostalCode": "89123",
+    "shippingState": "Nevada",
+    "shippingCountry": "United States",
+    "shippingPhone": "8153211010",
+
+    "programName": "fat loss extreme for him",
+    "customDietPlanUrl": "/sp/survey/custom-plan-male",
+    "vsuUrl": "sp/survey/vsu-special-offer-mhg2",
+    "greensUrl": "/sp/survey/special-offer-coupon",
+    "fatLossExtremeUrl": "/order-form/fat-loss-extreme/",
+
+    "orders": {
+        "item1": "VSU - Monthly - 9.95 (30 Days Free)",
+        "item1Price": "$9.95 USD",
+        "item2": "Fat Loss Extreme for Him",
+        "item2Price": "$49.00 USD",
+        "item3": "Greens",
+        "item3Price": "$47.00 USD",
+        "item4": "Custom Diet Plan",
+        "item4Price": "$39.00 USD",
+        "totalTaxes": "Taxes",
+        "totalTaxesPrice": "$3.27 USD"
+    }
+}

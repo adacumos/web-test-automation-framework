@@ -1,0 +1,20 @@
+{
+    "landingPage": {
+        "tableHeader": [
+            "ID",
+            "Amount",
+            "Amount Refunded",
+            "Net Revenue",
+            "Status",
+            "Transaction Reference",
+            "Gateway",
+            "Created At",
+            "Order"
+        ],
+        "graphs": [
+            "Daily Revenue",
+            "Daily Recovered Upsell Revenue",
+            "Daily Refund"
+        ]
+    }
+}

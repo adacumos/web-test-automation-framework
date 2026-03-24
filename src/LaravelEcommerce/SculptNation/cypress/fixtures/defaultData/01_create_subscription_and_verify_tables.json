@@ -1,0 +1,48 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "Subscriptions Test",
+    "phone": "(617) 389-0046",
+    "address": "4530 South Decatur Boulevard",
+    "address2": "Suite 103",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89103",
+
+    "productName": "BURN PM - Monthly",
+    "productPrice": "$41.00",
+    "productQuantity": "1",
+    "productTax": "$3.43",
+    "shippingCost": "$9.95",
+    "totalAmount": "$54.38",
+    "baseCurrencyTotalAmount": "$54.38",
+    "baseCurrencySubtotal": "$41.00",
+    "refundedAmount": "$0",
+    "refundableAmount": "$44.43",
+    "discountedAmount": "$0.00",
+    "COGSAmount": "$0.00",
+    "noTaxAmount": "$0.00",
+
+    "typeProduct": "product",
+    "typeTax": "tax",
+    "typeShipping": "shipping",
+    "shipmentStatus": "pending",
+
+    "orderStatus": "fulfilled",
+    "subscriptionStatus": "new",
+
+    "invoiceStatus": "paid",
+
+    "paymentStatus": "complete",
+    "paymentGateway": "Braintree",
+    "netRevenue": "$0",
+
+    "shippingOption": "Priority Flat Rate - $9.95 - expected",
+
+    "usersQuery": "select users.id, first_name, last_name, email from users where email = $1",
+    "ordersQuery": "select orders.id, orders.amount, orders.status, orders.created_at, orders.checked_out_at, orders.paid_at, offers.title offers, users.email as user from orders join users on orders.user_id = users.id join order_offers on orders.id = order_offers.order_id join offers on order_offers.offer_id = offers.id where users.email = $1",
+    "subscriptionsQuery": "select subscriptions.id, subscriptions.status, subscriptions.renews_at, subscriptions.canceled_at, offers.title as offer, orders.amount as amount, users.email as email from subscriptions join users on subscriptions.user_id = users.id join orders on orders.user_id = users.id join order_offers on order_offers.order_id = orders.id join offers on offers.id = order_offers.offer_id where users.email = $1",
+    "paymentsQuery": "select payments.id, payments.base_currency_amount amount, payments.amount_refunded, sum(payments.base_currency_amount) - sum(payments.base_currency_amount_refunded) as net_revenue, payments.status, payments.transaction_ref transaction_reference, payments.gateway, payments.created_at, users.email from payments join invoices on invoices.id = payments.invoice_id join orders on orders.id = invoices.order_id join users on orders.user_id = users.id where users.email = $1 group by payments.id, users.email",
+    "shipmentsQuery": "select shipments.id, shipments.reference_number, shipments.status, shipments.created_at, users.email from shipments join users on users.id = shipments.user_id where users.email = $1",
+    "invoicesQuery": "select invoices.id, invoices.base_currency_amount base_amount, invoices.amount, invoices.status, invoices.paid_at, users.email from invoices join orders on orders.id = invoices.order_id join users on users.id = orders.user_id where users.email = $1"
+}

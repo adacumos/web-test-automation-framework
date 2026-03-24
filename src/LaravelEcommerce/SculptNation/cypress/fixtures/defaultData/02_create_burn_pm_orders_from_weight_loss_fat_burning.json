@@ -1,0 +1,101 @@
+{
+    "productLandingPage": {
+        "productName": "BURN PM",
+        "productUrl": "burn-pm",
+        "oneBottlePrice": "$41.00",
+        "sixBottlePrice": "$32.50",
+        "threeBottlePrice": "$44.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "BURN PM - Monthly",
+            "quantity": "1",
+            "subtotal": "$41.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$2.56",
+            "totalPrice": "$53.51"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $43.56",
+            "secondItemOrderTotal": " $43.56",
+            "thirdItemOrderTotal": "$53.51",
+            "firstSubscriptionName": "TURMERIC BLACK - Monthly",
+            "secondSubscriptionName": "BURN EVOLVED 2.0 - Monthly",
+            "thirdSubscriptionName": "BURN PM - Monthly",
+            "firstSubscriptionPricePerMonth": "$41.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.00 / month",
+            "thirdSubscriptionPricePerMonth": "$50.95 / month"
+        }
+    },
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "BURN PM",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.06",
+            "totalPrice": "$62.01"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $52.06 for 1 items",
+            "secondItemOrderTotal": " $52.06 for 1 items",
+            "thirdItemOrderTotal": "$153.00 for 1 items",
+            "fourthItemOrderTotal": "$62.01 for 1 items"
+        }
+    },
+    "sixBottle": {
+        "cartDetails": {
+            "productName": "BURN PM - Six Bottle",
+            "quantity": "1",
+            "subtotal": "$195.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.06",
+            "totalPrice": "$208.01"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $207.19 for 1 items",
+            "secondItemOrderTotal": " $207.19 for 1 items",
+            "thirdItemOrderTotal": "$217.14 for 1 items"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "BURN PM - Three Bottle",
+            "quantity": "1",
+            "subtotal": "$132.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.06",
+            "totalPrice": "$152.20"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $140.25 for 1 items",
+            "secondItemOrderTotal": " $140.25 for 1 items",
+            "thirdItemOrderTotal": "$153.00 for 1 items",
+            "fourthItemOrderTotal": "$150.20 for 1 items"
+        }
+    },
+
+    "firstName": "Automation",
+    "lastName": "UAT-Test",
+    "country": "USA",
+    "streetAddress": "Test Address",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "702-212-0785"
+}

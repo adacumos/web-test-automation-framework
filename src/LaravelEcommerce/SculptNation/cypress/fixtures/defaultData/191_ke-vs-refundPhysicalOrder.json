@@ -1,0 +1,31 @@
+{
+    "offerSku": "hgh boost",
+    "price": "$98.00",
+    "refundedPrice": "$106.20",
+    "vsUserInfo": {
+        "Member": {
+            "name": "QA vsAdmin",
+            "password": "12345678",
+            "role": "Member",
+            "leader": "",
+            "utm": "",
+            "coupon": ""
+        }
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": [],
+        "refundedOrder": ["HGH Boost"],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "United States of America",
+    "address": "3722 South Las Vegas Boulevard",
+    "address2": "Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postalCode": "89158",
+    "phone": "7022120785"
+}

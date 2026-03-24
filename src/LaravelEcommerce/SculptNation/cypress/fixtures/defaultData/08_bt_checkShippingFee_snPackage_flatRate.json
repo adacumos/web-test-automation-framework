@@ -1,0 +1,27 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/burn-evolved/burn-fbk-cpc",
+        "checkoutReference": "burn_burnpm_free_shaker_fle?funnel=burn-burnpm-fle-funnel-burn-us",
+        "offerBundle": ["BURN EVOLVED 2.0"]
+    },
+    "productName": "BURN EVOLVED 2.0 (3) + Fat Loss",
+    "productPrice": "$132.00",
+    "productQuantity": "1",
+    "productTax": "$11.06",
+    "totalAmount": "$153.01",
+    "shippingCost": "$9.95",
+    "shippingOption": "Priority Flat Rate",
+    "orderTransaction": {
+        "orderItem": "BURN EVOLVED 2.0"
+    },
+    "funnelOfferUrl": ["burn-us", "burn-pm-cs", "turmeric-cs", "enzymes-cs"],
+    "firstName": "Automation",
+    "lastName": "BTShipping",
+    "clientName": "QA Automation BTShipping",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785"
+}

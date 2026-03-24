@@ -1,0 +1,19 @@
+{
+    "firstName": "Automation",
+    "lastName": "UserRegtest",
+    "phone": "(617) 389-0046",
+    "address": "4530 South Decatur Boulevard",
+    "address2": "Suite 103",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "United States of America",
+    "postalCode": "89103",
+
+    "editUserDetails": {
+        "firstName": "ModifiedUser",
+        "lastName": "UpdatedRegtest",
+        "phoneNumber": "8894554614",
+        "newPassword": "VShred99",
+        "invalidConfirmPassword": "vshred88"
+    }
+}

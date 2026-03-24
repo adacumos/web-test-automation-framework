@@ -1,0 +1,65 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/custom-diet-plan/reup",
+        "checkoutUrl": "four-week-diet-training-plan-monthly",
+        "productDescription": "Silver Plus 4 Week Diet and Training",
+        "productPrice": "$97.00 USD",
+        "productBundle": [
+            "Silver Plus 4 Week Diet and Training",
+            "Custom Diet Plan",
+            "Unlimited Email Support From Your Coach",
+            "Email Check-In's with Your Coach",
+            "Custom Training Plan"
+        ]
+    },
+    "Greens": {
+        "funnelUrl": "special-offer-coupon-3",
+        "offerDescription": "GREENS REGULAR - DISCOUNTED",
+        "offerPrice": "$42.27",
+        "offerName": "GREENS REGULAR - DISCOUNTED",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$39.00",
+        "taxAmount": "$3.27",
+        "refundableAmount": "$42.27"
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer",
+        "offerDescription": "VSU - Monthly 9.95 (30-Day Trial)",
+        "offerPrice": "$0.00",
+        "offerName": "VSU - Monthly 9.95 (30-Day Trial)",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$0.00",
+        "taxAmount": "$0.00",
+        "refundableAmount": "$0.00"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-",
+        "offerDescription": "BURN EVOLVED 2.0 - Monthly",
+        "offerPrice": "$44.43",
+        "offerName": "BURN EVOLVED 2.0 - Monthly",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$41.00",
+        "taxAmount": "$3.43",
+        "refundableAmount": "$44.43"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs",
+        "offerDescription": "BURN PM - Monthly",
+        "offerPrice": "$44.43",
+        "offerName": "BURN PM - Monthly",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$41.00",
+        "taxAmount": "$3.43",
+        "refundableAmount": "$44.43"
+    },
+    "trainerData": {
+        "assignedTrainer": "Trainer Three",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-three@example.com",
+        "trainerPassw": "asdfasdf"
+    },
+    "clientName": "silverPlus CustomPlan",
+    "phoneNumber": "7022120785"
+}

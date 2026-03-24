@@ -1,0 +1,41 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "sp/burn-fle/burn-fle-fbk-cpc-v4",
+        "productDescription": "BURN EVOLVED 2.0 (Monthly) + Fat Loss Extreme FREE",
+        "checkoutUrl": "burn-evolved-burn-pm-cs",
+        "productPrice": "$41.00 USD",
+        "productBundle": ["BURN EVOLVED 2.0 (Monthly)", "Fat Loss Extreme FREE"]
+    },
+    "twitterPixelDetail": {
+        "quizCompleted": {
+            "pixelId": {
+                "internal": "tw-oq1mw-oq1pc"
+            }
+        },
+        "startCheckout": {
+            "pixelId": {
+                "internal": "tw-oq1mw-oq1po"
+            }
+        },
+        "purchase": {
+            "pixelId": {
+                "internal": "tw-oq1mw-oq1pz"
+            }
+        },
+        "upsell": {
+            "pixelId": {
+                "internal": "tw-oq1mw-oq1qg"
+            }
+        }
+    },
+    "firstName": "Pixel Gtm",
+    "lastName": "Burn FLE",
+    "clientName": "PixelGtm BurnFLE",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

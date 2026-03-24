@@ -1,0 +1,38 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sn-checkout?offer_skus=burn2_fat_loss_extreme_3&funnel=special-offer-eco-fbk-cpc-holiday-fat-loss-stack-funnel",
+        "checkoutReference": "offer_skus=burn2_fat_loss_extreme_3&funnel=special-offer-eco-fbk-cpc-holiday-fat-loss-stack-funnel",
+        "offerBundle": ["BURN EVOLVED 2.0 (3) + Fat Loss Extreme FREE"]
+    },
+    "funnelOfferUrl": [
+        "turmeric-black-us",
+        "turmeric-black-ds",
+        "burn-lg",
+        "burn-pm",
+        "fl-cdp-us",
+        "coupon-greens"
+    ],
+    "Burn Evolved": {
+        "funnelUrl": "burn-us-3-3"
+    },
+
+    "productName": "BURN EVOLVED 2.0 (3) + Fat Loss",
+    "productPrice": "$132.00",
+    "productQuantity": "1",
+    "productTax": "$11.06",
+    "totalAmount": "$143.06",
+    "shippingCost": "$0.00",
+    "shippingOption": "FREE Shipping Special!",
+    "orderTransaction": {
+        "orderItem": "BURN EVOLVED 2.0"
+    },
+    "firstName": "QA Automation",
+    "lastName": "BTShipping",
+    "clientName": "QA Automation BTShipping",
+    "country": "United States of America",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postcode": "89158",
+    "phone": "702-212-0785"
+}

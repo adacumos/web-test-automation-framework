@@ -1,0 +1,72 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": ["/sp/survey/survey-aka1-v3"]
+    },
+    "pixelDetail": {
+        "pageview": {
+            "gtm": {
+                "internal": "AW-430500063",
+                "kendago": "AW-973063812"
+            },
+            "twitter": {
+                "internal": "ojfa3",
+                "kendago": "o34da"
+            }
+        },
+        "quizcompleted": {
+            "eventId": "EEquizCompleted",
+            "gtm": {
+                "internal": "XB3RCPW6idIDEN_Ro80B",
+                "kendago": "BfGFCMyA1IcBEISN_88D"
+            }
+        },
+        "addtocart": {
+            "eventId": "EEaddToCart",
+            "gtm": {
+                "internal": "EGWuCJr46vAYEN_Ro80B",
+                "kendago": "zUntCP2664cBEISN_88D"
+            }
+        },
+        "startcheckout": {
+            "eventId": "EEcheckoutStart",
+            "gtm": {
+                "internal": "EGWuCJr46vAYEN_Ro80B",
+                "kendago": "zUntCP2664cBEISN_88D"
+            }
+        },
+        "purchase": {
+            "eventId": "EEpurchase",
+            "gtm": {
+                "internal": "axG-CPv9w_UBEN_Ro80B",
+                "kendago": "bGdJCP2L4ocBEISN_88D"
+            },
+            "twitter": {
+                "internal": "tw-ojfa3-ojfxw",
+                "kendago": "tw-o34da-oca2f"
+            },
+            "value": "87.00"
+        },
+        "upsell": {
+            "eventId": "EEupsell",
+            "gtm": {
+                "internal": "SnqSCPyG6_AYEN_Ro80B"
+            },
+            "value": "57.00"
+        }
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer-bt"
+    },
+    "Burn 3B": {
+        "funnelUrl": "burn-3bo"
+    },
+    "firstName": "Pixel Gtm",
+    "lastName": "vsSurvey-aka1",
+    "clientName": "PixelGtm surveyAka1",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

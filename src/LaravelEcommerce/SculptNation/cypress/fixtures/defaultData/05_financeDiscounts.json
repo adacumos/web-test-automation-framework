@@ -1,0 +1,37 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "DiscountsRegression",
+    "phone": "(617) 389-0046",
+    "address": "565 Nauset Rd",
+    "address2": "4th Street",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89122",
+    "orderDetails": {
+        "offerTitle": "BURN EVOLVED 2.0 - 6 bottles",
+        "offerPrice": "$195.00"
+    },
+    "editDiscount": {
+        "rate": "40",
+        "type": "Percentage",
+        "startsAt": "2024-08-01 00:00:00",
+        "discountAmount": "$78.00"
+    },
+    "createPercentageDiscount": {
+        "discountTitle": "AllOut50",
+        "rate": "50",
+        "type": "Percentage",
+        "startsAt": "2023-08-25 00:00:00",
+        "endsAt": "2030-12-31 11:59:59",
+        "recurringUses": "0",
+        "minimumCartTotal": "0",
+        "maxDiscount": "200",
+        "couponCode": "allout50",
+        "discountAmount": "$97.50"
+    },
+    "deleteTestData": {
+        "deleteLinkedOrderOffers": "delete from order_offers where id = $1",
+        "discountsTable": "delete from discounts where coupon_code = $1"
+    }
+}

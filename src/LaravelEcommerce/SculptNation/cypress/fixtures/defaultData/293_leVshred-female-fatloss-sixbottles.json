@@ -1,0 +1,42 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/results-female-fl-tkt"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-fm-v1"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs-f-v1"
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer-f-bt-f3"
+    },
+    "Custom Diet Plan": {
+        "funnelUrl": "custom-plan-female-bt-f3"
+    },
+    "Greens": {
+        "funnelUrl": "special-offer-coupon-3"
+    },
+    "SelectAllFunnel": [
+        "GREENS REGULAR - DISCOUNTED",
+        "Custom Diet Plan - 4 weeks",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM - Six Bottle",
+        "BURN EVOLVED 2.0 - 6 bottles",
+        "Fat Loss Extreme for Her $57"
+    ],
+    "SelectSomeFunnel": [
+        "GREENS REGULAR - DISCOUNTED",
+        "BURN PM - Six Bottle",
+        "BURN EVOLVED 2.0 - 6 bottles",
+        "Fat Loss Extreme for Her $57"
+    ],
+    "SkipAllFunnel": ["Fat Loss Extreme for Her $57"],
+    "firstName": "Web",
+    "lastName": "Automation",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "7022120785"
+}

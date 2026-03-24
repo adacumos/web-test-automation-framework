@@ -1,0 +1,35 @@
+{
+    "productLandingPage": {
+        "productName": "BURN PM",
+        "productUrl": "burn-pm"
+    },
+    "selectSomeOffer": [
+        "Special Offer Coupon - Greens",
+        "TURMERIC BLACK",
+        "BURN EVOLVED 2.0",
+        "BURN PM - Six Bottle (Discounted 50)",
+        "BURN PM"
+    ],
+    "orderTransaction": {
+        "orderItem": "TURMERIC BLACK",
+        "refundReason": "Ordered By Mistake"
+    },
+    "klaviyoEventSummary": {
+        "orderSummary": [
+            "Special Offer Coupon - Greens",
+            "TURMERIC BLACK",
+            "BURN EVOLVED 2.0",
+            "BURN PM - Six Bottle (Discounted 50)",
+            "BURN PM"
+        ],
+        "refundedOrder": ["TURMERIC BLACK"]
+    },
+    "firstName": "refundLegacy",
+    "lastName": "klaviyoEvent",
+    "country": "USA",
+    "streetAddress": "55321 Address Lane",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "702-212-0785"
+}

@@ -1,0 +1,15 @@
+{
+    "cardPanelName": [
+        "New Users",
+        "Daily Revenue",
+        "Daily Refund",
+        "Recovered Upsell Revenue Total",
+        "Daily Recovered Upsell Revenue"
+    ],
+    "cardCharts": [
+        "New Users",
+        "Daily Revenue",
+        "Daily Refund",
+        "Daily Recovered Upsell Revenue"
+    ]
+}

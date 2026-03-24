@@ -1,0 +1,194 @@
+{
+    "productOffers": {
+        "Burn Evolved": {
+            "productName": "BURN EVOLVED",
+            "productUrl": "/products/burn-evolved",
+            "slug": "burn"
+        },
+        "Test Boost Max": {
+            "productName": "TEST BOOST MAX",
+            "productUrl": "/products/testboost-max",
+            "slug": "boost"
+        },
+        "High Boost Max": {
+            "productName": "HGH BOOST",
+            "productUrl": "/products/hgh-boost",
+            "slug": "hgh"
+        },
+        "Burn PM": {
+            "productName": "BURN PM",
+            "productUrl": "/products/burn-pm",
+            "slug": "burn-pm"
+        },
+        "Creatine": {
+            "productName": "CREATINE",
+            "productUrl": "/products/creatine",
+            "slug": "creatine"
+        },
+        "Pre-Workout": {
+            "productName": "PRE WORKOUT",
+            "productUrl": "/products/pre-workout",
+            "slug": "pre-workout"
+        },
+        "Post-Workout": {
+            "productName": "POST WORKOUT",
+            "productUrl": "/products/post-workout-fruit-punch",
+            "slug": "post-workout-fruit-punch"
+        },
+        "Protein": {
+            "productName": "PROTEIN",
+            "productUrl": "/products/protein",
+            "slug": "protein"
+        },
+        "Turmeric": {
+            "productName": "TURMERIC BLACK",
+            "productUrl": "/products/turmeric-black",
+            "slug": "turmeric"
+        },
+        "Greens": {
+            "productName": "GREENS",
+            "productUrl": "/products/greens",
+            "slug": "coupon"
+        },
+        "Greens-Bundle": {
+            "productName": "Greens Bundle",
+            "productUrl": "/greens/greens-bundle",
+            "slug": "greens-bundle"
+        },
+        "Bcaas": {
+            "productName": "BCAAS",
+            "productUrl": "/products/bcaas",
+            "slug": "bcaas"
+        },
+        "Probiotics": {
+            "productName": "PROBIOTICS",
+            "productUrl": "/products/probiotics",
+            "slug": "probiotics"
+        },
+        "Enzymes": {
+            "productName": "ENZYMES",
+            "productUrl": "/products/enzymes",
+            "slug": "enzymes"
+        },
+        "Apple Cider": {
+            "productName": "APPLE CIDER VINEGAR GUMMIES",
+            "productUrl": "/products/apple-cider-vinegar-gummies",
+            "slug": "apple-cider-vinegar-gummies"
+        },
+        "Multi-Collagen": {
+            "productName": "MULTI-COLLAGEN",
+            "productUrl": "/products/multi-collagen",
+            "slug": "multi-collage"
+        },
+        "Custom Diet Plan": {
+            "productName": "CUSTOM DIET PLAN",
+            "productUrl": "/custom-diet-plan",
+            "slug": ["cdp", "custom-plan"]
+        },
+        "Fat Loss Stack": {
+            "productName": "FAT LOSS STACK with Burn Evolved 2.0",
+            "productUrl": "/products/fat-loss-stack",
+            "slug": "fl"
+        },
+        "Muscle Building Stack": {
+            "productName": "MUSCLE BUILDING STACK",
+            "productUrl": "/products/muscle-building-stack",
+            "slug": "muscle-building-stack"
+        },
+        "Custom Plan": {
+            "productName": "CUSTOM PLAN",
+            "productUrl": "/custom-plan",
+            "slug": ["custom-plan", "cdp"]
+        },
+        "VSU": {
+            "productName": "VSU",
+            "productUrl": "/vsu",
+            "slug": ["vsu", "vshred-university"]
+        },
+        "Silver Custom Diet Plan": {
+            "productName": "Silver Custom Diet Plan",
+            "productUrl": "/custom-plan",
+            "slug": "custom-plan"
+        },
+        "Ultimate Recipe": {
+            "productName": "Ultimate Recipe",
+            "productUrl": "/recipe",
+            "slug": "recipe"
+        },
+        "Burn-Evolved": {
+            "productName": "Burn-Evolved",
+            "productUrl": "/burn-evolved2",
+            "slug": "burn-evolved"
+        },
+        "Burn-Evolved-ca": {
+            "productName": "Burn-Evolved-ca",
+            "productUrl": "/burn",
+            "slug": "burn"
+        },
+        "Burn Accelerator": {
+            "productName": "Burn Accelerator",
+            "productUrl": "/burn-accelerator-v5",
+            "slug": "burn-accelerator-v5"
+        },
+        "Burn 1B Upsell": {
+            "productName": "Burn 1B Upsell",
+            "productUrl": "/survey/burn-1bo-ds",
+            "slug": "burn-1bo-ds"
+        },
+        "Burn 3B Upsell": {
+            "productName": "Burn 3B Upsell",
+            "productUrl": "/burn-3bo-us",
+            "slug": ["burn-3bo-us", "burn-us-3-3"]
+        },
+        "CDP-Burn Bundle": {
+            "productName": "CDP-Burn Bundle",
+            "productUrl": "/fat-loss-extreme/fl-burn-cdp-bundle",
+            "slug": "fl-burn-cdp-bundle"
+        },
+        "VSU Upgrade": {
+            "productName": "VSU Upgrade",
+            "productUrl": "/fl-vsu",
+            "slug": "fl-vsu"
+        },
+        "Burn 6B @50%OFF": {
+            "productName": "Burn 6B @50%OFF",
+            "productUrl": "/survey/burn-us-bt-f3",
+            "slug": "/burn-us-bt-f3"
+        },
+        "Burn Flash Sale": {
+            "productName": "Burn Flash Sale",
+            "productUrl": "/burn-evolved2/burn-flashsale",
+            "slug": "/burn-flashsale"
+        },
+        "VSU Reboot": {
+            "productName": "VSU Reboot",
+            "productUrl": "/vshred-university/vsu-us-freetrial-reboot",
+            "slug": "reboot"
+        },
+        "VShred University": {
+            "productName": "VSU Reboot",
+            "productUrl": "/vshred-university",
+            "slug": "/vshred-university/"
+        },
+        "BurnPM Coupon": {
+            "productName": "BurnPM Coupon",
+            "productUrl": "/coupon-burnpm",
+            "slug": "coupon-burnpm"
+        },
+        "Burn CS-FM v1": {
+            "productName": "Burn CS-FM v1",
+            "productUrl": "/survey/burn-cs-fm-v1",
+            "slug": "burn-cs-fm-v1"
+        },
+        "BurnPM CS-F v1": {
+            "productName": "BurnPM CS-F v1",
+            "productUrl": "/survey/burn-pm-cs-f-v1",
+            "slug": "burn-pm-cs-f-v1"
+        },
+        "Special Offer Ultimate Recipe": {
+            "productName": "Special Offer Ultimate Recipe",
+            "productUrl": "/survey/special-offer-ultimate-recipe",
+            "slug": "special-offer-ultimate-recipe"
+        }
+    }
+}

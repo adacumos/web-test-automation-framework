@@ -1,0 +1,45 @@
+{
+    "surveyLandingPage": {
+        "landingPage": "https://staging.vshred.com",
+        "checkoutUrl": "move-program?",
+        "productDescription": "MOVE 30",
+        "productPrice": "$47.00 USD",
+        "productBundle": ["MOVE 30", "Six-Pack Shred", "FREE Supplement Guide"]
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs"
+    },
+    "CDP": {
+        "funnelUrl": "cdp-cs-v2"
+    },
+    "cdpBumper": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM",
+        "BURN EVOLVED 2.0 - 3 bottles",
+        "Custom Diet Plan",
+        "MOVE 30 + Six Pack Shred (FREE) + Recipe Guide (FREE)"
+    ],
+    "cdpFunnel": [
+        "Custom Diet Plan - 4 weeks",
+        "BURN PM - Three Bottle",
+        "MOVE 30 + Six Pack Shred (FREE) + Recipe Guide (FREE)"
+    ],
+    "trainerData": {
+        "assignedTrainer": "Trainer Three",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-three@example.com"
+    },
+    "clientName": "move30 vsProgram",
+    "firstName": "move30",
+    "lastName": "vsProgram",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

@@ -1,0 +1,14 @@
+{
+    "landingPage": {
+        "tableHeader": [
+            "Status",
+            "Renews At",
+            "Canceled At",
+            "Offer",
+            "Originating Order",
+            "User",
+            "Applied Discount",
+            "Shipping Address"
+        ]
+    }
+}

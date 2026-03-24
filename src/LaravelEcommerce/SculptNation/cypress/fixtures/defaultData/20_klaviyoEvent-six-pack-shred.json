@@ -1,0 +1,27 @@
+{
+    "offerLandingPage": {
+        "checkoutUrl": "/vshred-order?"
+    },
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/six-pack-shred",
+        "productDescription": "Six Pack Shred",
+        "productPrice": "$19.99 USD",
+        "productBundle": ["Six Pack Shred"]
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": ["Custom Diet Plan - 4 weeks", "Six Pack Shred"],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "selectSomeFunnels": ["Custom Diet Plan - 4 weeks", "Six Pack Shred"],
+    "firstName": "sixPack",
+    "lastName": "Shred",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

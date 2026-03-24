@@ -1,0 +1,33 @@
+{
+    "productLandingPage": {
+        "productName": "TURMERIC BLACK",
+        "productUrl": "turmeric-black",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$195.50",
+        "threeBottlePrice": "$132.00"
+    },
+
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "TURMERIC BLACK",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$4.10",
+            "totalPrice": "$53.10"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$61.95 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "CAN",
+    "streetAddress": "45 Ridge Street",
+    "city": "Whitby",
+    "state": "ON",
+    "postcode": "L1R 3A3",
+    "phone": "437-550-0319"
+}

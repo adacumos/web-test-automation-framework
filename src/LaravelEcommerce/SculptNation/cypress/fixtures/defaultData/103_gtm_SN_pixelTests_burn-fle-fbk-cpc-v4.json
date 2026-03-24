@@ -1,0 +1,52 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "sp/burn-fle/burn-fle-fbk-cpc-v4",
+        "productDescription": "BURN EVOLVED 2.0 (Monthly) + Fat Loss Extreme FREE",
+        "checkoutUrl": "burn-evolved-burn-pm-cs",
+        "productPrice": "$41.00 USD",
+        "productBundle": ["BURN EVOLVED 2.0 (Monthly)", "Fat Loss Extreme FREE"]
+    },
+    "pixelDetail": {
+        "startcheckout": {
+            "eventId": "EEcheckoutStart",
+            "gtm": {
+                "internal": "SiArCKW0sNoDEInM_aEC",
+                "kendago": "UvCjCOm8tswYEPOXs9IC"
+            }
+        },
+        "addtocart": {
+            "eventId": "EEaddToCart",
+            "gtm": {
+                "internal": "SiArCKW0sNoDEInM_aEC"
+            }
+        },
+        "purchase": {
+            "eventId": "EEpurchase",
+            "gtm": {
+                "internal": "flfzCOnt-NkBEInM_aEC",
+                "kendago": "ZCHOCLq4tcwYEPOXs9IC"
+            },
+            "value": "54.38"
+        },
+        "upsell": {
+            "eventId": "EEupsell",
+            "gtm": {
+                "internal": "jzBKCL3boNoDEInM_aEC"
+            },
+            "value": "87.00"
+        },
+        "viewOffer": {
+            "eventId": "EEviewOffer"
+        }
+    },
+    "firstName": "Pixel Gtm",
+    "lastName": "Burn FLE",
+    "clientName": "PixelGtm BurnFLE",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

@@ -1,0 +1,47 @@
+{
+    "videoReference": {
+        "videoUrl": "/sp/move/v5"
+    },
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/move/v5",
+        "checkoutUrl": "move-program",
+        "productDescription": "MOVE 30",
+        "productPrice": "$47.00 USD",
+        "productBundle": ["MOVE 30", "Six-Pack Shred"]
+    },
+    "VSU": {
+        "funnelUrl": "fl-vsu-v2"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs-m-v2"
+    },
+    "selectCdpFunnel": [
+        "BURN EVOLVED 2.0 - 6 bottles",
+        "BURN PM - Monthly",
+        "Custom Diet Plan - 4 weeks",
+        "MOVE 30 + Six Pack Shred (FREE) + Recipe Guide (FREE)"
+    ],
+    "selectCdpBumper": [
+        "BURN PM - Three Bottle",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN EVOLVED 2.0 - Monthly",
+        "Custom Diet Plan",
+        "MOVE 30 + Six Pack Shred (FREE) + Recipe Guide (FREE)"
+    ],
+    "skipAllCdpOffer": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "MOVE 30 + Six Pack Shred (FREE) + Recipe Guide (FREE)"
+    ],
+    "firstName": "move",
+    "lastName": "vs-video",
+    "clientName": "move vs-video",
+    "country": "United States",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postalCode": "89120",
+    "phoneNumber": "7022120785"
+}

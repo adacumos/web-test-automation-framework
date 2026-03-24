@@ -1,0 +1,48 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-aka1#",
+        "checkoutUrl": "fat-loss-extreme-bundle-bt-f3",
+        "productDescription": "Fat Loss Extreme",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "Big Arms Program",
+            "FREE Supplement Guide"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs"
+    },
+    "cdpBumper": [
+        "Ultimate Fat Loss Recipes Collection",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM - Monthly",
+        "BURN EVOLVED 2.0 - 6-Bottle Upgrade",
+        "BURN EVOLVED 2.0 - 3 bottles",
+        "Custom Diet Plan",
+        "Fat Loss Extreme for Him $57"
+    ],
+    "trainerData": {
+        "assignedTrainer": "Trainer Two",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-two@example.com"
+    },
+    "firstName": "fatlossHim",
+    "lastName": "vsSurvey",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

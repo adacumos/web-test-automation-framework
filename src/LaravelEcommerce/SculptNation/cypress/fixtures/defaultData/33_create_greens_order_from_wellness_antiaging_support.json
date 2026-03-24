@@ -1,0 +1,109 @@
+{
+    "productLandingPage": {
+        "productName": "GREENS",
+        "productUrl": "greens",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$32.50",
+        "threeBottlePrice": "$44.00",
+        "productFlavor": "Original"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "GREENS - Monthly",
+            "quantity": "1",
+            "subtotal": "$59.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$2.56",
+            "totalPrice": "$53.51"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$41.44",
+            "secondItemOrderTotal": "$43.56",
+            "thirdItemOrderTotal": "$43.56",
+            "fourthItemOrderTotal": "$72.64",
+            "firstSubscriptionName": "NEUROCTANE - Monthly",
+            "secondSubscriptionName": "TURMERIC BLACK - Monthly",
+            "thirdSubscriptionName": "GREENS - Monthly",
+            "firstSubscriptionPricePerMonth": "$41.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.00 / month",
+            "thirdSubscriptionPricePerMonth": "$68.95 / month"
+        }
+    },
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "GREENS",
+            "quantity": "1",
+            "subtotal": "$69.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.06",
+            "totalPrice": "$57.01"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$41.44",
+            "secondItemOrderTotal": "$52.06",
+            "thirdItemOrderTotal": "$52.06",
+            "fourthItemOrderTotal": "$153.00",
+            "fifthItemOrderTotal": "$83.26"
+        }
+    },
+    "sixBottle": {
+        "cartDetails": {
+            "productName": "GREENS - Six Bottle",
+            "quantity": "1",
+            "subtotal": "$324.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$12.19",
+            "totalPrice": "$217.14"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$41.44",
+            "secondItemOrderTotal": "$207.19",
+            "thirdItemOrderTotal": "$207.19",
+            "fourthItemOrderTotal": "$354.20"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "GREENS - Three Bottle",
+            "quantity": "1",
+            "subtotal": "$177.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$8.25",
+            "totalPrice": "$150.20"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$41.44",
+            "secondItemOrderTotal": "$140.25",
+            "thirdItemOrderTotal": "$140.25",
+            "fourthItemOrderTotal": "$153.00",
+            "fifthItemOrderTotal": "$198.01"
+        }
+    },
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "Test Address",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "702-212-0785"
+}

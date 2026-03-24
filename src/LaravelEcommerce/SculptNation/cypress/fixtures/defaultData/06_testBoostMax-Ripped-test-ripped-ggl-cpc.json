@@ -1,0 +1,44 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/test-boost-max/test-ripped-ggl-cpc",
+        "bottleBundle": ["TEST BOOST MAX", "RIPPED IN 90 DAYS"]
+    },
+    "funnelOfferUrl": [
+        "test-boost-max-us",
+        "test-boost-max-ds",
+        "hgh-cs",
+        "creatine-cs",
+        "fl-cdp-us",
+        "special-offer-coupon"
+    ],
+
+    "oneBottle-skipAllFunnels": ["Test Boost Max 2 + Ripped in 90 Days"],
+    "sixBottle-skipAllFunnels": [
+        "Test Boost Max 2 - six bottles + Ripped in 90 days"
+    ],
+    "threeBottle-skipAllFunnels": [
+        "Test Boost Max 2 - three bottles + Ripped in 90 Days"
+    ],
+    "threeBottle-selectAllFunnels": [
+        "GREENS REGULAR - DISCOUNTED",
+        "Custom Diet Plan - 4 weeks",
+        "Creatine Fruit Punch - Monthly",
+        "HGH  Boost  - Three Bottle",
+        "Test Boost Max 2.0 - six bottles",
+        "Test Boost Max 2 - three bottles + Ripped in 90 Days"
+    ],
+    "sixBottle-selectFunnels": [
+        "Creatine Fruit Punch - Three Bottle",
+        "HGH  Boost - Six Bottle",
+        "Test Boost Max 2 - six bottles + Ripped in 90 days"
+    ],
+
+    "firstName": "LE PageMove",
+    "lastName": "TestBoostRipped",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785"
+}

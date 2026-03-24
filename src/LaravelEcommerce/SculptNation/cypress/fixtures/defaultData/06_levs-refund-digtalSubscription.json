@@ -1,0 +1,46 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/custom-diet-plan/reup",
+        "checkoutUrl": "custom-diet-plan-monthly-reup",
+        "productDescription": "Silver Custom Diet Plan (4 Week Re-up)",
+        "productPrice": "$47.00 USD",
+        "productBundle": [
+            "Silver Custom Diet Plan (4 Week Re-up)",
+            "Custom Diet Plan",
+            "Unlimited Email Support From Your Coach",
+            "Email Check-In's with Your Coach"
+        ]
+    },
+    "Greens": {
+        "funnelUrl": "special-offer-coupon-3"
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs"
+    },
+    "orderTransaction": {
+        "orderItem": "Silver Custom Diet Plan (4 Week Re-up)",
+        "refundReason": "HTS Upgrade - Digital"
+    },
+    "cdpSilver": [
+        "Greens Strawberry (3) + HGH Boost (FREE)",
+        "VSU All-Access Monthly - $9.95 (7-Day Free Trial)",
+        "BURN ACCELERATOR STACK",
+        "Burn Stack: Burn Evolved 2.0 (3) + Burn PM (3) (FREE)",
+        "Silver Custom Diet Plan (4 Week Re-up)"
+    ],
+    "firstName": "silver",
+    "lastName": "CustomPlan",
+    "clientName": "silver CustomPlan",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

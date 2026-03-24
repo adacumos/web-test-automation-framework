@@ -1,0 +1,54 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/results-female-fl-bt-v5",
+        "productDescription": "Fat Loss Extreme for Her $57",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme for Her",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder"
+        ]
+    },
+    "orderList": [
+        "Greens",
+        "VSU",
+        "Burn PM",
+        "Burn Evolved",
+        "Fat Loss Extreme for Her $57"
+    ],
+    "cdpBumper": [
+        "GREENS REGULAR - DISCOUNTED",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM - Six Bottle",
+        "BURN EVOLVED 2.0 - 3 bottles",
+        "Custom Diet Plan",
+        "Fat Loss Extreme for Her $57"
+    ],
+    "Greens": {
+        "funnelUrl": "special-offer-coupon-3"
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer-f-bt-f3"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs-f-v1"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-fm-v1"
+    },
+    "trainerData": {
+        "assignedTrainer": "Trainer Two",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-two@example.com"
+    },
+    "firstName": "fatlossHer",
+    "lastName": "vsSurvey",
+    "address": "4530 South Decatur Boulevard",
+    "city": "Las vegas",
+    "state": "Nevada",
+    "postalCode": "89103",
+    "phoneNumber": "7021231234"
+}

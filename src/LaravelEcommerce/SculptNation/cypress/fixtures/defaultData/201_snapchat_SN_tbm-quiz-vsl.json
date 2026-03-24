@@ -1,0 +1,30 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/test-boost-max/quiz-vsl"
+    },
+    "event": {
+        "addtocart": "ADD_CART",
+        "startcheckout": "START_CHECKOUT",
+        "pageview": "PAGE_VIEW",
+        "quizcompleted": "CUSTOM_EVENT_1",
+        "purchase": "PURCHASE",
+        "amount": "221.28"
+    },
+    "pixelId": {
+        "sculptnation": {
+            "internal": "2f77702f-bf42-4bcf-9c0f-b1020cdc2454",
+            "kendago": "dd4164d5-df97-489f-9239-a9c8932e1ff6"
+        },
+        "vshred": {
+            "internal": "2f592d06-bf1b-4562-9b5f-07c30910ee2b",
+            "kendago": "86bcfeab-554d-4447-843a-14075b17b993"
+        }
+    },
+    "clientName": "PixelTest Snapchat",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "shippingOption": "Priority Flat Rate"
+}

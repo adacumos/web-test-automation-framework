@@ -1,0 +1,47 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/newyears/special-offer-eco-fbk-cpc",
+        "productDescription": "Trial Pack: Burn Evolved 2.0 + Burn PM + ACV Gummies (FREE) and FREE Bonuses",
+        "productPrice": "$49.00 USD",
+        "bottleBundle": [
+            "BURN EVOLVED 2.0",
+            "BURN PM",
+            "Apple Cider Vinegar Gummies",
+            "FREE Supplement Guide"
+        ],
+        "productBundle": [
+            "BURN EVOLVED 2.0",
+            "BURN PM",
+            "Apple Cider Vinegar Gummies",
+            "FREE Supplement Guide"
+        ]
+    },
+    "funnelOfferUrl": [
+        "burn-us",
+        "burn-pm",
+        "turmeric-cs",
+        "enzymes",
+        "fl-cdp-us"
+    ],
+    "trialPack-skipAllFunnels": [
+        "Trial Pack: Burn Evolved 2.0 + Burn PM + ACV Gummies"
+    ],
+    "holidayFle-skipAllFunnels": [
+        "Holiday Fat Loss Stack: 3 Burn Evolved + 3 Burn PM + 1 ACV Gummies + Blender Bottle"
+    ],
+    "ultimateBurn-skipAllFunnels": [
+        "Ultimate Burn: 3 Burn Evolved + 3 Burn PM + 2 ACV Gummies + 3 Turmeric Black + Blender Bottle"
+    ],
+    "firstName": "SpecialPack",
+    "lastName": "Fatloss Stack",
+    "clientName": "SpecialPack Offer",
+    "defaultPassword": "asdfasdf",
+    "country": "United States of America",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "stateI": "NV",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

@@ -1,0 +1,14 @@
+# For VS Code, make sure to have the "EditorConfig for VS Code" plugin installed for this file to be in effect.
+# For WebStorm, it is sufficient to have the .editorconfig file in the root of the project and the IDE should interpet its settings.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.{yml,yaml}]
+indent_size = 2

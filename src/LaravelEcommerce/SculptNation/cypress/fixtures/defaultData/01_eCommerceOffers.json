@@ -1,0 +1,29 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "OfferPageRegression",
+    "phone": "(617) 389-0046",
+    "address": "565 Nauset Rd",
+    "address2": "4th Street",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89122",
+    "editOffer": {
+        "offerSku": "protein_chocolate_monthly",
+        "offerTitle": "PROTEIN - CHOCOLATE - Monthly",
+        "offerPrice": "$40.00",
+        "editTitle": "TEST-- PROTEIN - CHOCOLATE - Monthly --TEST",
+        "editPrice": "$65.00"
+    },
+    "createNewOffer": {
+        "offerSku": "testOfferSku",
+        "offerTitle": "TEST-- OFFER --TEST",
+        "offerDescription": "TEST DESC-- OFFER --TEST DESC",
+        "offerPrice": "$149.00"
+    },
+    "deleteTestData": {
+        "orderOfferTable": "delete from order_offers where id = $1",
+        "OffersTable": "delete from offers where sku = $1",
+        "priceTable": "delete from prices where id = $1"
+    }
+}

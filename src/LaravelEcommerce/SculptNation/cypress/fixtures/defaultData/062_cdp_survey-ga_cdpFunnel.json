@@ -1,0 +1,55 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga",
+        "checkoutUrl": "ripped-in-90-days-bundle-mgr-bt-f3",
+        "productDescription": "Ripped In 90 Days",
+        "productPrice": "$67.00 USD",
+        "productBundle": [
+            "Ripped In 90 Days",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "Big Arms Program"
+        ]
+    },
+    "funnelOfferUrl": [
+        "burn-cs",
+        "burn-pm",
+        "turmeric-cs",
+        "enzymes",
+        "fl-cdp-us"
+    ],
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm"
+    },
+    "cdpFunnel": [
+        "Ultimate Fat Loss Recipes Collection",
+        "Custom Diet Plan - 4 weeks",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM - Monthly",
+        "BURN EVOLVED 2.0 - Monthly",
+        "Ripped In 90 Days $67"
+    ],
+    "trainerData": {
+        "assignedTrainer": "Trainer Three",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-three@example.com"
+    },
+
+    "firstName": "ripped90D",
+    "lastName": "vsSurvey-ga",
+    "clientName": "ripped surveyGa",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

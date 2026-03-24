@@ -1,0 +1,57 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/results-female-fl-bt-f3",
+        "productDescription": "Fat Loss Extreme for Her $57 Bundle x 1",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme for Her",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder",
+            "FREE Supplement Guide"
+        ]
+    },
+
+    "orderList": [
+        "Greens",
+        "VSU",
+        "Burn PM",
+        "Burn Evolved",
+        "Fat Loss Extreme for Her $57"
+    ],
+
+    "selectAllFunnels": [
+        "Ultimate Fat Loss Recipes Collection",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM - Monthly",
+        "BURN EVOLVED 2.0 - Monthly",
+        "Fat Loss Extreme for Her $57",
+        "Custom Diet Plan - 4 weeks"
+    ],
+
+    "Greens": {
+        "funnelUrl": "special-offer-coupon-3"
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer-f-bt-f3"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs-f-v1"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-fm-v1"
+    },
+    "Fat Loss Extreme for Her $57 Bundle": {
+        "funnelUrl": "results-female-fl-bt-f3"
+    },
+    "Custom Diet Plan - 4 weeks": {
+        "funnelUrl": "custom-plan-female-bt-f3"
+    },
+    "firstName": "QA",
+    "lastName": "Automation",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Los Angeles",
+    "state": "Nevada",
+    "postcode": "89103",
+    "phone": "7021231234"
+}

@@ -1,0 +1,48 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/programs/fat-loss-extreme",
+        "checkoutUrl": "fat-loss-extreme",
+        "productDescription": "Fat Loss Extreme for Him and FREE Bonuses",
+        "productPrice": "$47.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme for Him",
+            "FREE Supplement Guide"
+        ]
+    },
+    "FLEBundle-AllYes": [
+        "GREENS REGULAR - DISCOUNTED",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Fat Loss Extreme for Him",
+        "Custom Diet Plan"
+    ],
+    "VSU": {
+        "funnelUrl": "vsu-special-offer-mhg2"
+    },
+    "Greens": {
+        "funnelUrl": "special-offer-coupon-3"
+    },
+    "FLEBundle-SelectedYes": [
+        "GREENS REGULAR - DISCOUNTED",
+        "Fat Loss Extreme for Him",
+        "Custom Diet Plan"
+    ],
+    "FLEBundle-AllNo": [
+        "Fat Loss Extreme for Him"
+    ],
+    "firstName": "Web",
+    "lastName": "Automation",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785",
+    "shippingFirstName": "Web",
+    "shippingLastName": "Automation",
+    "shippingStreet": "4530 S Decatur Blvd",
+    "shippingCity": "Las Vegas",
+    "shippingPostalCode": "89103",
+    "shippingState": "NV",
+    "shippingCountry": "United States",
+    "shippingPhone": "8153211010"
+}

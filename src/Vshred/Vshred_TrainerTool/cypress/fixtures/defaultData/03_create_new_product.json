@@ -1,0 +1,22 @@
+{
+    "productTypeDigital": {
+        "productID": "test_digital_product1",
+        "productName": "TEST-- V SHRED Digital Product Plus --TEST",
+        "productDefaultPrice": "7997",
+        "productCogs": "0",
+        "vproductCogs": "",
+        "productPhysical": false,
+        "productDescription": "TEST-- V SHRED Digital Product Plus --TEST",
+        "productAbility": "test_vshred-ability-program"
+    },
+    "productTypePhysical": {
+        "productID": "test_physical_product1",
+        "productName": "TEST-- V SHRED Physical Product Plus --TEST",
+        "productDefaultPrice": "5997",
+        "productCogs": "0",
+        "vproductCogs": "",
+        "productPhysical": true,
+        "productDescription": "TEST-- V SHRED Physical Product Plus+ --TEST",
+        "productAbility": " "
+    }
+}

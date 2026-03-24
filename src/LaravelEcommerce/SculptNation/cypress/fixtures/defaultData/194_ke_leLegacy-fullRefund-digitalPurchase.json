@@ -1,0 +1,37 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/turmeric-black/turmeric-fle-fbk-cpc",
+        "offerBundle": ["TURMERIC BLACK"]
+    },
+    "funnelOfferUrl": [
+        "turmeric-black-us",
+        "turmeric-black-ds",
+        "burn-lg",
+        "burn-pm",
+        "fl-cdp-us",
+        "coupon-greens"
+    ],
+    "threeBottle-SelectAllFunnels": [
+        "Custom Diet Plan - 4 weeks",
+        "BURN EVOLVED 2.0 - Monthly",
+        "TURMERIC BLACK - Six Bottle (Discounted 50)",
+        "TURMERIC BLACK (3) + Fat Loss Extreme FREE"
+    ],
+    "orderTransaction": {
+        "orderItem": "Custom Diet Plan - 4 weeks",
+        "refundReason": "Ordered By Mistake"
+    },
+    "klaviyoEventSummary": {
+        "refundedOrder": ["Custom Diet Plan - 4 weeks"]
+    },
+    "firstName": "refundDigital",
+    "lastName": "klaviyoEvent",
+    "clientName": "refundDigital Automation",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

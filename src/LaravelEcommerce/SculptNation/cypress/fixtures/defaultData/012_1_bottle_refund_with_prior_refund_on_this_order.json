@@ -1,0 +1,60 @@
+{
+    "productLandingPage": {
+        "productName": "BURN PM",
+        "productUrl": "burn-pm",
+        "oneBottlePrice": "$41.00",
+        "sixBottlePrice": "$32.50",
+        "threeBottlePrice": "$44.00"
+    },
+
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "BURN PM",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.06",
+            "totalPrice": "$62.01"
+        }
+    },
+
+    "refundData": {
+        "refundProduct": "BURN PM",
+        "quantity": "1",
+        "subtotal": "$49.00",
+        "refundAmount": "$49.00",
+        "estimatedRefund": "",
+        "refundReason": "mistaken_purchase",
+        "totalRefund": "($53.10)"
+    },
+
+    "getTxnRefNo": "select payments.transaction_ref from payments join invoices on invoices.id = payments.invoice_id join orders on orders.id = invoices.order_id join users on orders.user_id = users.id where users.email = $1",
+
+    "firstName": "Self",
+    "lastName": "Refund",
+    "country": "USA",
+    "streetAddress": "4530 S Decatur Blvd",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785",
+
+    "baseCurrencyTotalAmount": "$63.05",
+    "totalAmount": "$63.05",
+    "baseCurrencySubtotal": "$49.00",
+    "refundedAmount": "$49.00",
+    "refundableAmount": "$0.00",
+    "amountRefunded": "$53.10",
+    "discountedAmount": "$0.00",
+    "COGSAmount": "$3.83",
+    "noTaxAmount": "$0.00",
+    "refundedTax": "$3.43",
+    "refundableTax": "$0.00",
+    "orderStatus": "partially_refunded",
+    "typeProduct": "product",
+    "typeTax": "tax",
+    "typeShipping": "shipping",
+    "invoiceStatus": "partially_paid",
+    "paymentStatus": "partially_refunded",
+    "netRevenue": "$9.95"
+}

@@ -1,0 +1,18 @@
+{
+    "funnelUrls": {
+        "CleanBulk": "/sp/survey/fb-checkout?offer=clean-bulk-program-bt-f3&funnel=fb-vs-burn-m&offer_skus=bun_5a021b6e91f27&show=9257",
+        "RippedIn90Days57": "/sp/survey/fb-checkout?offer=ripped-in-90-days-bundle-msf-bt-f3&funnel=fb-vs-burn-m&offer_skus=bun_5a30698e3ae37&show=9257",
+        "RippedIn90Days67": "/sp/survey/fb-checkout?offer=ripped-in-90-days-bundle-mgr-bt-f3&funnel=fb-vs-burn-m&offer_skus=bun_a75adf0127b17a34&show=9257",
+        "FatLoss": "/sp/survey/fb-checkout?offer=fat-loss-extreme-bundle-bt-f3&funnel=fb-vs-burn-m&offer_skus=bun_964a0c6be117e329&show=9257"
+    },
+    "billingInfo": {
+        "name": "Negative Test",
+        "email": "negative@test.com",
+        "phone": "7022120785",
+        "address": "221 Las Vegas Blvd N",
+        "city": "Las Vegas",
+        "country": "USA",
+        "state": "NV",
+        "postal": "89101"
+    }
+}

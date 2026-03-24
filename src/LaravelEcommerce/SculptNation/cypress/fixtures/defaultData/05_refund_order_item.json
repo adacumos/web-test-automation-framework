@@ -1,0 +1,43 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "Refund Order Item",
+    "phone": "(617) 389-0046",
+    "address": "4530 South Decatur Boulevard",
+    "address2": "Suite 103",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89103",
+
+    "productName": "BURN PM - Monthly",
+    "productPrice": "$41.00",
+    "productQuantity": "1",
+    "productTax": "$3.43",
+    "totalAmount": "$54.38",
+    "shippingCost": "$9.95",
+    "shippingOption": "Priority Flat Rate - $9.95 - expected",
+
+    "baseCurrencyTotalAmount": "$54.38",
+    "baseCurrencySubtotal": "$41.00",
+    "refundedAmount": "$0.00",
+    "refundableAmount": "$41.00",
+    "discountedAmount": "$0.00",
+    "COGSAmount": "$3.83",
+    "noTaxAmount": "$0.00",
+    "refundedTax": "$3.43",
+    "refundableTax": "$0.00",
+
+    "orderStatus": "refunded",
+
+    "refundAmount": "$41.00",
+    "refundReason": "Changed Mind",
+    "netRevenue": "$9.95",
+    "amountRefunded": "$44.43",
+    "invoiceStatus": "partially_paid",
+    "paymentStatus": "partially_refunded",
+    "shipmentStatus": "cancelled",
+
+    "typeProduct": "product",
+    "typeTax": "tax",
+    "typeShipping": "shipping"
+}

@@ -1,0 +1,19 @@
+{
+    "surveyLandingPage": {
+        "landingPage": "/sp/survey/results-female-gt-bt-f7?cv=&condition=femaleGetToned&segment=6&gender=female&age=25&activity=moderate&macro_goal=maintenance&units=imperial&inches=32&centimeters=90&weight=116&kilograms=0",
+        "checkoutUrl": "femaleGetToned",
+        "productDescription": "Toned In 90 Days",
+        "productPrice": "$57.00",
+        "productBundle": ["Toned In 90 Days"]
+    },
+    "status": "blocked",
+
+    "clientName": "fraud Detection",
+    "firstName": "FraudDetection_Automation",
+    "lastName": "Test vsProgram",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "1234567890"
+}

@@ -1,0 +1,46 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga#"
+    },
+    "landingPage": {
+        "sn_endpoint": "/products",
+        "surveygahash": "/sp/survey/survey-ga#"
+    },
+    "vshredPixelDetail": {
+        "internal": "CCTEP6JC77U4AGK4P470",
+        "kendago": "C0CT661F9F46QGH8DUO0"
+    },
+    "sculptNationPixelDetail": {
+        "internal": "C1Q6Q16HLSU5AAHCLJT0",
+        "kendago": "0000000",
+        "event_id": ""
+    },
+
+    "buttonText": "Everything for just $57",
+    "skipAllFunnels": ["Toned In 90 Days $57 Bundle"],
+    "firstName": "tonedSkinny",
+    "lastName": "pixelTesting",
+    "clientName": "tonedSkinny surveyGa",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "postcode": "89158",
+    "phoneNumber": "7022120785",
+    "phone": "7022120785",
+
+    "tracking_url": "https://analytics.tiktok.com/api/v2/pixel",
+    "interceptNameKendago": "pageviewTwitterKendago",
+    "interceptNameInternal": "pageviewTwitterInternal",
+    "event": {
+        "addtocart": "AddToCart",
+        "initiateCheckout": "InitiateCheckout",
+        "pageview": "PageView"
+    },
+    "tiktokID": {
+        "internal": "CCTEP6JC77U4AGK4P47",
+        "kendago": "C0CT661F9F46QGH8DUO0"
+    }
+}

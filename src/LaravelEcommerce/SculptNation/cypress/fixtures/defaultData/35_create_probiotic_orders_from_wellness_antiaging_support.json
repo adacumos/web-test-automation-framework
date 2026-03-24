@@ -1,0 +1,101 @@
+{
+    "productLandingPage": {
+        "productName": "Probiotics",
+        "productUrl": "probiotics",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$195.50",
+        "threeBottlePrice": "$132.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "PROBIOTIC - Monthly",
+            "quantity": "1",
+            "subtotal": "$41.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.43",
+            "totalPrice": "$44.43"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$44.43",
+            "secondItemOrderTotal": "$44.43",
+            "thirdItemOrderTotal": "$54.38",
+            "firstSubscriptionName": "GREENS - Monthly",
+            "secondSubscriptionName": "ENZYMES - Monthly",
+            "thirdSubscriptionName": "PROBIOTIC - Monthly",
+            "firstSubscriptionPricePerMonth": "$41.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.00 / month",
+            "thirdSubscriptionPricePerMonth": "$50.95 / month"
+        }
+    },
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "PROBIOTICS",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$4.10",
+            "totalPrice": "$53.10"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$74.78 for 1 items",
+            "secondItemOrderTotal": "$53.10 for 1 items",
+            "thirdItemOrderTotal": "$156.06 for 1 items",
+            "fourthItemOrderTotal": "$63.05 for 1 items"
+        }
+    },
+    "sixBottle": {
+        "cartDetails": {
+            "productName": "PROBIOTICS - Six Bottle",
+            "quantity": "1",
+            "subtotal": "$195.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$16.33",
+            "totalPrice": "$211.33"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$351.14 for 1 items",
+            "secondItemOrderTotal": "$211.33 for 1 items",
+            "thirdItemOrderTotal": "$221.28 for 1 items"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "PROBIOTIC - Three Bottle",
+            "quantity": "1",
+            "subtotal": "$132.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$11.06",
+            "totalPrice": "$143.06"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$191.82 for 1 items",
+            "secondItemOrderTotal": "$143.06 for 1 items",
+            "thirdItemOrderTotal": "$156.06 for 1 items",
+            "fourthItemOrderTotal": "$153.01 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785"
+}

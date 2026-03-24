@@ -1,0 +1,9 @@
+{
+    "createNewSmsCampaign": {
+        "Name": "Web Automation",
+        "Vendor": "Web Automation Vendor",
+        "Endpoint": "fake.api.endpoint"
+    },
+    "VerifyDeletedTaxNexusID": "No campaign matched the given criteria."
+
+}

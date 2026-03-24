@@ -1,0 +1,36 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/ripped-in-90-days",
+        "checkoutUrl": "ripped-in-90-days",
+        "productDescription": "Ripped In 90 Days and FREE Bonuses",
+        "productPrice": "$47.00 USD",
+        "productBundle": [
+            "Ripped In 90 Days",
+            "FREE Supplement Guide"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer-mhg2"
+    },
+    "RippedBundle": [
+        "GREENS REGULAR - DISCOUNTED",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Ripped In 90 Days"
+    ],
+    "firstName": "Web",
+    "lastName": "Automation",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785",
+    "shippingFirstName": "Web",
+    "shippingLastName": "Automation",
+    "shippingStreet": "4530 S Decatur Blvd",
+    "shippingCity": "Las Vegas",
+    "shippingPostalCode": "89103",
+    "shippingState": "NV",
+    "shippingCountry": "United States",
+    "shippingPhone": "8153211010"
+}

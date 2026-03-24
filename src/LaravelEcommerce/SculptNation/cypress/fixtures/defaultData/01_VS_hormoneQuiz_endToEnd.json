@@ -1,0 +1,33 @@
+{
+    "LandingPage": {
+        "fullurl": "/sp/survey/hormone-quiz"
+    },
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/hormone-quiz"
+    },
+    "skipAllFunnels": ["Fat Loss Extreme for Her $57 Bundle - Hormone Quiz"],
+    "mixAllFunnels": [
+        "Custom Diet Plan - 4 weeks",
+        "Burn Evolved 2.0 - 1 Bottle $29",
+        "Fat Loss Extreme for Her $57 Bundle - Hormone Quiz"
+    ],
+
+    "name": "hormoneQuiz",
+    "firstName": "hormoneQuiz",
+    "lastName": "vsHormoneQuiz",
+    "clientName": "hormoneQuiz hormoneQuizTest",
+    "country": "USA",
+    "streetAddress": "PO Box 1563",
+    "address": "PO Box 1563",
+    "city": "Liberty Hill",
+    "state": "TX",
+    "postcode": "78642",
+    "postalCode": "78642",
+    "phone": "7022120785",
+    "phoneNumber": "7022120785",
+
+    "heightFt": "5",
+    "heightIn": "6",
+    "weight": "175",
+    "goalWeight": "145"
+}

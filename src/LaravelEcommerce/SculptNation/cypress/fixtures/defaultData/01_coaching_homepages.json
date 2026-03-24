@@ -1,0 +1,16 @@
+{
+    "LandingPage": {
+        "fullurl": "https://coaching.vshred.com/products",
+        "checkoutUrl": "v-shred-metabolic-rehab-program",
+        "coachingProductDescription": "V Shred TURBO - 30-Day 1-1 Coaching Program",
+        "coachingProductPrice": "$497.00",
+        "homeProductDescription": "V Shred Accelerator+ Custom Coaching Plan",
+        "homeProductPrice": "$1997.00",
+        "plansProductDescription": "V Shred Accelerator RENEWAL!",
+        "plansProductPrice": "$997.00"
+    },
+
+    "coachingPlans": "coaching-plans",
+    "homePage": "Home page",
+    "plans": "plans"
+}

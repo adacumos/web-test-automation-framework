@@ -1,0 +1,83 @@
+{
+    "productLandingPage": {
+        "productName": "CREATINE",
+        "productUrl": "creatine",
+        "oneBottlePrice": "$37.00",
+        "sixBottlePrice": "$30.50",
+        "threeBottlePrice": "$33.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "Creatine Fruit Punch - Monthly",
+            "quantity": "1",
+            "subtotal": "$32.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$2.00",
+            "totalPrice": "$43.95"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $43.95",
+            "firstSubscriptionName": "Creatine Fruit Punch - Monthly",
+            "firstSubscriptionPricePerMonth": "$41.95 / month"
+        }
+    },
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "CREATINE FRUIT PUNCH",
+            "quantity": "1",
+            "subtotal": "$37.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$2.31",
+            "totalPrice": "$49.26"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $153.00 for 1 items",
+            "secondItemOrderTotal": " $49.26 for 1 items"
+        }
+    },
+    "sixBottle": {
+        "cartDetails": {
+            "productName": "Creatine Fruit Punch - Six Bottle",
+            "quantity": "1",
+            "subtotal": "$183.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$11.44",
+            "totalPrice": "$204.39"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $204.39 for 1 items"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "Creatine Fruit Punch - Three Bottle",
+            "quantity": "1",
+            "subtotal": "$99.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$6.19",
+            "totalPrice": "$115.14"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $153.00 for 1 items",
+            "secondItemOrderTotal": " $115.14 for 1 items",
+            "thirdItemOrderTotal": "$153.00 for 1 items",
+            "fourthItemOrderTotal": "$150.20 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "Test Address",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "702-212-0785"
+}

@@ -1,0 +1,40 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/custom-diet-plan/reup",
+        "checkoutUrl": "custom-diet-plan-monthly-reup-v3",
+        "productDescription": "Silver Custom Diet Plan (4 Week Re-up)",
+        "productPrice": "$47.00 USD",
+        "productBundle": [
+            "Custom Diet Plan",
+            "Unlimited Email Support From Your Coach",
+            "Email Check-In's with Your Coach"
+        ]
+    },
+    "Burn-Evolved": {
+        "funnelUrl": "burn-flashsale-v3"
+    },
+    "silverCDP": ["Silver Custom Diet Plan (4 Week Re-up)"],
+    "commonBundle": [
+        "Greens Strawberry (3) + HGH Boost (FREE)",
+        "Burn Stack: Burn Evolved 2.0 (3) + Burn PM (3) (FREE)",
+        "BURN ACCELERATOR STACK"
+    ],
+    "cdp diet vsu trail": ["VSU All-Access Monthly - $9.95 (7-Day Free Trial)"],
+    "cdp diet vsu membership": ["VSU All-Access Annual Membership - $97"],
+    "firstName": "Web",
+    "lastName": "Automation",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785",
+    "shippingFirstName": "Web",
+    "shippingLastName": "Automation",
+    "shippingStreet": "4530 S Decatur Blvd",
+    "shippingCity": "Las Vegas",
+    "shippingPostalCode": "89103",
+    "shippingState": "NV",
+    "shippingCountry": "United States",
+    "shippingPhone": "8153211010"
+}

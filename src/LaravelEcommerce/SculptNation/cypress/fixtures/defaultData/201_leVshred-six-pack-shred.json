@@ -1,0 +1,34 @@
+{
+    "offerLandingPage": {
+        "checkoutUrl": "/vshred-order?"
+    },
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/six-pack-shred",
+        "productDescription": "Six Pack Shred",
+        "productPrice": "$19.99 USD",
+        "productBundle": ["Six Pack Shred"]
+    },
+    "selectAllFunnels": [
+        "GREENS REGULAR - DISCOUNTED",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Custom Diet Plan",
+        "Six Pack Shred"
+    ],
+    "selectSomeFunnels": ["Custom Diet Plan - 4 weeks", "Six Pack Shred"],
+    "skipAllFunnels": ["Six Pack Shred"],
+
+    "itemSKUs": [
+        {
+            "quantity": 1,
+            "sku": "10-014002-91-800-30"
+        }
+    ],
+    "firstName": "sixPack",
+    "lastName": "Shred",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

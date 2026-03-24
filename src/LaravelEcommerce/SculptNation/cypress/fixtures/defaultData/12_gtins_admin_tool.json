@@ -1,0 +1,16 @@
+{
+    "gtinsURL": "/nova/resources/gtins/",
+    "createNewProduct": {
+        "productSku": "test_sku_regress_product",
+        "productName": "TEST-- PRODUCT --TEST--GTIN",
+        "productType": "physical",
+        "productDescription": "TEST DESC-- PRODUCT --TEST GTINS",
+        "productCogs": "$0.00",
+        "attachOffer": "POST WORKOUT"
+    },
+    "createNewGtin": {
+        "gtinsType": "upc",
+        "productName": "TEST-- PRODUCT --TEST--GTIN",
+        "gtinsValue": "TEST-- GTIN --TEST"
+    }
+}

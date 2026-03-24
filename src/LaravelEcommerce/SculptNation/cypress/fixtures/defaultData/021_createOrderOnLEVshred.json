@@ -1,0 +1,80 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga",
+        "checkoutUrl": "fat-loss-extreme-bundle-f-bt-f3",
+        "productDescription": "Fat Loss Extreme for Her $57",
+        "productPrice": "$57.00 USD",
+        "salesTax": "$2.57",
+        "productBundle": [
+            "Fat Loss Extreme for Her",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder",
+            "FREE Supplement Guide"
+        ]
+    },
+    "Greens": {
+        "funnelUrl": "special-offer-coupon-3",
+        "offerDescription": "GREENS REGULAR - DISCOUNTED",
+        "offerPrice": "$42.27",
+        "offerName": "GREENS REGULAR - DISCOUNTED",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$39.00",
+        "taxAmount": "$3.27",
+        "refundableAmount": "$42.27"
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer",
+        "offerDescription": "VSU - Monthly 9.95 (30-Day Trial)",
+        "offerPrice": "$0.00",
+        "offerName": "VSU - Monthly 9.95 (30-Day Trial)",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$0.00",
+        "taxAmount": "$0.00",
+        "refundableAmount": "$0.00"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-",
+        "offerDescription": "BURN EVOLVED 2.0 - Monthly",
+        "offerPrice": "$44.43",
+        "offerName": "BURN EVOLVED 2.0 - Monthly",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$41.00",
+        "taxAmount": "$3.43",
+        "refundableAmount": "$44.43"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs",
+        "offerDescription": "BURN PM - Monthly",
+        "offerPrice": "$44.43",
+        "offerName": "BURN PM - Monthly",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$41.00",
+        "taxAmount": "$3.43",
+        "refundableAmount": "$44.43"
+    },
+    "selectAllFunnels": [
+        "GREENS REGULAR - DISCOUNTED",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM - Three Bottle",
+        "BURN EVOLVED 2.0 - Monthly",
+        "Custom Diet Plan",
+        "Fat Loss Extreme for Her $57"
+    ],
+
+    "orderSalesTax": {
+        "itemList": ["Fat Loss Extreme for Her $57"],
+        "leTaxList": ["$2.57"],
+        "vsTaxList": ["$2.57 USD"]
+    },
+    "skipAllFunnels": ["Fat Loss Extreme for Her $57"],
+    "firstName": "Fat Loss",
+    "lastName": "Extreme",
+    "clientName": "Fat Loss Extreme",
+    "country": "USA",
+    "address": "95-181 Wainaku Pl",
+    "city": "Mililani",
+    "state": "HI",
+    "postalCode": "96789",
+    "phoneNumber": "7022120785"
+}

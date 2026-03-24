@@ -1,0 +1,36 @@
+{
+    "offerLandingPage": {
+        "checkoutUrl": "/vshred-order?"
+    },
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/recipe-guide",
+        "productDescription": "Recipe Guide",
+        "productPrice": "$14.95 USD",
+        "productBundle": ["Recipe Guide"]
+    },
+    "selectAllFunnels": [
+        "Special Offer Coupon - Greens",
+        "Burn PM - Buy 2 Get 1 Free",
+        "BURN EVOLVED 2.0 - 6 bottles",
+        "TURMERIC BLACK - Six Bottle (Discounted 50)",
+        "Recipe Guide $14.95"
+    ],
+    "selectSomeFunnels": [
+        "BURN PM - Monthly",
+        "TURMERIC BLACK - Three Bottle (Discounted 50)",
+        "Recipe Guide $14.95"
+    ],
+    "skipAllFunnels": ["Recipe Guide $14.95"],
+    "firstName": "recipeGuide",
+    "lastName": "leV2Shred",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postalCode": "89158",
+    "postcode": "89158",
+    "phoneNumber": "7022120785",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

@@ -1,0 +1,46 @@
+{
+    "landingPage": {
+        "sn_endpoint": "/products",
+        "surveyUrl": "/sp/survey/survey-aka1-v3?g=female&ref=home",
+        "surveyga": "/sp/survey/survey-ga",
+        "surveygahash": "/sp/survey/survey-ga#",
+        "surveyaka1": "/sp/survey/survey-aka1-v3?g=female&ref=home",
+        "flbtv5": "/sp/survey/results-female-fl-bt-v5",
+        "fbkcpcv3": "/sp/survey/fbk-cpc-v3",
+        "fbkcpcv5": "/sp/survey/fbk-cpc-v5",
+        "surveyaka1v13": "/sp/survey/survey-aka1-v13",
+        "fbkcpc": "/sp/survey/fbk-cpc",
+        "aka1hash": "/sp/survey/survey-aka1#",
+        "fbkcpcv2": "/sp/survey/fbk-cpc-v2",
+        "burnpmflefbkcpcecov5": "/sp/burn/burnpm-fle-fbk-cpc-eco-v5",
+        "burnfbkcpc": "/sp/burn-evolved/burn-fbk-cpc",
+        "testrippedfbkcpcecobb": "/sp/test-boost-max/test-ripped-fbk-cpc-eco-bb",
+        "tumericflefbkcpc": "/sp/turmeric-black/turmeric-fle-fbk-cpc",
+        "testrippedgglcpc": "/sp/test-boost-max/test-ripped-ggl-cpc",
+        "tumericflefbkcpcv3": "/sp/turmeric-black/turmeric-fle-fbk-cpc-v3",
+        "testrippedfbkcpceconbb": "/sp/test-boost-max/test-ripped-fbk-cpc-eco-nbb",
+        "burnfilefbkcpcv4": "/sp/burn-fle/burn-fle-fbk-cpc-v4",
+        "specialofferecofbkcpc": "/sp/newyears/special-offer-eco-fbk-cpc",
+        "burnevolvedfbkcpcv19": "/sp/survey/burn-evolved-fbk-cpc-v19",
+        "testrippedfbkcpceco": "/sp/test-boost-max/test-ripped-fbk-cpc-eco",
+        "testrippedfbkcpc": "/test-ripped-fbk-cpc",
+        "burnga": "/burn-ga",
+        "sculptnation": "#",
+        "fbkcpcv1": "/sp/test-boost-max/fbk-cpc-v1",
+        "testrippedfbkcpceconbbv2": "/sp/test-boost-max/test-ripped-fbk-cpc-eco-nbb-v2",
+        "burnpmflegglshopbndcpc": "/sp/burn/burnpm-fle-ggl-shop-bnd-cpc",
+        "femaleGT": "/sp/survey/female-gt"
+    },
+    "vshredPixelDetail": {
+        "internal": "CCTEP6JC77U4AGK4P470",
+        "kendago": "C0CT661F9F46QGH8DUO0"
+    },
+    "sculptNationPixelDetail": {
+        "internal": "C1Q6Q16HLSU5AAHCLJT0",
+        "kendago": "0000000",
+        "event_id": ""
+    },
+    "tracking_url": "https://analytics.tiktok.com/api/v2/pixel",
+    "interceptNameKendago": "pageviewTwitterKendago",
+    "interceptNameInternal": "pageviewTwitterInternal"
+}

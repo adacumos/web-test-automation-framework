@@ -1,0 +1,44 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/custom-diet-plan/reup",
+        "checkoutUrl": "custom-diet-plan-monthly-reup",
+        "productDescription": "Silver Custom Diet Plan (4 Week Re-up)",
+        "productPrice": "$47.00 USD",
+        "productBundle": [
+            "Silver Custom Diet Plan (4 Week Re-up)",
+            "Custom Diet Plan",
+            "Unlimited Email Support From Your Coach",
+            "Email Check-In's with Your Coach",
+            "FREE Supplement Guide"
+        ]
+    },
+    "Greens": {
+        "funnelUrl": "special-offer-coupon-3"
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs"
+    },
+    "trainerData": {
+        "assignedTrainer": "Trainer Two",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-two@example.com",
+        "trainerPassw": "asdfasdf"
+    },
+    "cdpSilver": [
+        "VSU All-Access Monthly - $9.95 (7-Day Free Trial)",
+        "Silver Custom Diet Plan (4 Week Re-up)"
+    ],
+    "firstName": "silver",
+    "lastName": "CustomPlan",
+    "clientName": "silver CustomPlan",
+    "phoneNumber": "7022120785",
+    "postalCode": "89120"
+}

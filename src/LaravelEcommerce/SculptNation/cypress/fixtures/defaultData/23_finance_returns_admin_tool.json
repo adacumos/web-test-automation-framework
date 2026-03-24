@@ -1,0 +1,12 @@
+{
+    "returnsURL": "/nova/resources/order-returns",
+    "orderID": "1",
+    "order": "44 | USD $12.34",
+    "reason": "test_reason",
+    "status": "new",
+    "baseCurrencyAmount": "$0.00",
+    "amount": "$0.00",
+    "createdReturn": "Test",
+    "updatedReturn": "Test1",
+    "orderID1": "39"
+}

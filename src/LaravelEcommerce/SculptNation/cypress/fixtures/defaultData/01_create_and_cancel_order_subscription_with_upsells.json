@@ -1,0 +1,40 @@
+{
+    "productLandingPage": {
+        "productName": "BURN PM",
+        "productUrl": "burn-pm",
+        "oneBottlePrice": "$41.00",
+        "sixBottlePrice": "$32.50",
+        "threeBottlePrice": "$44.00"
+    },
+    "cartDetails": {
+        "productName": "BURN PM - Monthly",
+        "quantity": "1",
+        "subtotal": "$41.00",
+        "shipping": "$9.95",
+        "salesTax": "$3.43",
+        "totalPrice": "$54.38"
+    },
+    "orderDetails": {
+        "firstItemOrderStatus": "fulfilled",
+        "secondItemOrderStatus": "fulfilled",
+        "thirdItemOrderStatus": "fulfilled",
+        "firstItemOrderTotal": "$44.43",
+        "secondItemOrderTotal": "$44.43",
+        "thirdItemOrderTotal": "$54.38",
+        "firstSubscriptionName": "TURMERIC BLACK - Monthly",
+        "secondSubscriptionName": "BURN EVOLVED 2.0 - Monthly",
+        "thirdSubscriptionName": "BURN PM - Monthly",
+        "firstSubscriptionPricePerMonth": "$41.00 / month",
+        "secondSubscriptionPricePerMonth": "$41.00 / month",
+        "thirdSubscriptionPricePerMonth": "$50.95 / month"
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785"
+}

@@ -1,0 +1,78 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": ["/sp/survey/survey-ga"]
+    },
+    "pixelDetail": {
+        "pageview": {
+            "twitter": {
+                "internal": "ojfa3",
+                "kendago": "o34da"
+            }
+        },
+        "quizcompleted": {
+            "eventId": "EEquizCompleted",
+            "gtm": {
+                "internal": "XB3RCPW6idIDEN_Ro80B",
+                "kendago": "BfGFCMyA1IcBEISN_88D"
+            },
+            "twitter": { "internal": "tw-ojfa3-ojfy3" }
+        },
+        "addtocart": {
+            "eventId": "EEaddToCart",
+            "gtm": {
+                "internal": "EGWuCJr46vAYEN_Ro80B",
+                "kendago": "zUntCP2664cBEISN_88D"
+            },
+            "twitter": {
+                "internal": "tw-ojfa3-ojfxz",
+                "kendago": "tw-o34da-oca2c"
+            }
+        },
+        "startCheckout": {
+            "eventId": "EEcheckoutStart",
+            "gtm": {
+                "internal": "EGWuCJr46vAYEN_Ro80B",
+                "kendago": "zUntCP2664cBEISN_88D"
+            },
+            "twitter": {
+                "internal": "tw-ojfa3-ojfxz",
+                "kendago": "tw-o34da-oca2c"
+            }
+        },
+        "purchase": {
+            "eventId": "EEpurchase",
+            "gtm": {
+                "internal": "axG-CPv9w_UBEN_Ro80B",
+                "kendago": "bGdJCP2L4ocBEISN_88D"
+            },
+            "value": "57.00",
+            "twitter": {
+                "internal": "tw-ojfa3-ojfxw",
+                "kendago": "tw-o34da-oca2f"
+            }
+        },
+        "upsell": {
+            "eventId": "EEupsell",
+            "gtm": {
+                "internal": "SnqSCPyG6_AYEN_Ro80B",
+                "kendago": ""
+            },
+            "value": "57.00"
+        }
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn"
+    },
+    "Burn 3B": {
+        "funnelUrl": "burn-3bo"
+    },
+    "firstName": "twitterPixel",
+    "lastName": "surveyga",
+    "clientName": "twitterPixel surveyGa",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

@@ -1,0 +1,38 @@
+{
+    "videoReference": {
+        "videoUrl": "sp/fat-loss-extreme-women/fbk-cpc"
+    },
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc",
+        "checkoutUrl": "fat-loss-extreme-bundle-f-bt",
+        "productDescription": "Fat Loss Extreme for Her $57",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme for Her",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder"
+        ]
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": ["Fat Loss Extreme for Her $57"],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn"
+    },
+    "cdpBurnFunnel": ["Fat Loss Extreme for Her $57"],
+    "firstName": "klaviyoTest",
+    "lastName": "vs-video",
+    "clientName": "fleHer vs-video",
+    "country": "United States",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postcode": "89120",
+    "phoneNumber": "7022120785",
+    "postalCode": "89120"
+}

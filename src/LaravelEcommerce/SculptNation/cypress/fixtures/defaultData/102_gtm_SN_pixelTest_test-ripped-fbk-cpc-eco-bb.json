@@ -1,0 +1,58 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "sp/test-boost-max/test-ripped-fbk-cpc-eco-bb",
+        "productDescription": "SECRET STACK - Test Boost Max 2.0 (2) + Burn Evolved 2.0 (2) (FREE)",
+        "checkoutUrl": "tbm-test-boost-max-us",
+        "productPrice": "$89.00 USD",
+        "productBundle": [
+            "SECRET STACK - Test Boost Max 2.0 (2)",
+            "Burn Evolved 2.0 (2)",
+            "R90 days (FREE)",
+            "V Shred Shaker Cup (FREE)"
+        ]
+    },
+    "pixelDetail": {
+        "startcheckout": {
+            "eventId": "EEcheckoutStart",
+            "gtm": {
+                "internal": "SiArCKW0sNoDEInM_aEC",
+                "kendago": "UvCjCOm8tswYEPOXs9IC"
+            }
+        },
+        "addtocart": {
+            "eventId": "EEaddToCart",
+            "gtm": {
+                "internal": "SiArCKW0sNoDEInM_aEC",
+                "internalvsl": "sduVCNSW0t4DEMjU0too"
+            }
+        },
+        "purchase": {
+            "eventId": "EEpurchase",
+            "gtm": {
+                "internal": "flfzCOnt-NkBEInM_aEC",
+                "kendago": "ZCHOCLq4tcwYEPOXs9IC"
+            },
+            "value": "106.40"
+        },
+        "upsell": {
+            "eventId": "EEupsell",
+            "gtm": {
+                "internal": "jzBKCL3boNoDEInM_aEC"
+            },
+            "value": "87.00"
+        },
+        "viewOffer": {
+            "eventId": "EEviewOffer"
+        }
+    },
+    "firstName": "Pixel Gtm",
+    "lastName": "Secret Stack",
+    "clientName": "PixelGtm SecretStack",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

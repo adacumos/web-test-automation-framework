@@ -1,0 +1,26 @@
+{
+    "checkoutForm": {
+        "checkoutUrl": "/secure-checkout?offer_skus=bun_c8ce2e6207cd384c&funnel=survey-lp-results-funnel-burn-cs-fm-v1",
+        "offerBundle": ["Fat Loss Extreme for Her $57"]
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs"
+    },
+
+    "productName": "Fat Loss Extreme for Her $57",
+    "productPrice": "$57.00",
+    "productQuantity": "1",
+    "productTax": "$0.00",
+    "totalAmount": "$57.00.",
+    "shippingOption": "",
+    "orderTransaction": {
+        "orderItem": "Fat Loss Extreme for Her"
+    },
+    "clientName": "QA Automation",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postalCode": "89158",
+    "phone": "7022120785"
+}

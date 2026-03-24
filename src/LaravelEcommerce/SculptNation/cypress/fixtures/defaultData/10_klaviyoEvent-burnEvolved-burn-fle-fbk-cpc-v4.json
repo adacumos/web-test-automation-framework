@@ -1,0 +1,32 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/burn-fle/burn-fle-fbk-cpc-v4",
+        "offerBundle": ["BURN EVOLVED 2.0"]
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": [
+            "BURN PM - Monthly",
+            "BURN EVOLVED 2.0 - 6-Bottle Upgrade",
+            "BURN EVOLVED 2.0 (3) + Fat Loss Extreme FREE"
+        ],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "threeBottle-SelectedFunnelsOnly": [
+        "BURN PM - Monthly",
+        "BURN EVOLVED 2.0 - 6-Bottle Upgrade",
+        "BURN EVOLVED 2.0 (3) + Fat Loss Extreme FREE"
+    ],
+    "firstName": "LE PageMove",
+    "lastName": "BV20-OfferPage",
+    "clientName": "Klaviyo BurnFLEv4",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "702-212-0785"
+}

@@ -1,0 +1,40 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "sp/survey/burn-evolved-fbk-cpc-v19"
+    },
+    "offerLandingPage": {
+        "pageUrl": "sp/burn-evolved/burn-fbk-cpc",
+        "offerBundle": ["BURN EVOLVED", "Fat Loss Extreme"]
+    },
+    "funnelOfferUrl": ["burn-us", "burn-pm-cs", "turmeric-cs", "enzymes-cs"],
+    "oneBottle-SelectedFunnelsOnly": [
+        "Custom Diet Plan - 4 weeks",
+        "BURN PM - One Bottle (Discounted)",
+        "BURN EVOLVED 2.0 + Fat Loss Extreme FREE"
+    ],
+    "sixBottle-SelectedFunnelsOnly": [
+        "BURN PM - Twelve Bottle (Discounted)",
+        "BURN EVOLVED 2.0 - 6-Bottle Upgrade",
+        "BURN EVOLVED 2.0 (6) + Fat Loss Extreme FREE"
+    ],
+    "threeBottle-SelectedFunnelsOnly": [
+        "ENZYMES - Three Bottle (Discounted 50)",
+        "TURMERIC BLACK - Three Bottle (Discounted 50)",
+        "BURN EVOLVED 2.0 (3) + Fat Loss Extreme FREE"
+    ],
+    "firstName": "Secret",
+    "lastName": "Stack_nBB",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "stateI": "NV",
+    "state": "Nevada",
+    "postcode": "89103",
+    "phone": "702-212-0785",
+    "phone1": "7022120785",
+    "name": "tonedSkinny",
+    "clientName": "tonedSkinny surveyGa",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

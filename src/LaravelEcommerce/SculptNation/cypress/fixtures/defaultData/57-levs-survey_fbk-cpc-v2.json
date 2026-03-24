@@ -1,0 +1,22 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc-v2"
+    },
+    "checkoutOffers": {
+        "Toned In 90 Days": {
+            "checkoutUrl": "bun_59eb9f8317f1b&funnel=survey-lp-results-funnel-burn-cs-fm",
+            "offerTitle": "Toned In 90 Days",
+            "offerPrice": "$57"
+        },
+        "Fat Loss Extreme for Her": {
+            "checkoutUrl": "bun_c8ce2e6207cd384c",
+            "offerTitle": "Fat Loss Extreme for Her",
+            "offerPrice": "$57"
+        },
+        "Toned Skinny": {
+            "checkoutUrl": "toned-in-90-days-bundle-bt-f3",
+            "offerTitle": "Toned In 90 Days $57",
+            "offerPrice": "$57"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc-v3",
+        "checkoutUrl": "fat-loss-extreme-bundle-bt-f3",
+        "productDescription": "Fat Loss Extreme for Him $57",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme for Him $57",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "Big Arms Program"
+        ]
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": [
+            "Ultimate Fat Loss Recipes Collection",
+            "VSU - Monthly 9.95 (30-Day Trial)",
+            "BURN PM - Monthly",
+            "BURN EVOLVED 2.0 - 6-Bottle Upgrade",
+            "BURN EVOLVED 2.0 - 3 bottles",
+            "Custom Diet Plan",
+            "Fat Loss Extreme for Him $57"
+        ],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs"
+    },
+    "selectAllFunnels": [
+        "Ultimate Fat Loss Recipes Collection",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM - Monthly",
+        "BURN EVOLVED 2.0 - 6-Bottle Upgrade",
+        "BURN EVOLVED 2.0 - 3 bottles",
+        "Custom Diet Plan",
+        "Fat Loss Extreme for Him $57"
+    ],
+
+    "firstName": "fatlossHim",
+    "lastName": "vsurvey-fbk-cpc-v3",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

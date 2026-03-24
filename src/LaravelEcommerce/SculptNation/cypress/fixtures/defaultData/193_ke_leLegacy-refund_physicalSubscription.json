@@ -1,0 +1,34 @@
+{
+    "productLandingPage": {
+        "productName": "MULSCLE BUILDING STACK",
+        "productUrl": "muscle-building-stack",
+        "subscriptionPrice": "$95.00",
+        "threeBottlePrice": "$110.00"
+    },
+    "subscription": {
+        "cartDetails": {
+            "productName": "Muscle Building Stack TB2 - Monthly",
+            "quantity": "1",
+            "subtotal": "$95.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$5.94",
+            "totalPrice": "$110.89"
+        }
+    },
+    "orderTransaction": {
+        "orderItem": "Creatine Fruit Punch - Monthly",
+        "refundReason": "Ordered By Mistake"
+    },
+    "klaviyoEventSummary": {
+        "refundedOrder": ["Creatine Fruit Punch - Monthly"]
+    },
+
+    "firstName": "refundSubs",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "55321 Address Lane",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "702-212-0785"
+}

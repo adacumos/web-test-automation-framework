@@ -1,0 +1,41 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga?show=5366",
+        "checkoutUrl": "fat-loss-extreme-bundle-bt-f3",
+        "productDescription": "Fat Loss Extreme for Him $57",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme for Him $57",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "Big Arms Program"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-m-v1?"
+    },
+    "Burn Upgrade": {
+        "funnelUrl": "burn-us-bt-f3?"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs"
+    },
+    "selectSomeFunnels": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Ultimate Fat Loss Recipes Collection",
+        "Custom Diet Plan",
+        "Fat Loss Extreme for Him $57"
+    ],
+    "firstName": "fatLossHim",
+    "lastName": "vsSurvey-ga",
+    "clientName": "fatLossHim surveyGa",
+    "country": "AUS",
+    "address": "22 Denison Road",
+    "city": "Balnarring",
+    "state": "Victoria",
+    "postalCode": "3926",
+    "phoneNumber": "7022120785"
+}

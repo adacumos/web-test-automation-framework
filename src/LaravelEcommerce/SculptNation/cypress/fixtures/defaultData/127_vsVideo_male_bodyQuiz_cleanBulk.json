@@ -1,0 +1,41 @@
+{
+    "videoReference": {
+        "videoUrl": "/sp/survey/fbk-cpc"
+    },
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc",
+        "checkoutUrl": "clean-bulk-program-bt-f3",
+        "productDescription": "Clean Bulk",
+        "productPrice": "$87.00 USD",
+        "productBundle": [
+            "Clean Bulk Program",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "Big Arms Program"
+        ]
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": ["Custom Diet Plan", "Clean Bulk $87"],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": ["Trainer Two"]
+    },
+    "cdpBumper": ["Custom Diet Plan", "Clean Bulk $87"],
+    "trainerData": {
+        "assignedTrainer": "Trainer Two",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-two@example.com",
+        "trainerPassw": "asdfasdf"
+    },
+    "firstName": "cleanBulk",
+    "lastName": "vsSurvey",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

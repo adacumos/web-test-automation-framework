@@ -1,0 +1,114 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/results-female-fl-bt-v5",
+        "productDescription": "Fat Loss Extreme for Her $57",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme for Her",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder"
+        ]
+    },
+
+    "orderList": [
+        "Greens",
+        "VSU",
+        "Burn PM",
+        "Burn Evolved",
+        "Fat Loss Extreme for Her $57"
+    ],
+
+    "cdpBumper": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN EVOLVED 2.0 - 3 bottles",
+        "Custom Diet Plan",
+        "Fat Loss Extreme for Her $57"
+    ],
+    "refundOrder": {
+        "refundItem": "Custom Diet Plan",
+        "refundReason": "CDP - Changed Mind (Plan Not Sent)"
+    },
+    "Greens": {
+        "funnelUrl": "special-offer-coupon-3",
+        "offerDescription": "GREENS REGULAR - DISCOUNTED",
+        "offerPrice": "$42.27",
+        "offerName": "GREENS REGULAR - DISCOUNTED",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$39.00",
+        "taxAmount": "$3.27",
+        "refundableAmount": "$42.27"
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer-f-bt-f3",
+        "offerDescription": "VSU - Monthly 9.95 (30-Day Trial)",
+        "offerPrice": "$0.00",
+        "offerName": "VSU - Monthly 9.95 (30-Day Trial)",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$0.00",
+        "taxAmount": "$0.00",
+        "refundableAmount": "$0.00"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs-f-v1",
+        "offerDescription": "BURN PM - Monthly",
+        "offerPrice": "$44.43",
+        "offerName": "BURN PM - Monthly",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$41.00",
+        "taxAmount": "$3.43",
+        "refundableAmount": "$44.43"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-fm-v1",
+        "offerDescription": "BURN EVOLVED 2.0 - Monthly",
+        "offerPrice": "$44.43",
+        "offerName": "BURN EVOLVED 2.0 - Monthly",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$41.00",
+        "taxAmount": "$3.43",
+        "refundableAmount": "$44.43"
+    },
+    "Fat Loss Extreme for Her $57 Bundle": {
+        "funnelUrl": "results-femaile-fl-bt-v5",
+        "offerDescription": "Fat Loss Extreme for Her $57 Bundle Custom Diet Plan - 4 weeks",
+        "offerPrice": "$106.00",
+        "offerName": "Fat Loss Extreme for Her $57 Bundle",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$57.00",
+        "taxAmount": "$0.00",
+        "refundableAmount": "$57.00"
+    },
+    "Custom Diet Plan - 4 weeks": {
+        "funnelUrl": "results-femaile-fl-bt-v5",
+        "offerDescription": "Custom Diet Plan - 4 weeks",
+        "offerPrice": "$49.00",
+        "offerName": "Custom Diet Plan - 4 weeks",
+        "orderQuantity": 1,
+        "baseCurrencyAmount": "$49.00",
+        "taxAmount": "$0.00",
+        "refundableAmount": "$49.00"
+    },
+    "trainerData": {
+        "assignedTrainer": "Trainer Two",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-two@example.com"
+    },
+    "orderTransaction": {
+        "orderItem": "Custom Diet Plan",
+        "refundReason": "CDP - Changed Mind (Plan Not Sent)"
+    },
+    "firstName": "fatlossHer",
+    "lastName": "cdpRefund",
+    "address": "4530 South Decatur Boulevard",
+    "city": "Las vegas",
+    "state": "Nevada",
+    "postalCode": "89103",
+    "phoneNumber": "7021231234",
+    "cardNumber": "4111111111111111",
+    "expireMonth": "10",
+    "expireYear": "2029",
+    "cvv": "321"
+}

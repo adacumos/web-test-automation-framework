@@ -1,0 +1,39 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc-v3",
+        "checkoutUrl": "fat-loss-extreme-bundle-f-bt-f3",
+        "productDescription": "Fat Loss Extreme for Her $57",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Ripped In 90 Days",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "Big Arms Program"
+        ]
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": ["Fat Loss Extreme for Her $57"],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-fm-v1"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs-f-v1"
+    },
+    "skipAllFunnels": ["Fat Loss Extreme for Her $57"],
+    "firstName": "fatlossHer",
+    "lastName": "vsurvey-fbk-cpc-v3",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

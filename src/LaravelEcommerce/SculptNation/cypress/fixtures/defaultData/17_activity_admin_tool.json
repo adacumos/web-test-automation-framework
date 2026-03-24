@@ -1,0 +1,19 @@
+{
+    "refundURL": "/nova/resources/orders/lens/sales-agent-activity",
+    "ordersURL": "/nova/resources/orders",
+    "adminPage": {
+        "tableHeader": [
+            "Order",
+            "Payment Status",
+            "Gross",
+            "Net",
+            "Refunded",
+            "Campaign",
+            "Call Type/Medium",
+            "Offers",
+            "Sales Agent",
+            "Shipping Country",
+            "Created At"
+        ]
+    }
+}

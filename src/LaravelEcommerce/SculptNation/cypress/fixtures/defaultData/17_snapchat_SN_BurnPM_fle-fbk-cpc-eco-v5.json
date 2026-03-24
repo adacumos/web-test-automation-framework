@@ -1,0 +1,36 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/burn/burnpm-fle-fbk-cpc-eco-v5"
+    },
+    "event": {
+        "addtocart": "ADD_CART",
+        "startCheckout": "START_CHECKOUT",
+        "pageview": "PAGE_VIEW",
+        "quizCompleted": "CUSTOM_EVENT_1",
+        "purchase": "PURCHASE",
+        "amount": "49.00"
+    },
+    "snapchatID": {
+        "internal": "2f77702f-bf42-4bcf-9c0f-b1020cdc2454",
+        "kendago": "dd4164d5-df97-489f-9239-a9c8932e1ff6"
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer-bt"
+    },
+    "Burn 3B": {
+        "funnelUrl": "burn-3bo"
+    },
+    "name": "tonedSkinny",
+    "firstName": "tonedSkinny",
+    "lastName": "vsSurvey-ga",
+    "clientName": "tonedSkinny surveyGa",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "postalCode": "89158",
+    "phone": "7022120785",
+    "phoneNumber": "7022120785"
+}

@@ -1,0 +1,38 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/turmeric-black/turmeric-fle-fbk-cpc",
+        "offerBundle": ["TURMERIC BLACK"]
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": [
+            "Special Offer Coupon - Greens",
+            "Custom Diet Plan - 4 weeks",
+            "BURN PM - Monthly",
+            "BURN EVOLVED 2.0 - Monthly",
+            "TURMERIC BLACK - Six Bottle (Discounted 50)",
+            "TURMERIC BLACK (3) + Fat Loss Extreme FREE"
+        ],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "threeBottle-SelectAllFunnels": [
+        "Special Offer Coupon - Greens",
+        "Custom Diet Plan - 4 weeks",
+        "BURN PM - Monthly",
+        "BURN EVOLVED 2.0 - Monthly",
+        "TURMERIC BLACK - Six Bottle (Discounted 50)",
+        "TURMERIC BLACK (3) + Fat Loss Extreme FREE"
+    ],
+    "firstName": "Turmeric",
+    "lastName": "KlaviyoEvent",
+    "clientName": "Klaviyo Turmeric-fbk-cpc",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

@@ -1,0 +1,46 @@
+{
+    "productLandingPage": {
+        "productName": "BURN EVOLVED 2.0",
+        "productUrl": "burn-evolved",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$195.50",
+        "threeBottlePrice": "$132.00"
+    },
+
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "BURN EVOLVED 2.0",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$4.09",
+            "totalPrice": "$53.09"
+        }
+    },
+    "itemSKUs": [
+        {
+            "quantity": 7,
+            "sku": "10-011001-90-000-30"
+        },
+        {
+            "quantity": 1,
+            "sku": "10-011005-90-000-30"
+        },
+        {
+            "quantity": 1,
+            "sku": "10-011003-90-000-30"
+        },
+        {
+            "quantity": 1,
+            "sku": "10-014002-91-800-30"
+        }
+    ],
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785"
+}

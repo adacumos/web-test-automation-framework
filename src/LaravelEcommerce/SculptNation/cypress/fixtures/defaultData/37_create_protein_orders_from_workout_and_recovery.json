@@ -1,0 +1,110 @@
+{
+    "productLandingPage": {
+        "productName": "Protein",
+        "productUrl": "protein",
+        "oneBottlePrice": "$47.00",
+        "sixBottlePrice": "$228.00",
+        "threeBottlePrice": "$120.00",
+        "productFlavor": "Chocolate"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "PROTEIN - CHOCOLATE - Monthly",
+            "quantity": "1",
+            "subtotal": "$40.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.35",
+            "totalPrice": "$43.35"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27",
+            "secondItemOrderTotal": "$34.68",
+            "thirdItemOrderTotal": "$34.68",
+            "fourthItemOrderTotal": "$53.30",
+            "firstSubscriptionName": "POST WORKOUT - Monthly",
+            "secondSubscriptionName": "PRE WORKOUT - FRUIT PUNCH - Monthly",
+            "thirdSubscriptionName": "PROTEIN - CHOCOLATE - Monthly",
+            "firstSubscriptionPricePerMonth": "$32.00 / month",
+            "secondSubscriptionPricePerMonth": "$32.00 / month",
+            "thirdSubscriptionPricePerMonth": "$49.95 / month"
+        }
+    },
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "PROTEIN",
+            "quantity": "1",
+            "subtotal": "$47.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.94",
+            "totalPrice": "$50.94"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$40.10 for 1 items",
+            "thirdItemOrderTotal": "$40.10 for 1 items",
+            "fourthItemOrderTotal": "$195.08 for 1 items",
+            "fifthItemOrderTotal": "$60.89 for 1 items"
+        }
+    },
+    "sixBottle": {
+        "cartDetails": {
+            "productName": "PROTEIN - CHOCOLATE - Six Bottle",
+            "quantity": "1",
+            "subtotal": "$228.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$19.10",
+            "totalPrice": "$247.10"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$198.33 for 1 items",
+            "thirdItemOrderTotal": "$198.33 for 1 items",
+            "fourthItemOrderTotal": "$257.05 for 1 items"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "PROTEIN - CHOCOLATE - Three Bottle",
+            "quantity": "1",
+            "subtotal": "$120.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$10.05",
+            "totalPrice": "$130.05"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$107.29 for 1 items",
+            "thirdItemOrderTotal": "$107.29 for 1 items",
+            "fourthItemOrderTotal": "$195.08 for 1 items",
+            "fifthItemOrderTotal": "$140.00 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785"
+}

@@ -1,0 +1,37 @@
+# Customize dependencies version updates
+version: 2
+updates:
+    # yarn dependencies
+    - package-ecosystem: 'npm'
+      directory: '/'
+      schedule:
+          interval: 'daily'
+          time: '06:00'
+      labels:
+          - 'yarn dependencies'
+      commit-message:
+          prefix: '[yarn] dependencies updated'
+          include: 'scope'
+      open-pull-requests-limit: 10
+      pull-request-branch-name:
+          separator: '-'
+      reviewers:
+          - 'RazvanVuscan'
+          - 'NpittsPriv'
+          - 'arvindacumos'
+          - 'surekhap-vshred'
+          - 'DannyM-Vshred'
+      versioning-strategy: increase
+      # specify which dependencies to maintain
+      allow:
+          # - dependency-name: 'lint*'
+          #   dependency-type: 'development'
+          # - dependency-name: 'prettier'
+          #   dependency-type: 'development'
+          - dependency-name: 'cypress*'
+      # specify which dependencies to ignore
+      # ignore:
+      #     - dependency-name: 'cypress'
+      #       versions: ['4.x', '5.x'] # For cypress, ignore all updates for version 4 and 5
+      #     - dependency-name: '*'
+      #       update-types: ['version-update:semver-patch'] # For all packages, ignore all patch updates

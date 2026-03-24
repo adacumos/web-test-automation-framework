@@ -1,0 +1,41 @@
+{
+    "offerLandingPage": {
+        "checkoutUrl": "/vshred-order?"
+    },
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/the-booty-builder",
+        "checkoutUrl": "the-booty-builder",
+        "productDescription": "The Booty Builder and FREE Bonuses",
+        "productPrice": "$34.95 USD",
+        "productBundle": ["The Booty Builder", "FREE Supplement Guide"]
+    },
+    "skipAllFunnels": ["The Booty Builder"],
+    "selectAllFunnels": [
+        "GREENS REGULAR - DISCOUNTED",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Custom Diet Plan",
+        "The Booty Builder"
+    ],
+    "selectSomeFunnels": [
+        "Custom Diet Plan - 4 weeks",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "The Booty Builder"
+    ],
+
+    "firstName": "bootyBuilder",
+    "lastName": "vsPrograms",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785",
+    "shippingFirstName": "bootyBuilder",
+    "shippingLastName": "vsPrograms",
+    "shippingStreet": "4530 S Decatur Blvd",
+    "shippingCity": "Las Vegas",
+    "shippingPostalCode": "89103",
+    "shippingState": "NV",
+    "shippingCountry": "United States",
+    "shippingPhone": "8153211010"
+}

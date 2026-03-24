@@ -1,0 +1,42 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-aka1-v13"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-m-v1"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs-m-v2"
+    },
+    "skipAllFunnels": ["Fat Loss Extreme for Him $57"],
+    "selectSomeFunnels": [
+        "Fat Loss Extreme for Him $57",
+        "Custom Diet Plan",
+        "BURN EVOLVED 2.0 - 6 bottles",
+        "Ultimate Fat Loss Recipes Collection"
+    ],
+    "selectAllFunnels": [
+        "Fat Loss Extreme for Him $57",
+        "Custom Diet Plan",
+        "BURN EVOLVED 2.0 - 6 bottles",
+        "BURN PM - Six Bottle",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Ultimate Fat Loss Recipes Collection"
+    ],
+    "firstName": "Web",
+    "lastName": "Automation",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785",
+    "shippingFirstName": "Web",
+    "shippingLastName": "Automation",
+    "shippingStreet": "4530 S Decatur Blvd",
+    "shippingCity": "Las Vegas",
+    "shippingPostalCode": "89103",
+    "shippingState": "NV",
+    "shippingCountry": "United States",
+    "shippingPhone": "8153211010"
+}

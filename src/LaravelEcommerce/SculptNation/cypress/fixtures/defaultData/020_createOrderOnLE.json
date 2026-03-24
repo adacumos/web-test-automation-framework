@@ -1,0 +1,34 @@
+{
+    "productLandingPage": {
+        "productName": "BURN PM",
+        "productUrl": "burn-pm",
+        "oneBottlePrice": "$41.00",
+        "sixBottlePrice": "$32.50",
+        "threeBottlePrice": "$44.00"
+    },
+
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "BURN PM",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$2.65",
+            "totalPrice": "$61.60"
+        }
+    },
+
+    "orderSalesTax": {
+        "itemList": ["BURN PM"],
+        "leTaxList": ["$2.65"]
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "95-181 Wainaku Pl",
+    "city": "Mililani",
+    "state": "HI",
+    "postcode": "96789",
+    "phone": "702-212-0785"
+}

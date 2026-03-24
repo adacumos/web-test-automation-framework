@@ -1,0 +1,109 @@
+{
+    "productLandingPage": {
+        "productName": "TURMERIC BLACK",
+        "productUrl": "turmeric-black",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$195.50",
+        "threeBottlePrice": "$132.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "TURMERIC BLACK - Monthly",
+            "quantity": "1",
+            "subtotal": "$41.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.43",
+            "totalPrice": "$44.43"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27",
+            "secondItemOrderTotal": "$44.43",
+            "thirdItemOrderTotal": "$44.43",
+            "fourthItemOrderTotal": "$54.38",
+            "firstSubscriptionName": "BURN PM - Monthly",
+            "secondSubscriptionName": "BURN EVOLVED 2.0 - Monthly",
+            "thirdSubscriptionName": "TURMERIC BLACK - Monthly",
+            "firstSubscriptionPricePerMonth": "$41.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.00 / month",
+            "thirdSubscriptionPricePerMonth": "$50.95 / month"
+        }
+    },
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "TURMERIC BLACK",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$4.10",
+            "totalPrice": "$53.10"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$44.43 for 1 items",
+            "thirdItemOrderTotal": "$44.43 for 1 items",
+            "fourthItemOrderTotal": "$156.06 for 1 items",
+            "fifthItemOrderTotal": "$63.05 for 1 items"
+        }
+    },
+    "sixBottle": {
+        "cartDetails": {
+            "productName": "TURMERIC BLACK - Six Bottle",
+            "quantity": "1",
+            "subtotal": "$195.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$16.33",
+            "totalPrice": "$211.33"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$211.33 for 1 items",
+            "thirdItemOrderTotal": "$211.33 for 1 items",
+            "fourthItemOrderTotal": "$221.28 for 1 items"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "TURMERIC BLACK - Three Bottle",
+            "quantity": "1",
+            "subtotal": "$132.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$11.06",
+            "totalPrice": "$143.06"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$106.21 for 1 items",
+            "thirdItemOrderTotal": "$143.06 for 1 items",
+            "fourthItemOrderTotal": "$156.06 for 1 items",
+            "fifthItemOrderTotal": "$153.01 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785"
+}

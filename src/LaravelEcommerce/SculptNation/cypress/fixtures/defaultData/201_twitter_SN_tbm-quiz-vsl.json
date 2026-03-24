@@ -1,0 +1,31 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/test-boost-max/quiz-vsl"
+    },
+    "event": {
+        "addtocart": "AddToCart",
+        "initiateCheckout": "InitiateCheckout",
+        "pageview": "PageView",
+        "purchase": "Purchase",
+        "upsell": "Upsell"
+    },
+    "vshredPixelDetail": {
+        "internal": "C1Q6Q16HLSU5AAHCLJT0",
+        "kendago": "000000"
+    },
+    "sculptNationPixelDetail": {
+        "internal": "C1Q6Q16HLSU5AAHCLJT0",
+        "kendago": "0000000",
+        "event_id": ""
+    },
+    "firstName": "Pixel Gtm",
+    "lastName": "Burn FLE",
+    "clientName": "PixelGtm BurnFLE",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

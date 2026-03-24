@@ -1,0 +1,20 @@
+{
+    "firstName": "QA Automation Test",
+    "lastName": "Create Delete User",
+    "phone": "(617) 389-0046",
+    "address": "4530 South Decatur Boulevard",
+    "address2": "Suite 103",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "country": "United States of America",
+    "postalCode": "89103",
+
+    "offerSku": "Fat Loss Extreme for Him",
+
+    "vsUserInfo": {
+        "Member": {
+            "name": "QA Automation Test",
+            "role": "Member"
+        }
+    }
+}

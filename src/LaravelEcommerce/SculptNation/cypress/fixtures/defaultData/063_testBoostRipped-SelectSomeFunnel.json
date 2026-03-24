@@ -1,0 +1,30 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/test-boost-max/test-ripped-ggl-cpc",
+        "bottleBundle": ["TEST BOOST MAX", "RIPPED IN 90 DAYS"]
+    },
+    "funnelOfferUrl": [
+        "test-boost-max-us",
+        "test-boost-max-ds",
+        "hgh-cs",
+        "creatine-cs",
+        "fl-cdp-us",
+        "special-offer-coupon"
+    ],
+    "sixBottle-selectFunnels": [
+        "GREENS REGULAR - DISCOUNTED",
+        "Custom Diet Plan - 4 weeks",
+        "Creatine Fruit Punch - Monthly",
+        "Test Boost Max 2 - six bottles + Ripped in 90 days"
+    ],
+    "firstName": "TestBoost",
+    "lastName": "Ripped",
+    "clientName": "TestBosst Ripped",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

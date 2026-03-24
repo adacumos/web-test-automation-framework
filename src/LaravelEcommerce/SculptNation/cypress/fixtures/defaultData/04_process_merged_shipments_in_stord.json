@@ -1,0 +1,49 @@
+{
+    "productLandingPage": {
+        "productName": "BURN PM",
+        "productUrl": "burn-pm",
+        "oneBottlePrice": "$41.00",
+        "sixBottlePrice": "$32.50",
+        "threeBottlePrice": "$44.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "BURN PM - Monthly",
+            "quantity": "1",
+            "subtotal": "$41.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$2.56",
+            "totalPrice": "$53.51"
+        }
+    },
+    "ACV": {
+        "productName": "APPLE CIDER VINEGAR GUMMIES",
+        "productUrl": "apple-cider-vinegar-gummies",
+        "productUnitPrice": "$29.00",
+        "bundlePrice": {
+            "one bottle": "$29.00",
+            "six bottle": "$114.00",
+            "three bottle": "$72.00"
+        }
+    },
+    "itemSKUs": [
+        {
+            "quantity": 1,
+            "sku": "10-011005-90-000-30"
+        },
+        {
+            "quantity": 1,
+            "sku": "10-019001-92-801-30"
+        }
+    ],
+
+    "firstName": "QA Automation",
+    "lastName": "Process Merged Shipment",
+    "country": "USA",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785"
+}

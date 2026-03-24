@@ -1,0 +1,40 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc-v3",
+        "checkoutUrl": "toned-in-90-days-bundle-bt-f3",
+        "productDescription": "Toned In 90 Days",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Toned In 90 Days",
+            "Six-Pack Shred",
+            "The Booty Builder"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vshred-university"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm"
+    },
+    "skipAllFunnels": ["Toned In 90 Days $57"],
+    "selectAllFunnels": [
+        "Ultimate Fat Loss Recipes Collection",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM - Monthly",
+        "BURN EVOLVED 2.0 - Monthly",
+        "Custom Diet Plan",
+        "Toned In 90 Days $57"
+    ],
+    "firstName": "tonedAutomation",
+    "lastName": "cpc-fbk-v3",
+    "clientName": "fbk-cpcv3 Automation",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

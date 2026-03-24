@@ -1,0 +1,28 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/test-boost-max/test-ripped-fbk-cpc-eco",
+        "checkoutReference": "sku_test_boost_max2_ripped_be2_cup_49?funnel=tbm-test-boost-max-us-sn",
+        "offerPrice": "$49.00",
+        "offerBundle": ["TEST BOOSTS MAX", "BURN EVOLVED", "RIPPED IN 90 DAYS"]
+    },
+    "funnelOfferUrl": [
+        "test-boost-max-us",
+        "test-boost-max-ds",
+        "hgh-cs",
+        "creatine-cs",
+        "special-offer"
+    ],
+    "selectedFunnelsOnly": [
+        "Creatine Fruit Punch - Three Bottle",
+        "Test Boost Max 2.0 - 3 bottles",
+        "SECRET STACK - Test Boost Max 2.0 (1) + Burn Evolved 2.0 (1) (FREE) + R90 days (FREE) + Blender Bottle (FREE)"
+    ],
+    "firstName": "Bogo",
+    "lastName": "SelectSome",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785"
+}

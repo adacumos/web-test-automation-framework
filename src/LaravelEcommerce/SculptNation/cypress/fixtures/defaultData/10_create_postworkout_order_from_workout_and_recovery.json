@@ -1,0 +1,91 @@
+{
+    "productLandingPage": {
+        "productName": "POST WORKOUT",
+        "productUrl": "post-workout-fruit-punch",
+        "oneBottlePrice": "$37.00",
+        "sixBottlePrice": "$30.50",
+        "threeBottlePrice": "$33.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "POST WORKOUT - Monthly",
+            "quantity": "1",
+            "subtotal": "$32.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$2.00",
+            "totalPrice": "$43.95"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $34.00",
+            "secondItemOrderTotal": "$43.95",
+            "firstSubscriptionName": "PRE WORKOUT - FRUIT PUNCH - Monthly",
+            "secondSubscriptionName": "POST WORKOUT - Monthly",
+            "firstSubscriptionPricePerMonth": "$32.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.95 / month"
+        }
+    },
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "POST WORKOUT",
+            "quantity": "1",
+            "subtotal": "$37.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$2.31",
+            "totalPrice": "$49.26"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $39.31 for 1 items",
+            "secondItemOrderTotal": " $153.00 for 1 items",
+            "thirdItemOrderTotal": "$49.26 for 1 items"
+        }
+    },
+    "sixBottle": {
+        "cartDetails": {
+            "productName": "POST WORKOUT - Six Bottle",
+            "quantity": "1",
+            "subtotal": "$183.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$11.44",
+            "totalPrice": "$204.39"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $194.44 for 1 items",
+            "secondItemOrderTotal": " $204.39 for 1 items"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "POST WORKOUT - Three Bottle",
+            "quantity": "1",
+            "subtotal": "$99.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$6.19",
+            "totalPrice": "$115.14"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $105.19 for 1 items",
+            "secondItemOrderTotal": " $153.00 for 1 items",
+            "thirdItemOrderTotal": "$115.14 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "Test Address",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "702-212-0785"
+}

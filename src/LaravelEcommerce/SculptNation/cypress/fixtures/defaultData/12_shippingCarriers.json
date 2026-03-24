@@ -1,0 +1,22 @@
+{
+    "newCarrier":{
+        "carrierName": "Regress-Carrier",
+        "carrierPriority": "2",
+        "shippingCategory": "Standard Flat Rate"
+    },
+    "landingPage": {
+            "tableHeader": [
+                "ID",
+                "Name",
+                "Priority",
+                "Created At",
+                "Updated At",
+                "Deleted At",
+                "Media"
+            ]
+        },
+        "deleteTestData":{
+            "query": "delete from shipping_carriers where name = $1",
+            "params": "Regress-Carrier"
+        }
+}

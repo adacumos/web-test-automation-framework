@@ -1,0 +1,34 @@
+{
+    "surveyLandingPage": {
+        "landingPage": "https://staging.vshred.com",
+        "checkoutUrl": "six-pack-shred",
+        "productDescription": "Six Pack Shred",
+        "productPrice": "$19.99 USD",
+        "productBundle": ["Six Pack Shred"]
+    },
+    "cdpBumper": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Custom Diet Plan",
+        "Six Pack Shred"
+    ],
+    "cdpFunnel": [
+        "GREENS REGULAR - DISCOUNTED",
+        "Custom Diet Plan - 4 weeks",
+        "Six Pack Shred"
+    ],
+    "trainerData": {
+        "assignedTrainer": "Trainer Two",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-two@example.com"
+    },
+    "clientName": "sixPack vsProgram",
+    "firstName": "sixPack",
+    "lastName": "vsProgram",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

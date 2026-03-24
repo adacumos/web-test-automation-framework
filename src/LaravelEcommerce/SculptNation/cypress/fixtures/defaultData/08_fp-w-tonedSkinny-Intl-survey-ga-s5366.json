@@ -1,0 +1,41 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga?show=5366",
+        "checkoutUrl": "toned-in-90-days-bundle-bt-f3",
+        "productDescription": "Toned In 90 Days $57",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Toned In 90 Days",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-fm-v1"
+    },
+    "Burn 1B Upsell": {
+        "funnelUrl": "burn-1bo-ds"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs-f-v1"
+    },
+    "declineAllFunnel": ["Toned In 90 Days $57"],
+    "selectSomeOffer": [
+        "Ultimate Fat Loss Recipes Collection",
+        "Custom Diet Plan",
+        "Toned In 90 Days $57"
+    ],
+    "firstName": "tonedSkinny",
+    "lastName": "uat-surveyga5366",
+    "clientName": "skinnyFat uat-surveyga5366",
+    "country": "AUS",
+    "address": "22 Denison Road",
+    "city": "Balnarring",
+    "state": "Victoria",
+    "postalCode": "3926",
+    "phoneNumber": "7022120785"
+}

@@ -1,0 +1,25 @@
+{
+    "viewPermission": {
+        "permissionName": "view any user page",
+        "guardName": "nova",
+        "viewRoles": [
+            "Admin",
+            "Developer",
+            "Customer Service",
+            "Sales Agent",
+            "Sales Manager",
+            "Social Media"
+        ]
+    },
+
+    "editPermission": {
+        "permissionName": ["impersonate any user"],
+        "guardName": "nova",
+        "addRoles": ["Trainer", "Customer Service"]
+    },
+    "createNewPermission": {
+        "permissionName": "add comments",
+        "guardName": "nova",
+        "addRoles": ["Sales Agent", "Developer", "Customer Service"]
+    }
+}

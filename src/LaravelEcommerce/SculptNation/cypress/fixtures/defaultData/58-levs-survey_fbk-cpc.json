@@ -1,0 +1,42 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc"
+    },
+    "checkoutOffers": {
+        "Toned In 90 Days": {
+            "checkoutUrl": "toned-in-90-days-bundle-bt-f3",
+            "offerTitle": "Toned In 90 Days",
+            "offerPrice": "$57"
+        },
+        "Female FLE": {
+            "checkoutUrl": "bun_c8ce2e6207cd384c",
+            "offerTitle": "Fat Loss Extreme for Her",
+            "offerPrice": "$57"
+        },
+        "Toned Skinny": {
+            "checkoutUrl": "toned-in-90-days-bundle-bt-f3",
+            "offerTitle": "Toned In 90 Days",
+            "offerPrice": "$57 USD"
+        },
+        "Clean Bulk": {
+            "checkoutUrl": "clean-bulk-program-bt-f3",
+            "offerTitle": "Clean Bulk",
+            "offerPrice": "$87"
+        },
+        "Skinny Ripped": {
+            "checkoutUrl": "ripped-in-90-days-bundle-msf-bt-f3",
+            "offerTitle": "Ripped In 90 Days $57",
+            "offerPrice": "$57"
+        },
+        "Male FLE": {
+            "checkoutUrl": "bun_964a0c6be117e329",
+            "offerTitle": "Fat Loss Extreme for Him",
+            "offerPrice": "$57"
+        },
+        "Ripped": {
+            "checkoutUrl": "ripped-in-90-days-bundle-mgr-bt-f3",
+            "offerTitle": "Ripped In 90 Days $67",
+            "offerPrice": "$67"
+        }
+    }
+}

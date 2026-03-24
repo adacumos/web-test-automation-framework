@@ -1,0 +1,29 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga#"
+    },
+    "landingPage": {
+        "surveygahash": "/sp/survey/survey-ga#"
+    },
+    "event": {
+        "addtocart": "ADD_CART",
+        "startCheckout": "START_CHECKOUT",
+        "pageview": "PAGE_VIEW",
+        "quizCompleted": "CUSTOM_EVENT_1",
+        "purchase": "PURCHASE",
+        "amount": "57.00"
+    },
+    "snapchatID": {
+        "internal": "2f592d06-bf1b-4562-9b5f-07c30910ee2b",
+        "kendago": "86bcfeab-554d-4447-843a-14075b17b993"
+    },
+    "firstName": "Pixel Gtm",
+    "lastName": "vsSurvey-fbk-cpc-v3",
+    "clientName": "PixelGtm fbk-cpc-v3",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

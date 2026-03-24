@@ -1,0 +1,27 @@
+{
+    "name": "Web Automation",
+    "clientName": "Web Automation",
+    "phoneNumber": "8153211010",
+    "address": "1217 W Hammer Ln",
+    "city": "North Las Vegas",
+    "state": "Nevada",
+    "country": "United States",
+    "postalCode": "89123",
+    "postcode": "89123",
+    "shippingName": "Web Automation",
+    "shippingStreet": "1217 W Hammer Ln",
+    "shippingCity": "North Las Vegas",
+    "shippingPostalCode": "89123",
+    "shippingState": "Nevada",
+    "shippingCountry": "United States",
+    "shippingPhone": "8153211010",
+    "fatLossExtremeOrderUrl": "order-form/fat-loss-extreme/?ref=programs%2Ffat-loss-extreme",
+    "fatLossExtremeUrl": "/order-form/fat-loss-extreme-bundle-f-bt-f4-v3",
+    "orderItem": "Fat Loss Extreme Bundle",
+    "productTitle": "Fat Loss Extreme for Him",
+    "physicalProductTitle": "Greens",
+    "surveyLandingPage": {
+        "landingPage": "/programs/fat-loss-extreme",
+        "surveyPage": "/survey/fat-loss-extreme"
+    }
+}

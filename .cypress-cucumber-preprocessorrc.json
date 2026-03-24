@@ -1,0 +1,10 @@
+{
+    "stepDefinitions": [
+        "cypress/support/step_definitions/**/*.{js,ts}",
+        "../../LaravelEcommerce/_libs/step_definitions/**/*.{js,ts}",
+        "../../Vshred/_libs/step_definitions/**/*.{js,ts}"
+    ],
+    "pretty": {
+        "enabled": true
+    }
+}

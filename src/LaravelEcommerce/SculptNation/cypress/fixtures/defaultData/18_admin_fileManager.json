@@ -1,0 +1,10 @@
+{
+    "fileReference": {
+        "folderName": "TestAutomateFolder",
+        "filepath": "cypress/fixtures/uploadFile/TestFile.pdf",
+        "fileName": "TestFile.pdf",
+        "fileType": "pdf",
+        "newFilename": "RenamedFile.json",
+        "newFolderName": "RenamedFolder"
+    }
+}

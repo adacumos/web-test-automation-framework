@@ -1,0 +1,32 @@
+{
+    "addOffer": {
+        "offerSku": ["sku_gold_plus_elite_3_months_2997"],
+        "offerTitle": ["V SHRED Elite Program - 3 Months"]
+    },
+    "trainerData": {
+        "assignedTrainer": "Trainer Two",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-two@example.com"
+    },
+    "vsUserInfo": {
+        "Member": {
+            "name": "Elite vsAdmin",
+            "password": "12345678",
+            "role": "Member",
+            "leader": "",
+            "utm": "",
+            "coupon": ""
+        }
+    },
+    "adminOrder": ["V SHRED Elite Program - 3 Months"],
+    "firstName": "Elite",
+    "lastName": "vsAdmin",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

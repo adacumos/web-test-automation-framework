@@ -1,0 +1,59 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/burn-evolved/burn-fbk-cpc",
+        "checkoutReference": "burn_burnpm_free_shaker_fle?funnel=burn-burnpm-fle-funnel-burn-us",
+        "offerBundle": ["BURN EVOLVED 2.0"]
+    },
+    "funnelOfferUrl": ["burn-us", "burn-pm-cs", "turmeric-cs", "enzymes-cs"],
+    "oneBottle-skipAllFunnels": ["BURN EVOLVED 2.0 + Fat Loss Extreme FREE"],
+    "sixBottle-skipAllFunnels": [
+        "BURN EVOLVED 2.0 (6) + Fat Loss Extreme FREE"
+    ],
+    "threeBottle-skipAllFunnels": [
+        "BURN EVOLVED 2.0 (3) + Fat Loss Extreme FREE"
+    ],
+    "oneBottle-SelectAllFunnels": [
+        "ENZYMES - Three Bottle (Discounted 50)",
+        "TURMERIC BLACK - Three Bottle (Discounted 50)",
+        "BURN PM - Three Bottle (Discounted 50)",
+        "BURN EVOLVED 2.0 - 3-Bottle Upgrade",
+        "BURN EVOLVED 2.0 + Fat Loss Extreme FREE"
+    ],
+    "sixBottle-SelectAllFunnels": [
+        "ENZYMES - Twelve Bottle (Discounted)",
+        "TURMERIC BLACK - Twelve Bottle (Discounted)",
+        "BURN PM - Twelve Bottle (Discounted)",
+        "BURN EVOLVED 2.0 - 6-Bottle Upgrade",
+        "BURN EVOLVED 2.0 (6) + Fat Loss Extreme FREE"
+    ],
+    "threeBottle-SelectAllFunnels": [
+        "ENZYMES - Six Bottle (Discounted 50)",
+        "TURMERIC BLACK - Six Bottle (Discounted 50)",
+        "BURN PM - Six Bottle (Discounted 50)",
+        "BURN EVOLVED 2.0 - 3-Bottle Upgrade",
+        "BURN EVOLVED 2.0 (3) + Fat Loss Extreme FREE"
+    ],
+    "oneBottle-SelectedFunnelsOnly": [
+        "ENZYMES - One Bottle (Discounted)",
+        "TURMERIC BLACK - One Bottle (Discounted)",
+        "BURN EVOLVED 2.0 + Fat Loss Extreme FREE"
+    ],
+    "sixBottle-SelectedFunnelsOnly": [
+        "ENZYMES - Six Bottle (Discounted 50)",
+        "TURMERIC BLACK - Six Bottle (Discounted 50)",
+        "BURN EVOLVED 2.0 (6) + Fat Loss Extreme FREE"
+    ],
+    "threeBottle-SelectedFunnelsOnly": [
+        "ENZYMES - Three Bottle (Discounted 50)",
+        "TURMERIC BLACK - Three Bottle (Discounted 50)",
+        "BURN EVOLVED 2.0 (3) + Fat Loss Extreme FREE"
+    ],
+    "firstName": "LE PageMove",
+    "lastName": "BV20-OfferPage",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785"
+}

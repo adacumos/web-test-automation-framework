@@ -1,0 +1,16 @@
+{
+    "LandingPage": {
+        "fullurl": "https://vshred.com/"
+    },
+    "SocialMediaLinks": {
+        "youtube": "https://www.youtube.com/vshred",
+        "facebook": "https://www.facebook.com/thevinsanityshred/?ref=home",
+        "instagram": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvshred%2F%3Fref%3Dhome&is_from_rle",
+        "linkedin": "https://www.linkedin.com/company/vshred?ref=home",
+        "apple": "https://apps.apple.com/us/app/v-shred-nutrition-fitness/id1442111093?ref=home",
+        "pinterest": "https://www.pinterest.com/trobertson1127/v-shred/?ref=home",
+        "tiktok": "https://www.tiktok.com/@vshred?ref=home",
+        "x": "https://x.com/VShred_?ref=home",
+        "google": "https://play.google.com/store/apps/details?id=com.vshred&hl=en_US&gl=US&pli=1&ref=home"
+    }
+}

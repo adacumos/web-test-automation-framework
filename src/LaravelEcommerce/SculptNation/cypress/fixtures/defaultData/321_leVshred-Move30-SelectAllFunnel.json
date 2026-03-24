@@ -1,0 +1,42 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/move",
+        "checkoutUrl": "/checkout-vs/move-program",
+        "productDescription": "MOVE 30 and FREE Bonuses",
+        "productPrice": "$47.00 USD",
+        "productBundle": ["MOVE 30", "Six-Pack Shred"]
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs"
+    },
+    "SelectAllFunnel-ThreeBottles": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM - Three Bottle",
+        "BURN EVOLVED 2.0 - 3 bottles",
+        "MOVE 30 + Six Pack Shred (FREE) + Recipe Guide (FREE)",
+        "Custom Diet Plan"
+    ],
+    "SelectAllFunnel-SixBottles": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM - Six Bottle",
+        "BURN EVOLVED 2.0 - 6 bottles",
+        "MOVE 30 + Six Pack Shred (FREE) + Recipe Guide (FREE)",
+        "Custom Diet Plan"
+    ],
+    "firstName": "Web",
+    "lastName": "Automation",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785",
+    "shippingFirstName": "Web",
+    "shippingLastName": "Automation",
+    "shippingStreet": "4530 S Decatur Blvd",
+    "shippingCity": "Las Vegas",
+    "shippingPostalCode": "89103",
+    "shippingState": "NV",
+    "shippingCountry": "United States",
+    "shippingPhone": "8153211010"
+}

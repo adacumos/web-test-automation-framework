@@ -1,0 +1,37 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/quiz/body-type-quiz"
+    },
+    "checkoutOffers": {
+        "Toned In 90 Days": {
+            "checkoutUrl": "toned-in-90-days-bundle-bt-f3",
+            "offerTitle": "Toned In 90 Days",
+            "offerPrice": "$57"
+        },
+        "Fat Loss Extreme for Her": {
+            "checkoutUrl": "fat-loss-extreme-bundle-f-bt-f3",
+            "offerTitle": "Fat Loss Extreme",
+            "offerPrice": "$57"
+        },
+        "Clean Bulk": {
+            "checkoutUrl": "clean-bulk-program-bt-f3",
+            "offerTitle": "Clean Bulk",
+            "offerPrice": "$87"
+        },
+        "Ripped MSF": {
+            "checkoutUrl": "ripped-in-90-days-bundle-msf-bt-f3",
+            "offerTitle": "Ripped In 90 Days",
+            "offerPrice": "$57"
+        },
+        "Fat Loss Extreme for Him": {
+            "checkoutUrl": "fat-loss-extreme-bundle-bt-f3",
+            "offerTitle": "Fat Loss Extreme",
+            "offerPrice": "$57"
+        },
+        "Ripped MGR": {
+            "checkoutUrl": "ripped-in-90-days-bundle-mgr-bt-f3",
+            "offerTitle": "Ripped In 90 Days",
+            "offerPrice": "$67"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "eCommCategoriesURL": "/nova/resources/categories",
+    "shippingCategoriesURL": "/nova/resources/shipping-categories",
+    "newCategoryName": "Web Automation Test"
+}

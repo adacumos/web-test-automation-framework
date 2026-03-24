@@ -1,0 +1,104 @@
+{
+    "productLandingPage": {
+        "productName": "GREENS",
+        "productUrl": "greens",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$32.50",
+        "threeBottlePrice": "$44.00",
+        "productFlavor": "Original"
+    },
+    "subscription": {
+        "cartDetails": {
+            "productName": "GREENS - Monthly",
+            "quantity": "1",
+            "subtotal": "$59.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.43",
+            "totalPrice": "$53.51"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$44.43",
+            "secondItemOrderTotal": "$44.43",
+            "thirdItemOrderTotal": "$73.89",
+            "firstSubscriptionName": "NEUROCTANE - Monthly",
+            "secondSubscriptionName": "TURMERIC BLACK - Monthly",
+            "thirdSubscriptionName": "GREENS - Monthly",
+            "firstSubscriptionPricePerMonth": "$41.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.00 / month",
+            "thirdSubscriptionPricePerMonth": "$68.95 / month"
+        }
+    },
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "GREENS",
+            "quantity": "1",
+            "subtotal": "$69.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$4.31",
+            "totalPrice": "$86.26"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27",
+            "secondItemOrderTotal": "$53.10",
+            "thirdItemOrderTotal": "$53.10",
+            "fourthItemOrderTotal": "$156.06",
+            "fifthItemOrderTotal": "$84.73"
+        }
+    },
+    "sixBottle": {
+        "cartDetails": {
+            "productName": "GREENS - Six Bottle",
+            "quantity": "1",
+            "subtotal": "$324.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$16.33",
+            "totalPrice": "$221.28"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$211.33",
+            "secondItemOrderTotal": "$211.33",
+            "thirdItemOrderTotal": "$361.09"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "GREENS - Three Bottle",
+            "quantity": "1",
+            "subtotal": "$177.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$11.08",
+            "totalPrice": "$153.01"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27",
+            "secondItemOrderTotal": "$143.06",
+            "thirdItemOrderTotal": "$143.06",
+            "fourthItemOrderTotal": "$156.06",
+            "fifthItemOrderTotal": "$201.77"
+        }
+    },
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785"
+}

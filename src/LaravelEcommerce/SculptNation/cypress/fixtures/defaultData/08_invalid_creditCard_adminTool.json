@@ -1,0 +1,11 @@
+{
+    "postalCode": "89103",
+    "creditCard": "1111111111111111",
+
+    "vsUserInfo": {
+        "Member": {
+            "name": "QA Automation Test",
+            "role": "Member"
+        }
+    }
+}

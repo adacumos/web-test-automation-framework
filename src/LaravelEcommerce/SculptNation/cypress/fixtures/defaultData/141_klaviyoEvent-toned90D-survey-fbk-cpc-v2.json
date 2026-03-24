@@ -1,0 +1,53 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc-v2",
+        "checkoutUrl": "toned-in-90-days-bundle-bt-f3",
+        "productDescription": "Toned In 90 Days",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Toned In 90 Days",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder"
+        ]
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": [
+            "GREENS REGULAR - DISCOUNTED",
+            "BURN PM - Three Bottle",
+            "Custom Diet Plan",
+            "Toned In 90 Days $57"
+        ],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "Greens": {
+        "funnelUrl": "special-offer-coupon-3"
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-fm-v1"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs-f-v1"
+    },
+    "selectSomeFunnels": [
+        "GREENS REGULAR - DISCOUNTED",
+        "BURN PM - Three Bottle",
+        "Custom Diet Plan",
+        "Toned In 90 Days $57"
+    ],
+
+    "firstName": "toned90D",
+    "lastName": "vsurvey-fbk-cpc-v2",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

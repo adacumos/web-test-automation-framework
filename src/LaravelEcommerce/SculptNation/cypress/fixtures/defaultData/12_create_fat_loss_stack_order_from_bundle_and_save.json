@@ -1,0 +1,64 @@
+{
+    "productLandingPage": {
+        "productName": "FAT LOSS STACK",
+        "productUrl": "fat-loss-stack",
+        "subscriptionPrice": "$95.00",
+        "threeBottlePrice": "$110.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "FAT LOSS STACK with Burn Evolved 2.0 - Monthly",
+            "quantity": "1",
+            "subtotal": "$95.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$5.94",
+            "totalPrice": "$110.89"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $43.56",
+            "secondItemOrderTotal": " $43.56",
+            "thirdItemOrderTotal": "$153.00",
+            "fourthItemOrderTotal": "$110.89",
+            "firstSubscriptionName": "GREENS - Monthly",
+            "secondSubscriptionName": "HGH Boost - Monthly",
+            "thirdSubscriptionName": "FAT LOSS STACK with Burn Evolved 2.0 - Monthly",
+            "firstSubscriptionPricePerMonth": "$41.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.00 / month",
+            "thirdSubscriptionPricePerMonth": "$104.95 / month"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "FAT LOSS STACK with Burn Evolved 2.0",
+            "quantity": "1",
+            "subtotal": "$110.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$6.88",
+            "totalPrice": "$126.83"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": " $188.06 for 1 items",
+            "secondItemOrderTotal": " $140.25 for 1 items",
+            "thirdItemOrderTotal": "$153.00 for 1 items",
+            "fourthItemOrderTotal": "$126.83 for 1 items"
+        }
+    },
+
+    "firstName": "Automation",
+    "lastName": "UAT-Test",
+    "country": "USA",
+    "streetAddress": "Test Address",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "702-212-0785"
+}

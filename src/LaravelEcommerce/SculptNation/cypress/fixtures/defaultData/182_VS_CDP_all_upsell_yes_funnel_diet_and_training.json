@@ -1,0 +1,45 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/custom-diet-plan/reup",
+        "checkoutUrl": "custom-diet-plan-monthly-reup-v3",
+        "productDescription": "Silver Plus 4 Week Diet and Training - $97",
+        "productPrice": "$47.00 USD",
+        "productBundle": [
+            "Custom Diet Plan",
+            "Unlimited Email Support From Your Coach",
+            "Email Check-In's with Your Coach",
+            "Custom Training Plan"
+        ]
+    },
+    "Burn-Evolved": {
+        "funnelUrl": "burn-flashsale-v3"
+    },
+    "silvePlusCDP": ["Silver Plus 4 Week Diet and Training - $97"],
+    "commonBundle": [
+        "Greens Strawberry (3) + HGH Boost (FREE)",
+        "BURN ACCELERATOR STACK",
+        "Burn Stack: Burn Evolved 2.0 (3) + Burn PM (3) (FREE)"
+    ],
+    "cdp vsu trail training plan": [
+        "VSU All-Access Monthly - $9.95 (7-Day Free Trial)"
+    ],
+    "cdp vsu membership training plan": [
+        "VSU All-Access Annual Membership - $97"
+    ],
+    "firstName": "Web",
+    "lastName": "Automation",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785",
+    "shippingFirstName": "Web",
+    "shippingLastName": "Automation",
+    "shippingStreet": "4530 S Decatur Blvd",
+    "shippingCity": "Las Vegas",
+    "shippingPostalCode": "89103",
+    "shippingState": "NV",
+    "shippingCountry": "United States",
+    "shippingPhone": "8153211010"
+}

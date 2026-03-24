@@ -1,0 +1,53 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga",
+        "checkoutUrl": "fat-loss-extreme-bundle-f-bt-f3",
+        "productDescription": "Fat Loss Extreme for Her $57",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme for Her",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm"
+    },
+    "selectSomeFunnels": [
+        "Custom Diet Plan - 4 weeks",
+        "Burn Evolved 2.0 - 1 Bottle $29",
+        "Fat Loss Extreme for Her $57"
+    ],
+    "refundAmount": "$20.00",
+    "refundReason": "CDP - Unsatisfied (Plan Sent)",
+    "orderTransaction": {
+        "orderItem": "Custom Diet Plan - 4 weeks"
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": [
+            "Custom Diet Plan - 4 weeks",
+            "Burn Evolved 2.0 - 1 Bottle $29",
+            "Fat Loss Extreme for Her $57"
+        ],
+        "refundedOrder": ["Custom Diet Plan - 4 weeks"],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "firstName": "le-vs",
+    "lastName": "partialRefunds",
+    "clientName": "le-vsDigotal",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

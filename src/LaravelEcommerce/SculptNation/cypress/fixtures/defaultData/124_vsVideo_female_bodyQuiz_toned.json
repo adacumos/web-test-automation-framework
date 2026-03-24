@@ -1,0 +1,62 @@
+{
+    "videoReference": {
+        "videoUrl": "/sp/survey/fbk-cpc"
+    },
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc",
+        "checkoutUrl": "toned-in-90-days-bundle-bt-f3",
+        "productDescription": "Toned In 90 Days",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Toned In 90 Days",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "The Booty Builder"
+        ]
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": [
+            "VSU - Monthly 9.95 (30-Day Trial)",
+            "BURN PM",
+            "BURN EVOLVED 2.0",
+            "Custom Diet Plan",
+            "Toned In 90 Days $57"
+        ],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": ["Trainer Three"]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs"
+    },
+    "cdpBumper": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM",
+        "BURN EVOLVED",
+        "Custom Diet Plan",
+        "Toned In 90 Days $57"
+    ],
+    "trainerData": {
+        "assignedTrainer": "Trainer Three",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-three@example.com",
+        "trainerPassw": "asdfasdf"
+    },
+    "firstName": "fbodyQuiz",
+    "lastName": "toned",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

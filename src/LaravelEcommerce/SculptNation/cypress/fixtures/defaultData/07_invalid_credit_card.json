@@ -1,0 +1,22 @@
+{
+    "name": "Web Automation",
+    "phoneNumber": "8153211010",
+    "cardNumber": "8675330933333333",
+    "expirationDate": "1225",
+    "cvv": "123",
+    "postalCode": "89123",
+    "shippingName": "Web Automation",
+    "shippingStreet": "1217 W Hammer Ln",
+    "shippingCity": "North Las Vegas",
+    "shippingPostalCode": "89123",
+    "shippingState": "Nevada",
+    "shippingCountry": "United States",
+    "shippingPhone": "8153211010",
+    "homepageUrl": "https://staging.vshred.com/programs/fat-loss-extreme?ref=programs",
+    "fatLossExtremeOrderUrl": "order-form/fat-loss-extreme/?ref=programs%2Ffat-loss-extreme",
+    "fatLossExtremeUrl": "/order-form/fat-loss-extreme-bundle-f-bt-f4-v3",
+    "surveyLandingPage": {
+        "landingPage": "/programs/fat-loss-extreme",
+        "surveyPage": "/survey/fat-loss-extreme"
+    }
+}

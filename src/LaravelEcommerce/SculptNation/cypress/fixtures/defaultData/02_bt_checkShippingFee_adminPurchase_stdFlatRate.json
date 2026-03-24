@@ -1,0 +1,19 @@
+{
+    "productName": "BURN PM - Monthly",
+    "productPrice": "$41.00",
+    "productQuantity": "1",
+    "productTax": "$3.43",
+    "totalAmount": "$49.38",
+    "shippingCost": "$9.95",
+    "shippingOption": "Standard Flat Rate - $4.95 - standar",
+
+    "firstName": "QA Automation",
+    "lastName": "QA Automation BTShipping",
+    "phone": "(702) 657-6888",
+    "address": "4530 South Decatur Boulevard",
+    "address2": "Suite 103",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89103"
+}

@@ -1,0 +1,62 @@
+{
+    "roleName": "Customer Service",
+    "firstName": "QA Automation",
+    "lastName": "Create Delete User Role",
+    "roleNameList": {
+        "admin": "Admin",
+        "customerService": "Customer Service",
+        "developer": "Developer",
+        "managesDiscounts": "Manages Discounts",
+        "marketer": "Marketer",
+        "mediaBuyer": "Media Buyer",
+        "salesAgent": "Sales Agent",
+        "salesManager": "Sales Manager",
+        "salesSupervisor": "Sales Supervisor",
+        "socialMedia": "Social Media",
+        "qualityEngineer": "Quality Engineer",
+        "trainer": "Trainer",
+        "viewMyselfOnly": "View Myself Only",
+        "adminMyselfOnly": "Admin Myself Only"
+    },
+    "guardName": "nova",
+    "permissions": [
+        "allow login to nova admin panel",
+        "access user resource and see user list",
+        "view any user",
+        "create any user",
+        "update any user"
+    ],
+
+    "editRoles": {
+        "roleName": "Sales Agent",
+        "guardName": "nova",
+        "addPermissions": [
+            "access sales funnels tool",
+            "add subscription to any user",
+            "add meta to any user",
+            "attach any user to discount"
+        ]
+    },
+    "createNewRoles": {
+        "roleName": "Quality Engineer",
+        "roleGuard": "nova",
+        "rolePermissions": [
+            "allow login to nova admin panel",
+            "access file manager tool",
+            "access process order tool",
+            "access sales funnels tool",
+            "access user resource and see user list",
+            "view any user",
+            "create any user",
+            "impersonate any user",
+            "view any sales funnel",
+            "access sales funnel resource and see sales funnel list"
+        ]
+    },
+    "newUser": {
+        "userFirstName": "UserTest",
+        "userLastName": "RoleData",
+        "userEmail": "roledatatest@coolb.com",
+        "userPassword": "1234567"
+    }
+}

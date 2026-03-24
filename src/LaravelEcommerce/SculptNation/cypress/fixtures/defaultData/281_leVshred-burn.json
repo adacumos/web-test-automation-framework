@@ -1,0 +1,33 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/burn/burnpm-fle-ggl-shop-bnd-cpc"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-us-1-3"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs-3"
+    },
+    "SelectAllFunnel": [
+        "ENZYMES - Three Bottle (Discounted 50)",
+        "TURMERIC BLACK - Three Bottle (Discounted 50)",
+        "BURN PM - Three Bottle (Discounted 50)",
+        "BURN EVOLVED 2.0 - 3-Bottle Upgrade",
+        "Burn Evolved 2.0 + FREE Burn PM, FREE ACV gummies + FREE FLE + FREE Shaker cup"
+    ],
+    "SelectSomeFunnel": [
+        "BURN PM - Three Bottle (Discounted 50)",
+        "BURN EVOLVED 2.0 - 3-Bottle Upgrade",
+        "Burn Evolved 2.0 + FREE Burn PM, FREE ACV gummies + FREE FLE + FREE Shaker cup"
+    ],
+    "SkipAllFunnel": [
+        "Burn Evolved 2.0 + FREE Burn PM, FREE ACV gummies + FREE FLE + FREE Shaker cup"
+    ],
+    "firstName": "Web",
+    "lastName": "Automation",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "7022120785"
+}

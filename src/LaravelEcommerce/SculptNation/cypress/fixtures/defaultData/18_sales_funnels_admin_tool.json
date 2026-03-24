@@ -1,0 +1,10 @@
+{
+    "salesFunnelsURL": "/nova/sales-funnels",
+    "funnelName": "TestFunnel",
+    "route": "assetcl-test-url",
+    "createdFunnel": "TestFunnel",
+    "updatedFunnel": "TestFunnel1",
+    "adminPage": {
+        "tableHeader": ["ID", "Name", "Slug", "Is Primary", "Route", "Created"]
+    }
+}

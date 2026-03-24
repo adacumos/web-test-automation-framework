@@ -1,0 +1,28 @@
+{
+    "accountType": "Super Admin",
+
+    "userName": "QA Automation - Purchase Bundle",
+    "userPhone": "(617) 389-0046",
+    "userRole": "Member",
+
+    "productName": "Clean Bulk $97 Bundle",
+    "productPrice": "$97.00",
+    "productQuantity": "1",
+
+    "addressName": "Home",
+    "addressPhone": "7025551212",
+    "address": "1217 W Hammer Ln",
+    "address2": "Street 10",
+    "addressCountry": "US",
+    "addressState": "NV",
+    "addressCity": "North Las Vegas",
+    "addressZipCode": "89031",
+
+    "paymentStatus": "submitted for settlement",
+    "totalAmount": "$97.00",
+    "refundedAmount": "$0.00",
+    "orderStatus": "fulfilled",
+
+    "orderConfirmationEmailSubject": "Your V Shred order has been received!",
+    "fromEmail": "vince@vshred.com"
+}

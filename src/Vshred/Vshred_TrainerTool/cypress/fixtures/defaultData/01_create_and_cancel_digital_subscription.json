@@ -1,0 +1,20 @@
+{
+    "userName": "QA Automation - Create Cancel Subscription",
+    "userPhone": "(617) 389-0046",
+    "userRole": "Member",
+
+    "planName": "BURN - 1 Bottle Monthly - $41",
+    "planPrice": "$41.00",
+    "amountPlusTax": "$41.00 + $3.43",
+    "activeSubscriptionStatus": "active",
+    "cancelledSubscriptionStatus": "canceled",
+
+    "addressName": "Home",
+    "addressPhone": "7025551212",
+    "address": "1217 W Hammer Ln",
+    "address2": "Street 10",
+    "addressCountry": "US",
+    "addressState": "NV",
+    "addressCity": "North Las Vegas",
+    "addressZipCode": "89031"
+}

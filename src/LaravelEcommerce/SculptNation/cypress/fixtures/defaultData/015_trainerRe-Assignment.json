@@ -1,0 +1,36 @@
+{
+    "addOffer": {
+        "offerSku": ["sku_CKcwR4TEg54IeG", "sku_ETz4R4WE6B0Fuf"],
+        "offerTitle": ["Fat Loss Extreme for Her", "Custom Diet Plan"]
+    },
+    "upSellOffer": {
+        "offerSku": ["sku_gold_plus_accelerator_3_months"],
+        "offerTitle": ["V SHRED Accelerator Program - 3 Months"]
+    },
+    "trainerData": {
+        "assignedTrainer": "Trainer Two",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-two@example.com",
+        "newAssignedTrainer": "Trainer Three"
+    },
+    "vsUserInfo": {
+        "Member": {
+            "name": "Berna memberUser",
+            "password": "12345678",
+            "role": "Member",
+            "leader": "",
+            "utm": "",
+            "coupon": ""
+        }
+    },
+    "firstName": "Tricia",
+    "lastName": "vsAdmin",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

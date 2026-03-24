@@ -1,0 +1,25 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-fb"
+    },
+
+    "funnelOfferUrl": [
+        "burn?f",
+        "burn-1",
+        "burn-pm",
+        "cdp",
+        "recipe",
+        "vshred"
+    ],
+
+    "skipAllFunnels": ["Toned In 90 Days $57"],
+    "firstName": "Automation",
+    "lastName": "QA-Test",
+    "clientName": "Automation QA-Test",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

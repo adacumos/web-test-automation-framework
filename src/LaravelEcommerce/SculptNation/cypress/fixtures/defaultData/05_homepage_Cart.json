@@ -1,0 +1,74 @@
+{
+    "productLandingPage": {
+        "productName": "BURN PM",
+        "productUrl": "burn-pm",
+        "oneBottlePrice": "$41.00",
+        "sixBottlePrice": "$32.50",
+        "threeBottlePrice": "$44.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "BURN PM - Monthly",
+            "quantity": "1",
+            "subtotal": "$41.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$2.56",
+            "totalPrice": "$53.51"
+        }
+    },
+    "Pre Workout": {
+        "productName": "PRE WORKOUT - FRUIT PUNCH",
+        "productUrl": "pre-workout",
+        "productUnitPrice": "$37.00",
+        "bundlePrice": {
+            "one bottle": "$37.00",
+            "six bottle": "$183.00",
+            "three bottle": "$99.00"
+        }
+    },
+    "HGH Boost": {
+        "productName": "HGH",
+        "productUrl": "hgh-boost",
+        "productUnitPrice": "$49.00",
+        "bundlePrice": {
+            "one bottle": "$49.00",
+            "six bottle": "$195.00",
+            "three bottle": "$132.00"
+        }
+    },
+    "Protein": {
+        "productName": "PROTEIN - CHOCOLATE",
+        "productUrl": "protein",
+        "productUnitPrice": "$47.00",
+        "bundlePrice": {
+            "one bottle": "$49.00",
+            "six bottle": "$195.00",
+            "three bottle": "$132.00"
+        }
+    },
+    "Greens": {
+        "productName": "GREENS",
+        "productUrl": "greens",
+        "productUnitPrice": "$69.00",
+        "bundlePrice": {
+            "one bottle": "$59.00",
+            "six bottle": "$324.00",
+            "three bottle": "$177.00"
+        }
+    },
+    "BurnPM": {
+        "productName": "Burn PM",
+        "productUrl": "burn-pm",
+        "productUnitPrice": "$49.00",
+        "bundlePrice": {
+            "one bottle": "$49.00",
+            "six bottle": "$195.00",
+            "three bottle": "$132.00"
+        }
+    },
+    "cartTotals": {
+        "applyDiscount": "hannah.a25",
+        "total": "$337.50"
+    }
+}

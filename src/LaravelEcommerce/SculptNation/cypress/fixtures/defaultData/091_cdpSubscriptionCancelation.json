@@ -1,0 +1,28 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/results-female-fl-bt-v5"
+    },
+    "offerDetails": {
+        "offerTitle": "Silver Custom Diet Plan (4 Week Re-up)",
+        "offerPrice": "$47.00",
+        "intervalLength": 1
+    },
+    "silverSubscription": ["Silver Custom Diet Plan (4 Week Re-up)"],
+    "trainerData": {
+        "assignedTrainer": "Trainer Three",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-three@example.com",
+        "trainerPassw": "asdfasdf"
+    },
+    "firstName": "CdpSubscription",
+    "lastName": "LE Admin",
+    "phone": "(625) 335-1146",
+    "address": "565 Nauset Rd",
+    "address2": "47th Street",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89120"
+}

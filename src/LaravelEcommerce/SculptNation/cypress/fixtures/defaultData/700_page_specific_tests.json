@@ -1,0 +1,9 @@
+{
+    "path": "/sp/survey/male-fl",
+    "fieldName": "input-name",
+    "value": "Web Automation",
+    "buttonText": "YES! I Want Instant",
+    "expectedText": "Celebrity Trainer Vince Sant Reveals…",
+    "message": "Click to Play",
+    "expectedUrlPath": "https://le.vshred.com/sp/survey/male-fl"
+}

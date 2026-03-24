@@ -1,0 +1,79 @@
+{
+    "productLandingPage": {
+        "productName": "MULTI-COLLAGEN (Unflavored) -  Three Tubs",
+        "productUrl": "multi_collagen",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$179.00",
+        "threeBottlePrice": "$97.00"
+    },
+
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "MULTI-COLLAGEN (Unflavored)",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$4.10",
+            "totalPrice": "$53.10"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$44.43 for 1 items",
+            "thirdItemOrderTotal": "$44.43 for 1 items",
+            "fourthItemOrderTotal": "$63.05 for 1 items"
+        }
+    },
+    "sixBottle": {
+        "cartDetails": {
+            "productName": "MULTI-COLLAGEN(Unflavored) - Six Tubs",
+            "quantity": "1",
+            "subtotal": "$179.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$14.99",
+            "totalPrice": "$193.99"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$211.33 for 1 items",
+            "thirdItemOrderTotal": "$211.33 for 1 items",
+            "fourthItemOrderTotal": "$203.94 for 1 items"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "MULTI-COLLAGEN(Unflavored) - Three Tubs",
+            "quantity": "1",
+            "subtotal": "$97.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$8.12",
+            "totalPrice": "$105.12"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$143.06 for 1 items",
+            "thirdItemOrderTotal": "$143.06 for 1 items",
+            "fourthItemOrderTotal": "$115.07 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785"
+}

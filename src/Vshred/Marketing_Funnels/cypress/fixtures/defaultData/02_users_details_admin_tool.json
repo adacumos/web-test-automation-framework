@@ -1,0 +1,15 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "Create Delete User",
+    "existingEmail": "vsadmin@example.com",
+    "newAutomationUser": "WebAutomation",
+    "newEmail": "@vshred.com",
+    "phoneDetails": "1234567890",
+    "newPhoneDetails": "0987654321",
+    "newPassword": "sculptnation098",
+    "updatedPassword": "vshred846",
+    "adminUser": "super@example.com",
+    "adminPassword": "asdfasdf",
+    "testUserOne": "WebAutomation1010101@vshred.com",
+    "testUserTwo": "WebAutomation2020202@vhsred.com"
+}

@@ -1,0 +1,38 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-aka1#",
+        "checkoutUrl": "clean-bulk-program-bt-f3",
+        "productDescription": "Clean Bulk",
+        "productPrice": "$87.00 USD",
+        "productBundle": [
+            "Clean Bulk Program",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "Big Arms Program"
+        ]
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": [
+            "Custom Diet Plan - 4 weeks",
+            "VSU - Monthly 9.95 (30-Day Trial)",
+            "Clean Bulk $87"
+        ],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "selectSomeFunnels": [
+        "Custom Diet Plan - 4 weeks",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Clean Bulk $87"
+    ],
+    "firstName": "cleanBulk",
+    "lastName": "vsurvey-aka1",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

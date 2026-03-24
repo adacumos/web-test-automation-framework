@@ -1,0 +1,109 @@
+{
+    "productLandingPage": {
+        "productName": "BURN EVOLVED 2.0",
+        "productUrl": "burn-evolved",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$195.50",
+        "threeBottlePrice": "$132.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "BURN EVOLVED 2.0 - Monthly",
+            "quantity": "1",
+            "subtotal": "$41.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.43",
+            "totalPrice": "$44.43"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27",
+            "secondItemOrderTotal": "$44.43",
+            "thirdItemOrderTotal": "$44.43",
+            "fourthItemOrderTotal": "$54.38",
+            "firstSubscriptionName": "TURMERIC BLACK - Monthly",
+            "secondSubscriptionName": "BURN PM - Monthly",
+            "thirdSubscriptionName": "BURN EVOLVED 2.0 - Monthly",
+            "firstSubscriptionPricePerMonth": "$41.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.00 / month",
+            "thirdSubscriptionPricePerMonth": "$50.95 / month"
+        }
+    },
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "BURN EVOLVED 2.0",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$4.09",
+            "totalPrice": "$53.09"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$53.10 for 1 items",
+            "thirdItemOrderTotal": "$53.10 for 1 items",
+            "fourthItemOrderTotal": "$156.06 for 1 items",
+            "fifthItemOrderTotal": "$63.05 for 1 items"
+        }
+    },
+    "sixBottle": {
+        "cartDetails": {
+            "productName": "BURN EVOLVED 2.0 - 6 bottles",
+            "quantity": "1",
+            "subtotal": "$195.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$16.32",
+            "totalPrice": "$211.32"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$211.33 for 1 items",
+            "thirdItemOrderTotal": "$211.33 for 1 items",
+            "fourthItemOrderTotal": "$221.28 for 1 items"
+        }
+    },
+    "threeBottle": {
+        "cartDetails": {
+            "productName": "BURN EVOLVED 2.0 - 3 bottles",
+            "quantity": "1",
+            "subtotal": "$132.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$11.06",
+            "totalPrice": "$143.06"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "fourthItemOrderStatus": "fulfilled",
+            "fifthItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$42.27 for 1 items",
+            "secondItemOrderTotal": "$143.06 for 1 items",
+            "thirdItemOrderTotal": "$143.06 for 1 items",
+            "fourthItemOrderTotal": "$156.06 for 1 items",
+            "fifthItemOrderTotal": "$153.01 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "USA",
+    "streetAddress": "4530 South Decatur Boulevard",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89103",
+    "phone": "702-212-0785"
+}

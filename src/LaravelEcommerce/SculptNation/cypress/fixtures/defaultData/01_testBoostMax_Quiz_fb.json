@@ -1,0 +1,32 @@
+{
+    "LandingPage": {
+        "fullurl": "/sp/test-boost-max/quiz-fb"
+    },
+    "acceptAllFunnels": [
+        "Test Boost Max 2.0 - three bottles",
+        "HGH Boost - Three Bottle",
+        "Creatine Fruit Punch - Monthly"
+    ],
+    "skipAllFunnels": ["Test Boost Max 2.0 - three bottles"],
+    "mixFunnels": [
+        "Test Boost Max 2.0 - three bottles",
+        "HGH Boost",
+        "CREATINE FRUIT PUNCH"
+    ],
+    "firstName": "QA",
+    "lastName": "Automation",
+    "address": "4530 South Decatur Boulevard",
+    "postalCode": "89103",
+    "phoneNumber": "7021231234",
+    "cardNumber": "4111111111111111",
+    "expireMonth": "10",
+    "expireYear": "2029",
+    "cvv": "321",
+    "clientName": "toned90D",
+    "country": "United States of America",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postcode": "89158",
+    "phone": "7022120785"
+}

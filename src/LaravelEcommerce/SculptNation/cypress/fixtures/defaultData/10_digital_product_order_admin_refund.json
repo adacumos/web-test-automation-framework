@@ -1,0 +1,29 @@
+{
+    "firstName": "QA Automation Test",
+    "lastName": "Create Delete User",
+    "phone": "(617) 389-0046",
+    "address": "4530 South Decatur Boulevard",
+    "address2": "Suite 103",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "country": "United States of America",
+    "postalCode": "89103",
+    "VS_SSH_HOST": "34.234.2.197",
+    "SSH_USERNAME": "forge",
+    "SSH_PORT": "22",
+    "VS_ADMIN_URL": "https://staging.vshred.com",
+    "BRAINTREE_URL": "https://sandbox.braintreegateway.com/merchants/kgstzzw4dctght98/home",
+    "BRAINTREE_USERNAME": "VshredNPitts",
+    "BRAINTREE_PASSWORD": "asdfasdf",
+
+    "offerSku": "Fat Loss Extreme for Him",
+    "price": "$47.00 ",
+    "refundedPrice": "$47.00",
+
+    "vsUserInfo": {
+        "Member": {
+            "name": "QA Automation Test",
+            "role": "Member"
+        }
+    }
+}

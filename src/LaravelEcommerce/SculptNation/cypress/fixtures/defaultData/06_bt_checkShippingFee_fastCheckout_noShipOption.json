@@ -1,0 +1,27 @@
+{
+    "checkoutForm": {
+        "checkoutUrl": "/fast-checkout?offer=toned-in-90-days-bundle-bt-f3&funnel=quiz-f-b-bpm-dcp-rg-vsu&offer_skus=bun_59eb9f8317f1b",
+        "offerBundle": ["Toned In 90 Days $57 Bundle"]
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs"
+    },
+
+    "productName": "Toned In 90 Days $57 Bundle",
+    "productPrice": "$57.00",
+    "productQuantity": "1",
+    "productTax": "$0.00",
+    "totalAmount": "$57.00.",
+    "shippingCost": "$0.00",
+    "shippingOption": "",
+    "orderTransaction": {
+        "orderItem": "Toned In 90 Days"
+    },
+    "clientName": "QA Automation",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postalCode": "89158",
+    "phoneNumber": "702-212-0785"
+}

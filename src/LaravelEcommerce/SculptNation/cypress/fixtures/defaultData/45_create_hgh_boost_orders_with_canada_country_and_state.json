@@ -1,0 +1,33 @@
+{
+    "productLandingPage": {
+        "productName": "HGH BOOST",
+        "productUrl": "hgh-boost",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$32.50",
+        "threeBottlePrice": "$44.00"
+    },
+
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "HGH  Boost",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$3.06",
+            "totalPrice": "$62.01"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$61.95 for 1 items"
+        }
+    },
+
+    "firstName": "QA",
+    "lastName": "Automation",
+    "country": "CAN",
+    "streetAddress": "45 Ridge Street",
+    "city": "Whitby",
+    "state": "ON",
+    "postcode": "L1R 3A3",
+    "phone": "437-550-0319"
+}

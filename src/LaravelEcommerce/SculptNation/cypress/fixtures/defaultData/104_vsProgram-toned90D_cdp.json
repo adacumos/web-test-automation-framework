@@ -1,0 +1,34 @@
+{
+    "surveyLandingPage": {
+        "landingPage": "https://staging.vshred.com",
+        "checkoutUrl": "toned-in-90-days?",
+        "productDescription": "Toned In 90 Days",
+        "productPrice": "$57.00 USD",
+        "productBundle": ["Toned In 90 Days"]
+    },
+    "cdpBumper": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Custom Diet Plan",
+        "Toned In 90 Days"
+    ],
+    "cdpFunnel": [
+        "Custom Diet Plan - 4 weeks",
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Toned In 90 Days"
+    ],
+    "trainerData": {
+        "assignedTrainer": "Trainer Four",
+        "filepath": "cypress/fixtures/uploadFile/VSCustomPlan.pdf",
+        "fileName": "VSCustomPlan.pdf",
+        "fileType": "pdf",
+        "assignedTrainerUser": "trainer-four@example.com"
+    },
+    "clientName": "toned90 vsProgram",
+    "firstName": "toned90d",
+    "lastName": "vsProgram",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

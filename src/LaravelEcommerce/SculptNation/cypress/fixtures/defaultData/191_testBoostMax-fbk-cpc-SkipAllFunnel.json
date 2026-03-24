@@ -1,0 +1,28 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "/sp/test-boost-max/fbk-cpc",
+        "bottleBundle": ["TEST BOOST MAX"]
+    },
+    "funnelOfferUrl": [
+        "testboost-max-us",
+        "testboost-max-ds",
+        "hgh-vsl-cs",
+        "creatine-vsl-cs",
+        "coupon-burn"
+    ],
+
+    "oneBottle-skipAllFunnels": ["Test Boost Max 2.0"],
+    "sixBottle-skipAllFunnels": ["Test Boost Max 2.0 - six bottles"],
+    "threeBottle-skipAllFunnels": ["Test Boost Max 2.0 - three bottles"],
+    "subscriptionBottle-skipAllFunnels": ["Test Boost Max 2.0 - Monthly"],
+    "firstName": "TestBoostMax",
+    "lastName": "fbk-cpc",
+    "clientName": "TestBosst fbk-cpc",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

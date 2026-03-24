@@ -1,0 +1,51 @@
+{
+    "videoReference": {
+        "videoUrl": "/sp/fat-loss-extreme-men/burn-fbk-cpc"
+    },
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/fbk-cpc",
+        "checkoutUrl": "fle-m-57",
+        "productDescription": "Fat Loss Extreme for Him $57",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Fat Loss Extreme for Him",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "Big Arms Program"
+        ]
+    },
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": [
+            "Burn Evolved 2.0",
+            "VSU - Monthly - 9.95 (30 Days Free)",
+            "Fat Loss Extreme for Him $57"
+        ],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "VSU": {
+        "funnelUrl": "fl-vsu-v2"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-cs-m-v1"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm-cs-m-v2"
+    },
+    "skipAllCdpOffer": [
+        "Burn Evolved 2.0",
+        "VSU - Monthly - 9.95 (30 Days Free)",
+        "Fat Loss Extreme for Him $57"
+    ],
+    "firstName": "klaviyoTest",
+    "lastName": "vs-video",
+    "clientName": "fleHim vs-video",
+    "country": "United States",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postcode": "89120",
+    "phoneNumber": "7022120785"
+}

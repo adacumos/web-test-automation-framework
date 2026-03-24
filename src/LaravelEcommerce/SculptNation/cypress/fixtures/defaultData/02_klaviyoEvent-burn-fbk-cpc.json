@@ -1,0 +1,40 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/burn-evolved/burn-fbk-cpc",
+        "checkoutReference": "burn_burnpm_free_shaker_fle?funnel=burn-burnpm-fle-funnel-burn-us",
+        "offerBundle": ["BURN EVOLVED 2.0"]
+    },
+    "funnelOfferUrl": ["burn-us", "burn-pm-cs", "turmeric-cs", "enzymes-cs"],
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": [
+            "Custom Diet Plan - 4 weeks",
+            "ENZYMES - Twelve Bottle (Discounted)",
+            "TURMERIC BLACK - Twelve Bottle (Discounted)",
+            "BURN PM - Twelve Bottle (Discounted)",
+            "BURN EVOLVED 2.0 - 6-Bottle Upgrade",
+            "BURN EVOLVED 2.0 (6) + Fat Loss Extreme FREE"
+        ],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": []
+    },
+    "sixBottle-SelectAllFunnels": [
+        "Custom Diet Plan - 4 weeks",
+        "ENZYMES - Twelve Bottle (Discounted)",
+        "TURMERIC BLACK - Twelve Bottle (Discounted)",
+        "BURN PM - Twelve Bottle (Discounted)",
+        "BURN EVOLVED 2.0 - 6-Bottle Upgrade",
+        "BURN EVOLVED 2.0 (6) + Fat Loss Extreme FREE"
+    ],
+    "firstName": "LE PageMove",
+    "lastName": "BV20-OfferPage",
+    "clientName": "Burn20 KlaviyoEvents",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

@@ -1,0 +1,44 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "Refund Order with Shipping",
+    "phone": "(702) 657-6888",
+    "address": "4904 Camino Al Norte",
+    "address2": "1st Street",
+    "city": "North Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89031",
+
+    "productName": "BURN PM - Monthly",
+    "productPrice": "$41.00",
+    "productQuantity": "1",
+    "productTax": "$3.43",
+    "totalAmount": "$54.38",
+    "shippingCost": "$9.95",
+    "shippingOption": "Priority Flat Rate - $9.95 - expected",
+
+    "baseCurrencyTotalAmount": "$54.38",
+    "baseCurrencySubtotal": "$41.00",
+    "refundedAmount": "$0.00",
+    "refundableAmount": "$0.00",
+    "discountedAmount": "$0.00",
+    "COGSAmount": "$0.00",
+    "noTaxAmount": "$0.00",
+
+    "orderStatus": "refunded",
+
+    "refundAmount": "$54.38",
+    "refundReason": "Changed Mind",
+    "netRevenue": "$0.00",
+    "refundTotal": "$0.00",
+
+    "invoiceStatus": "refunded",
+    "paymentStatus": "refunded",
+    "shipmentStatus": "cancelled",
+
+    "typeProduct": "product",
+    "typeTax": "tax",
+    "typeShipping": "shipping",
+
+    "orderDetailsAction": "Refund Entire Order"
+}

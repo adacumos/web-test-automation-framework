@@ -1,0 +1,27 @@
+{
+    "firstName": "QA Automation Test",
+    "lastName": "Create Delete User",
+    "phone": "(617) 389-0046",
+    "address": "4530 South Decatur Boulevard",
+    "address2": "Suite 103",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "country": "United States of America",
+    "postalCode": "89103",
+    "total": "$44.43",
+
+    "vsUserInfo": {
+        "Member": {
+            "name": "QA Automation Test",
+            "role": "Member"
+        }
+    },
+
+    "homepageUrl": "https://staging.vshred.com/programs/fat-loss-extreme?ref=programs",
+    "fatLossExtremeOrderUrl": "order-form/fat-loss-extreme/?ref=programs%2Ffat-loss-extreme",
+    "fatLossExtremeUrl": "/order-form/fat-loss-extreme-bundle-f-bt-f4-v3",
+    "surveyLandingPage": {
+        "landingPage": "/programs/fat-loss-extreme",
+        "surveyPage": "/survey/fat-loss-extreme"
+    }
+}

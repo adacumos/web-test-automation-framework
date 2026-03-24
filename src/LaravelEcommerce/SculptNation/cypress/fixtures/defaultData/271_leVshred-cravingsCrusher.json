@@ -1,0 +1,39 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/oops/oops"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn-evolved2"
+    },
+    "VSU": {
+        "funnelUrl": "vsu-us-freetrial"
+    },
+    "Custom Diet Plan": {
+        "funnelUrl": "custom-diet-plan"
+    },
+    "Greens": {
+        "funnelUrl": "greens-bundle"
+    },
+    "SelectAllFunnel": [
+       "Greens Strawberry",
+       "Custom Diet Plan - 4 Weeks $69",
+       "VSU All-Access Monthly - $9.95 (7-Day Free Trial)",
+       "Burn Stack: Burn Evolved 2.0 (3) + Burn PM (3) (FREE)",
+       "Ultimate Cravings Crusher"
+    ],
+    "SelectSomeFunnel": [
+       "Greens Strawberry",
+       "Burn Stack: Burn Evolved 2.0 (3) + Burn PM (3) (FREE)",
+       "Ultimate Cravings Crusher"
+    ],
+    "SkipAllFunnel": [
+        "Ultimate Cravings Crusher"
+    ],
+    "firstName": "Web",
+    "lastName": "Automation",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "7022120785"
+}

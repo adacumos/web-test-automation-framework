@@ -1,0 +1,12 @@
+{
+    "agentListURL": "/nova/resources/sales-agents",
+    "agencyID": "200",
+    "firstName": "TestAgentListFirstName",
+    "lastName": "TestAgentListLastName",
+    "email": "test@vshred.com",
+    "password": "asdfasdf",
+    "confirmPassword": "asdfasdf",
+    "agency": "TestAgency",
+    "callCenterUserName": "TestCCUserName",
+    "updatedAgencyName": "TestAgency1"
+}

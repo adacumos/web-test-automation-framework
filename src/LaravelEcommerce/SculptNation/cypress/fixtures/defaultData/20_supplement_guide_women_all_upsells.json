@@ -1,0 +1,49 @@
+{
+    "supplementURL": {
+        "Male": "/supplement-guide-for-men",
+        "Female": "/supplement-guide-for-women"
+    },
+    "YouTubeVideoCount": "10",
+    "burnSupplements": {
+        "BurnEvolved": "Burn"
+    },
+    "supplementTypes": {
+        "BurnE": "Burn Evolved",
+        "TestBoostMax": "Test Boost Max",
+        "HGHBoost": "HGH BOOST",
+        "BurnPm": "Burn PM",
+        "Creatine": "Creatine",
+        "PreWorkout": "Pre Workout",
+        "PostWorkout": "Post Workout",
+        "Protein": "Protein",
+        "TurmericBlack": "Turmeric Black",
+        "Greens": "Greens",
+        "BCAAS": "BCAAs",
+        "Neuroctane": "Neuroctane",
+        "FatLossStack": "Fat Loss Stack",
+        "MuscleBuildingStack": "Muscle Building Stack",
+        "Probiotics": "Probiotics",
+        "Enzymes": "Enzymes"
+    },
+    "supplementTypesURL": {
+        "BurnEvolvedURL": "https://www.amazon.com/Sculpt-Nation-Shred-Thermogenic-Burner/dp/B0CC39G8G1?maas=maas_adg_2D1A9A2ED80E55976DD612C79EED96FA_afap_abs&ref_=aa_maas&tag=maas",
+        "TestBoostMaxURL": "https://www.amazon.com/Sculpt-Nation-Shred-Test-Boost/dp/B0CC394T33?maas=maas_adg_23376F018979B85F438A25776ED3CDE9_afap_abs&ref_=aa_maas&tag=maas",
+        "HGHBoostURL": "https://www.amazon.com/Sculpt-Nation-Arginine-Terrestris-Performance/dp/B0CF9BYN6R/?maas=maas_adg_0DEC11727C917E29B68CBAFBDEED54E4_afap_abs&ref_=aa_maas&tag=maas",
+        "BurnPmURL": "https://www.amazon.com/Sculpt-Nation-Shred-Burn-Suppressant/dp/B0CC35GKQ3?maas=maas_adg_F88D04BFC92C4268F434C2AFFD01D5D7_afap_abs&ref_=aa_maas&tag=maas",
+        "CreatineURL": "/products/creatine",
+        "PreWorkoutURL": "https://www.amazon.com/Sculpt-Nation-Shred-PreWorkout-Performance/dp/B0CFB5F3J8?maas[…]594D638CFF5D63575B69B43565A2C5_afap_abs&ref_=aa_maas&tag=maas",
+        "PostWorkoutURL": "/products/post-workout-fruit-punch",
+        "ProteinURL": "https://www.amazon.com/Sculpt-Nation-Protein-Powder-Chocolate/dp/B0CLYQB83J?maas=maa[…]2A23947872D1FB6D3A76E42F2_afap_abs&ref_=aa_maas&tag=maas&th=1",
+        "TurmericBlackURL": "https://www.amazon.com/Sculpt-Nation-Powerful-Turmeric-Supplement/dp/B0CCWXMYY3/",
+        "GreensURL": "https://www.amazon.com/Sculpt-Nation-Shred-Greens-Strawberry/dp/B0CCWQFRF8",
+        "BCAASURL": "https://www.amazon.com/Sculpt-Nation-Shred-BCAA-Powder/dp/B0CFB79NJ7?maas=maas_adg_2C4089198FCAEAF12016AB07A5180955_afap_abs&ref_=aa_maas&tag=maas",
+        "NeuroctaneURL": "https://www.amazon.com/Sculpt-Nation-Neuroctane-Supplement-Concentration/dp/B0CFB5KQKM/?maas=maas_adg_E73A56A282E5F6B9AA858FC9950FAD46_afap_abs&ref_=aa_maas&tag=maas",
+        "FatLossStackURL": "/products/fat-loss-stack",
+        "MuscleBuildingStackURL": "/products/muscle-building-stack",
+        "ProbioticsURL": "https://www.amazon.com/Sculpt-Nation-Shred-Premium-Probiotics/dp/B08M9B9P6G?maas=maas_adg_4DB9AD3064FD7E034D36F9885E95CE7D_afap_abs&ref_=aa_maas&tag=maas",
+        "EnzymesURL": "https://www.amazon.com/Sculpt-Nation-Shred-Digestive-Enzymes/dp/B0CFB5B16D?maas=maas_adg_7F22CADC14F1198E5EECAB6F1C010B30_afap_abs&ref_=aa_maas&tag=maas",
+        "CollagenURL": "https://www.amazon.com/Sculpt-Nation-Collagen-Peptides-Powder/dp/B0CF9C643N?maas=maas_adg_77A673022850F2EC48210981E8139946_afap_abs&ref_=aa_maas&tag=maas",
+        "AcvGummiesURL": "https://www.amazon.com/Sculpt-Nation-Shred-Vinegar-Gummies/dp/B0CF84YQZM?maas=maas_adg_B5DF3201B39F550E46AF16E6B0990D0E_afap_abs&ref_=aa_maas&tag=maas",
+        "MultivitaminURL": "https://www.amazon.com/Sculpt-Nation-Shred-Multivitamin-Nutritional/dp/B0CFB95JFJ/?maas=maas_adg_32315826C62E172DC364EB72D54B91C5_afap_abs&ref_=aa_maas&tag=maas"
+    }
+}

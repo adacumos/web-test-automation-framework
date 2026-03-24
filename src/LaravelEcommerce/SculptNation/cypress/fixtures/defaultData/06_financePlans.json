@@ -1,0 +1,45 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "PlansRegression",
+    "phone": "(625) 335-1146",
+    "address": "565 Nauset Rd",
+    "address2": "47th Street",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89120",
+
+    "landingPage": {
+        "tableHeader": [
+            "ID",
+            "Slug",
+            "Interval",
+            "Interval Length",
+            "Trial Period Days",
+            "Created At",
+            "Updated At"
+        ]
+    },
+    "editPlans": {
+        "planUnderTest": "probiotic_monthly_plan",
+        "planSlug": "modified_probiotic_monthly_plan",
+        "intervalLength": 2
+    },
+    "createNewPlan": {
+        "planSlug": "testplan-monthly-regression",
+        "intervalLength": "1",
+        "offerDetails": {
+            "offerTitle": "MonthPlan",
+            "offerSku": "monthly-testplan",
+            "offerPrice": "64.99"
+        },
+        "productDetails": {
+            "productName": "Burn Evolved 2.0",
+            "productQuantity": "1"
+        }
+    },
+    "deleteTestData": {
+        "deleteLinkedOffers": "delete from offers where sku = $1",
+        "deleteTestPlan": "delete from plans where slug = $1"
+    }
+}

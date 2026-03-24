@@ -1,0 +1,55 @@
+{
+    "productLandingPage": {
+        "productName": "BURN PM",
+        "productUrl": "burn-pm",
+        "oneBottlePrice": "$41.00",
+        "sixBottlePrice": "$32.50",
+        "threeBottlePrice": "$44.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "BURN PM - Monthly",
+            "quantity": "1",
+            "subtotal": "$41.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$2.56",
+            "totalPrice": "$53.51"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$43.56",
+            "secondItemOrderTotal": "$43.56",
+            "thirdItemOrderTotal": "$53.51",
+            "firstSubscriptionName": "TURMERIC BLACK - Monthly",
+            "secondSubscriptionName": "BURN EVOLVED 2.0 - Monthly",
+            "thirdSubscriptionName": "BURN PM - Monthly",
+            "firstSubscriptionPricePerMonth": "$41.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.00 / month",
+            "thirdSubscriptionPricePerMonth": "$50.95 / month",
+            "firstItemOrderPrice": "$41.00",
+            "secondItemOrderPrice": "$41.00",
+            "thirdItemOrderPrice": "$41.00",
+            "firstItemOrderQuantity": "1",
+            "secondItemOrderQuantity": "1",
+            "thirdItemOrderQuantity": "1",
+            "firstItemOrderSubtotal": "$41.00",
+            "secondItemOrderSubtotal": "$41.00",
+            "thirdItemOrderSubtotal": "$41.00",
+            "firstItemOrderShipping": "$0.00",
+            "secondItemOrderShipping": "$0.00",
+            "thirdItemOrderShipping": "$9.95"
+        }
+    },
+
+    "firstName": "qa",
+    "lastName": "regtest",
+    "country": "USA",
+    "streetAddress": "Test Address",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "702-212-0785"
+}

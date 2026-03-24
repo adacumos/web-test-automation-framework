@@ -1,0 +1,64 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/newyears/special-offer-eco-fbk-cpc"
+    },
+    "funnelOfferUrl": [
+        "burn-us",
+        "burn-pm",
+        "turmeric-cs",
+        "enzymes",
+        "fl-cdp-us"
+    ],
+    "trialPack-skipAllFunnels": [
+        "Trial Pack: Burn Evolved 2.0 + Burn PM + ACV Gummies"
+    ],
+    "trialPack-selectAllFunnels": [
+        "Custom Diet Plan - 4 weeks",
+        "ENZYMES - Three Bottle (Discounted 50)",
+        "TURMERIC BLACK - Three Bottle (Discounted 50)",
+        "BURN PM - Three Bottle (Discounted 50)",
+        "BURN EVOLVED 2.0 - 3-Bottle Upgrade",
+        "Trial Pack: Burn Evolved 2.0 + Burn PM + ACV Gummies"
+    ],
+    "holidayFle-skipAllFunnels": [
+        "Holiday Fat Loss Stack: 3 Burn Evolved + 3 Burn PM + 1 ACV Gummies + Shaker Cup"
+    ],
+    "holiday-selectAllFunnels": [
+        "Custom Diet Plan - 4 weeks",
+        "ENZYMES - Six Bottle (Discounted 50)",
+        "TURMERIC BLACK - Six Bottle (Discounted 50)",
+        "BURN PM - Six Bottle (Discounted 50)",
+        "BURN EVOLVED 2.0 - 3-Bottle Upgrade",
+        "Holiday Fat Loss Stack: 3 Burn Evolved + 3 Burn PM + 1 ACV Gummies + Shaker Cup"
+    ],
+    "ultimateBurn-skipAllFunnels": [
+        "Ultimate Burn: 3 Burn Evolved + 3 Burn PM + 2 ACV Gummies + 3 Turmeric Black + Shaker Cup"
+    ],
+    "ultimateBurn-selectAllFunnels": [
+        "Custom Diet Plan - 4 weeks",
+        "ENZYMES - Twelve Bottle (Discounted)",
+        "TURMERIC BLACK - Twelve Bottle (Discounted)",
+        "BURN PM - Twelve Bottle (Discounted)",
+        "BURN EVOLVED 2.0 - 6-Bottle Upgrade",
+        "Ultimate Burn: 3 Burn Evolved + 3 Burn PM + 2 ACV Gummies + 3 Turmeric Black + Shaker Cup"
+    ],
+    "trialPack-selectSomeFunnels": [
+        "Custom Diet Plan - 4 weeks",
+        "TURMERIC BLACK - One Bottle (Discounted)",
+        "BURN PM - One Bottle (Discounted)",
+        "Trial Pack: Burn Evolved 2.0 + Burn PM + ACV Gummies"
+    ],
+    "holiday-selectSomeFunnels": [
+        "ENZYMES - Six Bottle (Discounted 50)",
+        "BURN EVOLVED 2.0 - 3-Bottle Upgrade",
+        "Holiday Fat Loss Stack: 3 Burn Evolved + 3 Burn PM + 1 ACV Gummies + Shaker Cup"
+    ],
+    "firstName": "LE PageMove",
+    "lastName": "Special-OfferPage",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785"
+}

@@ -1,0 +1,30 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/burn-fle/burn-fle-fbk-cpc-v4",
+        "offerBundle": ["BURN EVOLVED 2.0"]
+    },
+    "funnelOfferUrl": [
+        "burn-evolved-us",
+        "burn-evolved-ds",
+        "burn-pm",
+        "turmeric-black",
+        "fl-cdp",
+        "offer"
+    ],
+    "refundReason": "CDP - Unsatisfied (Plan Sent)",
+    "refundAmount": "$20.00",
+    "orderTransaction": {
+        "orderItem": "Custom Diet Plan - 4 weeks"
+    },
+    "klaviyoEventSummary": {
+        "refundedOrder": ["Custom Diet Plan - 4 weeks"]
+    },
+    "firstName": "partialRefund",
+    "lastName": "klaviyoEvent",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785"
+}

@@ -1,0 +1,18 @@
+{
+    "vsUserInfo": {
+        "Trainer": {
+            "name": "Test Trainer Manager",
+            "password": "12345678",
+            "role": "Trainer",
+            "gender": "Male",
+            "leader": "Trainer One",
+            "utm": "TrainerM.",
+            "coupon": "trainerM."
+        }
+    },
+    "trainerMgrAbilities": [
+        "Manage trainers",
+        "Assign Trainers to clients",
+        "Trainer self-assign's own clients"
+    ]
+}

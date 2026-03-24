@@ -1,0 +1,34 @@
+{
+    "LandingPage": {
+        "fullurl": "/blog/v-shred-foodies-club-landing-page"
+    },
+    "surveyLandingPage": {
+        "checkoutUrl": "vshred_foodies_club",
+        "productDescription": "V Shred Foodies Club"
+    },
+
+    "foodieClub-skipAllFunnels": ["V Shred Foodies Club"],
+    "foodieClub-acceptAllFunnels": [
+        "Special Offer Coupon - Greens",
+        "BURN PM - Monthly",
+        "BURN EVOLVED 2.0 - Monthly",
+        "TURMERIC BLACK - Six Bottle (Discounted 50)",
+        "V Shred Foodies Club"
+    ],
+
+    "name": "VShred Foodies Club",
+    "firstName": "QA",
+    "lastName": "Automation",
+    "clientName": "foodieTest",
+    "country": "United States of America",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postcode": "89158",
+    "phone": "7022120785",
+    "totalAmount": "$1.09",
+    "shippingCost": "$0.00",
+    "shippingOption": "Priority Flat Rate",
+    "productName": "Foodie",
+    "productPrice": "$1.00"
+}

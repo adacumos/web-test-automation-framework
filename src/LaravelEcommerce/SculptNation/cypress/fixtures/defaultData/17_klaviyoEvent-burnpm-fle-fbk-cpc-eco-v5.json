@@ -1,0 +1,35 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "sp/burn/burnpm-fle-fbk-cpc-eco-v5",
+        "checkoutReference": "burn2-burnpm-free-shaker-fle-mf-v2-1?funnel=burn-burnpm-fle-funnel-burn-us",
+        "offerPrice": "$49.00",
+        "offerBundle": ["BURN EVOLVED", "BURN PM", "FAT LOSS EXTREME"]
+    },
+    "funnelOfferUrl": ["burn-us-1", "burn-pm-cs", "turmeric-cs", "enzymes-cs"],
+    "selectedFunnelsOnly": [
+        "ENZYMES - One Bottle (Discounted)",
+        "TURMERIC BLACK - One Bottle (Discounted)",
+        "3 Burn Evolved + 3 Burn PM (FREE) + Shaker Cup (FREE) + Fat Loss Extreme (FREE) Bundle"
+    ],
+    "klaviyoEventSummary": {
+        "purchasedPlan": [],
+        "orderSummary": [
+            "ENZYMES - One Bottle (Discounted)",
+            "TURMERIC BLACK - One Bottle (Discounted)",
+            "3 Burn Evolved + 3 Burn PM (FREE) + Shaker Cup (FREE) + Fat Loss Extreme (FREE) Bundle"
+        ],
+        "refundedOrder": [],
+        "canceledSubscription": [],
+        "trainerDetails": ["Trainer Two"]
+    },
+    "firstName": "AllDayBogo",
+    "lastName": "KlaviyoEvents",
+    "clientName": "BurnBogo KlaviyoEvents",
+    "country": "USA",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postcode": "89158",
+    "phone": "702-212-0785",
+    "phone1": "7022120785"
+}

@@ -1,0 +1,15 @@
+{
+    "landingPage": {
+        "tableHeader": [
+            "ID",
+            "Reference Number",
+            "Tracking Number",
+            "Status",
+            "Created At",
+            "Export At",
+            "User",
+            "Shipping Category",
+            "Shipping Address"
+        ]
+    }
+}

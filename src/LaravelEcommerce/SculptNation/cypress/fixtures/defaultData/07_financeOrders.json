@@ -1,0 +1,38 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "OrdersPageRegression",
+    "phone": "(617) 389-0046",
+    "address": "565 Nauset Rd",
+    "address2": "4th Street",
+    "city": "Eastham",
+    "state": "MA",
+    "country": "USA",
+    "postalCode": "02149",
+
+    "productName": "TURMERIC",
+    "productPrice": "$49.00",
+    "productQuantity": "1",
+    "productTax": "$3.06",
+
+    "shippingOption": "Priority Flat Rate - $9.95 - expected",
+
+    "landingPage": {
+        "tableHeader": [
+            "Amount",
+            "Refunded",
+            "Status",
+            "Created By",
+            "Created At",
+            "Checked Out At",
+            "Paid At",
+            "Offers",
+            "User",
+            "Subscription",
+            "Shipping Address",
+            "Upsell",
+            "Sift Status",
+            "Created On 3rd Party Site",
+            "3rd Party Sites"
+        ]
+    }
+}

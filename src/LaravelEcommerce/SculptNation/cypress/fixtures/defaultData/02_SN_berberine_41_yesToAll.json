@@ -1,0 +1,28 @@
+{
+    "productLandingPage": {
+        "productName": "Berberine",
+        "productUrl": "berberine_41",
+        "oneBottlePrice": "$41.00"
+    },
+
+    "selectAllFunnels": [
+        "Berberine 1 Bottle $41",
+        "6 Bottles of Berberine for $98",
+        "3 bottles of Burn Evolved2.0 $49",
+        "3 Bottles of Turmeric for $49",
+        "3 Bottles of Burn PM for $49"
+    ],
+
+    "clientName": "toned90D",
+    "country": "United States of America",
+    "streetAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "postcode": "89158",
+    "phone": "7022120785",
+    "totalAmount": "$54.38",
+    "shippingCost": "$9.95",
+    "shippingOption": "Priority Flat Rate",
+    "productName": "Berberine",
+    "productPrice": "$41.00"
+}

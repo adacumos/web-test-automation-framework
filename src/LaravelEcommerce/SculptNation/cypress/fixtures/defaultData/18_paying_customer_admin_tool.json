@@ -1,0 +1,18 @@
+{
+    "payingCustomersURL": "/nova/sales-agent/paying-customers",
+    "adminPage": {
+        "tableHeader": [
+            "Order ID ",
+            "Order Status",
+            "Items Ordered",
+            "Order Total ",
+            "Customer Name",
+            "Customer Email",
+            "Customer Phone",
+            "Purchase Date",
+            "Agent Order Status",
+            "Assign Agent"
+        ]
+    }
+}
+

@@ -1,0 +1,30 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "ShipCategoryRegression",
+    "phone": "(818) 549-1246",
+    "address": "3722 South Las Vegas Boulevard",
+    "address2": "Suite 5523",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89158",
+    "shippingCategory": "Priority Flat Rate",
+
+    "productName": "TURMERIC",
+    "productPrice": "$49.00",
+    "productQuantity": "1",
+    "productTax": "$4.10",
+
+    "landingPage": {
+        "tableHeader": [
+            "ID",
+            "Name",
+            "Detail",
+            "Strategy",
+            "Class",
+            "Carrier",
+            "Service Level",
+            "Created At"
+        ]
+    }
+}

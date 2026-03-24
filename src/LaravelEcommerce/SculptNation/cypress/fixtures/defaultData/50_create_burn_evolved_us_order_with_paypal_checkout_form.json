@@ -1,0 +1,36 @@
+{
+    "offerLandingPage": {
+        "pageUrl": "/products/burn-evolved",
+        "checkoutUrl": "/checkout-paypal"
+    },
+    "productLandingPage": {
+        "productName": "BURN EVOLVED 2.0",
+        "productUrl": "burn-evolved",
+        "oneBottlePrice": "$49.00",
+        "sixBottlePrice": "$195.50",
+        "threeBottlePrice": "$132.00"
+    },
+
+    "oneBottle": {
+        "cartDetails": {
+            "productName": "BURN EVOLVED 2.0",
+            "quantity": "1",
+            "subtotal": "$49.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$4.09",
+            "totalPrice": "$53.09"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "firstItemOrderTotal": "$63.05 for 1 items"
+        }
+    },
+
+    "billingFirstName": "QA",
+    "billingLastName": "Automation",
+    "billingAddress": "3722 South Las Vegas Boulevard, Suite 3502",
+    "billingCity": "Las Vegas",
+    "billingZipCode": "89158",
+    "billingCountry": "USA",
+    "billingPhone": "7022120785"
+}

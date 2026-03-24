@@ -1,0 +1,24 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-aka1"
+    },
+    "pixelDetail": {
+        "quizcompleted": {
+            "eventId": "EEquizCompleted",
+            "gtm": {
+                "internal": "XB3RCPW6idIDEN_Ro80B",
+                "kendago": "BfGFCMyA1IcBEISN_88D"
+            },
+            "twitter": { "internal": "tw-ojfa3-ojfy3" },
+            "tiba": {
+                "femaleSkinny": "T90 Skinny Fat",
+                "femaleFatloss": "Results Female Fl",
+                "femaleToned": "VSL Quiz | Get Toned",
+                "maleFatloss": "Survey Results: Male Fat Loss",
+                "maleSkinnyFat": "Ripped in 90 Skinny Fat",
+                "maleRipped": "SCULPTnation - Ripped in 90",
+                "maleCleanBulk": "SCULPTnation - Clean Bulk"
+            }
+        }
+    }
+}

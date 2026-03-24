@@ -1,0 +1,9 @@
+{
+    "smsMessagesURL": "/nova/resources/sms-messages",
+    "messageID": "1",
+    "messageName": "First Confirmation Message",
+    "messageBody": "Hi ::user.first_name::, It’s Vince from Sculpt Nation. Thanks for choosin ...",
+    "messageSentCount": "1",
+    "createdMessage": "TestMessageName",
+    "createdMessageBody": "TesMessagetBody"
+}

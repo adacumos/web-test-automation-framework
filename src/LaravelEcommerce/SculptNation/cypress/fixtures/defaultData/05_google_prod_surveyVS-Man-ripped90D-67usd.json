@@ -1,0 +1,46 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/quiz/body-type-quiz?ad_channel=google&ad_id=Automation&gad_source=2&gclid=Automation&utm_campaign=Automation&utm_content=Automation&utm_medium=-internal&utm_source=google&account=260-011-7041 ",
+        "checkoutUrl": "ripped-in-90-days-bundle-msf-bt-f3",
+        "productDescription": "Ripped In 90 Days",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Ripped In 90 Days",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "Big Arms Program"
+        ]
+    },
+    "VSU": {
+        "funnelUrl": "vsu-special-offer"
+    },
+    "Burn Evolved": {
+        "funnelUrl": "burn"
+    },
+    "Burn PM": {
+        "funnelUrl": "burn-pm"
+    },
+    "skipSomeFunnels": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "Ultimate Fat Loss Recipes Collection",
+        "Burn Evolved 2.0 - 1 Bottle $29",
+        "Ripped In 90 Days $57"
+    ],
+    "selectSomeFunnels": [
+        "VSU - Monthly 9.95 (30-Day Trial)",
+        "BURN PM",
+        "Burn Evolved 2.0 - 3 Bottles $87",
+        "BURN EVOLVED 2.0",
+        "Custom Diet Plan",
+        "Ripped In 90 Days $57"
+    ],
+    "firstName": "Automation",
+    "lastName": "QA-Test",
+    "clientName": "Automation QA-Test",
+    "country": "USA",
+    "address": "3722 South Las Vegas Boulevard, Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89158",
+    "phoneNumber": "7022120785"
+}

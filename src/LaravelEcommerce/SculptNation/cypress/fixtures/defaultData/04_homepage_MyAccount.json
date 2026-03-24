@@ -1,0 +1,56 @@
+{
+    "productLandingPage": {
+        "productName": "PRE WORKOUT - FRUIT PUNCH",
+        "productUrl": "pre-workout",
+        "oneBottlePrice": "$37.00"
+    },
+
+    "subscription": {
+        "cartDetails": {
+            "productName": "BURN PM - Monthly",
+            "quantity": "1",
+            "subtotal": "$41.00",
+            "priorityFlatRate": "$9.95",
+            "salesTax": "$2.56",
+            "totalPrice": "$53.51"
+        },
+        "orderDetails": {
+            "firstItemOrderStatus": "fulfilled",
+            "secondItemOrderStatus": "fulfilled",
+            "thirdItemOrderStatus": "fulfilled",
+            "subscriptionStatus": "new",
+            "firstItemOrderTotal": "$43.56",
+            "secondItemOrderTotal": "$43.56",
+            "thirdItemOrderTotal": "$53.51",
+            "firstSubscriptionName": "TURMERIC BLACK - Monthly",
+            "secondSubscriptionName": "BURN EVOLVED 2.0 - Monthly",
+            "thirdSubscriptionName": "BURN PM - Monthly",
+            "firstSubscriptionPricePerMonth": "$41.00 / month",
+            "secondSubscriptionPricePerMonth": "$41.00 / month",
+            "thirdSubscriptionPricePerMonth": "$50.95 / month"
+        }
+    },
+
+    "editUserDetails": {
+        "firstName": "New AccountLogin",
+        "lastName": "UpdatedRegtest",
+        "email": "updatedEmail@coolb.com",
+        "phoneNumber": "8894554614",
+        "newPassword": "VShred99"
+    },
+    "newCardDetails": {
+        "cardNumber": "4242424242424242",
+        "expirationMonth": "12",
+        "expirationYear": "2028",
+        "cvv": "556"
+    },
+
+    "firstName": "login",
+    "lastName": "regtest",
+    "country": "USA",
+    "streetAddress": "Test Address",
+    "city": "Boston",
+    "state": "MA",
+    "postcode": "01434",
+    "phone": "7022120785"
+}

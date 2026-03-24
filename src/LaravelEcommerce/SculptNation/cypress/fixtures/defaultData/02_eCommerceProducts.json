@@ -1,0 +1,33 @@
+{
+    "firstName": "QA Automation",
+    "lastName": "ProductsPageRegression",
+    "phone": "(617) 389-0046",
+    "address": "3722 South Las Vegas Boulevard",
+    "address2": "Suite 3502",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "postalCode": "89158",
+    "editProduct": {
+        "productSku": "pre_workout_fruit_punch",
+        "productName": "PRE WORKOUT - FRUIT PUNCH",
+        "productDescription": "Saepe dolorum ea quo cumque. Assumenda dolorum voluptatem nihil ut velit",
+        "productType": "physical",
+        "productCogs": "$0.00",
+        "editName": "TEST-- PRE WORKOUT - FRUIT PUNCH --TEST",
+        "editPrice": "299.00",
+        "editType": "digital",
+        "editDescription": "TEST-- Description --TEST"
+    },
+    "createNewProduct": {
+        "productSku": "testProductSku",
+        "productName": "TEST-PRODUCT",
+        "productType": "physical",
+        "productDescription": "TEST DESC-- PRODUCT --TEST DESC",
+        "productCogs": "$0.00",
+        "attachOffer": "POST WORKOUT"
+    },
+    "deleteTestData": {
+        "ProductsTable": "delete from products where sku = $1"
+    }
+}

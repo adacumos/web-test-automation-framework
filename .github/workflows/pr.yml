@@ -1,0 +1,65 @@
+################
+################
+################
+################
+# COMMENTING OUT UNTIL WE SWITCH TO GH ACTIONS FOR THE E2E FRAMEWORK!!!!!!
+################
+################
+################
+
+# name: Cypress PR Validation Tests
+
+# on: pull_request
+
+# jobs:
+#     cypress-pr-run:
+#         runs-on: ubuntu-latest
+#         environment: e2e
+#         strategy:
+#             # don't fail the entire matrix on failure
+#             fail-fast: false
+#         steps:
+#             - name: Checkout
+#               uses: actions/checkout@v4
+#             - name: 'Extract ticket ID if present'
+#               id: tests_to_execute
+#               run: |
+#                   ticket_id=$(grep -Po '(?<=\[)[^\]]+(?=\])' <<< "${{ github.event.pull_request.title }}" || echo "")
+#                   if [ ! -z ${ticket_id} ]; then
+#                     echo "tags=@$ticket_id" >> $GITHUB_OUTPUT
+#                   fi
+#             - name: Run PR validation tests
+#               uses: cypress-io/github-action@v6
+#               env:
+#                   CYPRESS_ADMIN_USER: ${{ vars.CYPRESS_ADMIN_USER }}
+#                   CYPRESS_ADMIN_PASSWORD: ${{ secrets.CYPRESS_ADMIN_PASSWORD }}
+#                   CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+#                   CYPRESS_TAGS: ${{ steps.tests_to_execute.outputs.tags }}
+#                   CYPRESS_filterSpecs: true
+#                   CYPRESS_GEOLOCATION: ''
+#                   CYPRESS_TOKEN: ${{ secrets.CYPRESS_TOKEN }}
+#                   CYPRESS_MAILTRAP_API_KEY: ${{ secrets.CYPRESS_MAILTRAP_API_KEY }}
+#                   CYPRESS_MAILTRAP_ACCOUNT_ID: ${{ vars.CYPRESS_MAILTRAP_ACCOUNT_ID }}
+#                   CYPRESS_MAILTRAP_INBOX_ID: ${{ vars.CYPRESS_MAILTRAP_INBOX_ID }}
+#                   CYPRESS_EMAIL_BASE: ${{ vars.CYPRESS_EMAIL_BASE }}
+#                   CYPRESS_EMAIL_DOMAIN: ${{ vars.CYPRESS_EMAIL_DOMAIN }}
+#                   CYPRESS_CREDIT_CARD_NUMBER: ${{ secrets.CYPRESS_CREDIT_CARD_NUMBER }}
+#                   CYPRESS_CREDIT_CARD_CVV: ${{ secrets.CYPRESS_CREDIT_CARD_CVV }}
+#                   CYPRESS_CREDIT_CARD_EXPIRATION_MONTH: ${{ secrets.CYPRESS_CREDIT_CARD_EXPIRATION_MONTH }}
+#                   CYPRESS_CREDIT_CARD_EXPIRATION_YEAR: ${{ secrets.CYPRESS_CREDIT_CARD_EXPIRATION_YEAR }}
+#                   CYPRESS_DEPOSCO_URL: ${{ vars.CYPRESS_DEPOSCO_URL }}
+#                   CYPRESS_DEPOSCO_EMAIL: ${{ vars.CYPRESS_DEPOSCO_EMAIL }}
+#                   CYPRESS_DEPOSCO_PASSWORD: ${{ secrets.CYPRESS_DEPOSCO_PASSWORD }}
+#                   CYPRESS_QUIET_LOGISTICS_URL: ${{ vars.CYPRESS_QUIET_LOGISTICS_URL }}
+#                   CYPRESS_QUIET_LOGISTICS_USERNAME: ${{ vars.CYPRESS_QUIET_LOGISTICS_USERNAME }}
+#                   CYPRESS_QUIET_LOGISTICS_PASSWORD: ${{ secrets.CYPRESS_QUIET_LOGISTICS_PASSWORD }}
+#                   CYPRESS_CUSTOM_TEST_DATA_JSON": ''
+#                   CYPRESS_BASE_URL: ${{ vars.CYPRESS_BASE_URL }}
+#               with:
+#                   record: true
+#                   build: yarn install
+#                   start: yarn test:le:sn:github:actions
+#                   project: './src/LaravelEcommerce/SculptNation'
+#                   config-file: 'le.sn.github.actions.config.ts'
+#                   browser: chrome
+#                   cache-key: node-18-on-${{ runner.os }}-hash-${{ hashFiles('yarn.lock') }}

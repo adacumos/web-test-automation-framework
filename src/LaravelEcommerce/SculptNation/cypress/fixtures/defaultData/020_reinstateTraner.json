@@ -1,0 +1,13 @@
+{
+    "vsUserInfo": {
+        "Trainer": {
+            "name": "Trainer Four",
+            "password": "12345678",
+            "role": "Trainer",
+            "gender": "Male",
+            "leader": "Trainer One",
+            "utm": "trainer.",
+            "coupon": "trainer."
+        }
+    }
+}

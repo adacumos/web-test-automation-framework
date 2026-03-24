@@ -1,0 +1,16 @@
+.history
+node_modules
+package-lock.json
+src/**/**/cypress/videos
+src/**/**/cypress/screenshots
+src/**/**/cucumber-messages.ndjson
+src/**/**/cucumber-report.html
+src/**/**/tests_ssh_key
+src/**/**/cypress.env.json
+.DS_Store
+yarn-error.log
+src/LaravelEcommerce/SculptNation/automationServer
+src/LaravelEcommerce/SculptNation/cypress/fixtures/customData/resourceValues.json
+src/Vshred/Vshred_TrainerTool/cypress/fixtures/testGeneratedImages
+*.pub
+laravel-ecommerce

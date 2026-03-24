@@ -1,0 +1,991 @@
+# Use the latest 2.1 version of CircleCI pipeline process engine.
+version: 2.1
+
+parameters:
+    test_type:
+        type: enum
+        enum:
+            [
+                none,
+                le-sculptnation-pr-validation-tests-workflow,
+                le-sculptnation-beta-tests-workflow,
+                le-sculptnation-beta-refund-tests-workflow,
+                le-sculptnation-all-tests-workflow,
+                le-sculptnation-hotfix-workflow,
+                le-core-full-tests-workflow,
+                le-vshred-smoke-tests-workflow,
+                le-vshred-beta-tests-workflow,
+                le-vshred-hotfix-tests-workflow,
+                le-vshred-all-tests-workflow,
+                le-vshred-trainertool-smoke-tests-workflow,
+                le-vshred-trainertool-beta-tests-workflow,
+                le-vshred-program-purchase-tests-workflow,
+                le-vshred-klaviyo-smoke-tests-workflow,
+                le-vshred-run-feature-tag-workflow,
+                le-vshred-uat-workflow,
+                le-marketing-smoke-tests-workflow,
+                le-marketing-all-tests-workflow,
+                vs-vshred-trainertool-all-tests-workflow,
+                vs-marketing-smoke-tests-workflow,
+                vs-marketing-all-tests-workflow,
+                vs-marketing-blog-tests-workflow,
+            ]
+        default: none
+    trigger_pipeline:
+        type: boolean
+        default: false
+    browser:
+        type: enum
+        enum: [electron, chrome, firefox, edge]
+        default: chrome
+    geolocation:
+        type: string
+        default: ''
+    SCRIPT_TAG:
+        type: string
+        default: '@PR'
+    url:
+        type: string
+        default: 'https://staging.sculptnation.com'
+    LE_ADMIN_URL:
+        type: string
+        default: 'https://staging.sculptnation.com'
+    VS_ADMIN_URL:
+        type: string
+        default: 'https://staging.vshred.com'
+    LE_VSHRED_URL:
+        type: string
+        default: 'https://le-staging.vshred.com/'
+    SSH_USERNAME:
+        type: string
+        default: ${CYPRESS_SSH_USERNAME}
+    SSH_HOST:
+        type: string
+        default: ${CYPRESS_SSH_HOST}
+    SSH_PORT:
+        type: string
+        default: ${CYPRESS_SSH_PORT}
+    DB_HOST:
+        type: string
+        default: ${CYPRESS_DB_HOST}
+    DB_PORT:
+        type: string
+        default: ${CYPRESS_DB_PORT}
+    DB_DB:
+        type: string
+        default: ${CYPRESS_DB_DB}
+    DB_USER:
+        type: string
+        default: ${CYPRESS_DB_USER}
+    DB_PASSWORD:
+        type: string
+        default: ${CYPRESS_DB_PASSWORD}
+    ASSET_ID:
+        type: string
+        default: ''
+    ASSET_TYPE:
+        type: string
+        default: ''
+    ACTION_TYPE:
+        type: string
+        default: ''
+
+executors:
+    with-chrome:
+        docker:
+            - image: cypress/browsers:node-20.11.0-chrome-121.0.6167.85-1-ff-120.0-edge-121.0.2277.83-1
+
+# Define the jobs to be invoked later in a workflow.
+jobs:
+    # Define the lint job
+    lint-check:
+        executor: with-chrome
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Run linting'
+                  command: 'yarn lint'
+
+    # Define the PR validation test jobs
+    le-sculptnation-pr-validation-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 4
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE SculptNation PR validation tests'
+                  no_output_timeout: 30m
+                  command: 'yarn test:le:sn --browser << pipeline.parameters.browser >> --env tags=@PR,filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,SSH_USERNAME=<<pipeline.parameters.SSH_USERNAME>>,SSH_HOST=<<pipeline.parameters.SSH_HOST>>,SSH_PORT=<<pipeline.parameters.SSH_PORT>>,DB_HOST=<<pipeline.parameters.DB_HOST>>,DB_PORT=<<pipeline.parameters.DB_PORT>>,DB_DB=<<pipeline.parameters.DB_DB>>,DB_USER=<<pipeline.parameters.DB_USER>>,DB_PASSWORD=<<pipeline.parameters.DB_PASSWORD>>,LE_ADMIN_URL=<<pipeline.parameters.LE_ADMIN_URL>>,VS_ADMIN_URL=<<pipeline.parameters.VS_ADMIN_URL>>,LE_VSHRED_URL=<<pipeline.parameters.LE_VSHRED_URL>> --config baseUrl=<<pipeline.parameters.url>>'
+            - run:
+                  name: 'Install JUnit coverage reporter'
+                  command: 'yarn add --dev jest-junit'
+            - run:
+                  name: 'Install JUnit coverage reporter'
+                  command: 'npm install -g jest'
+            - run:
+                  name: 'Run tests with JUnit as reporter'
+                  command: 'jest --ci --runInBand --reporters=default --reporters=jest-junit --passWithNoTests'
+                  environment:
+                      JEST_JUNIT_OUTPUT_DIR: ./reports/
+                      JEST_JUNIT_ADD_FILE_ATTRIBUTE: 'true'
+            - store_test_results:
+                  path: ./reports/
+            - run:
+                  name: 'Creating Artifacts'
+                  command: 'echo "my artifact file" > /tmp/art-1; mkdir /tmp/artifacts; echo "my artifact files in a dir" > /tmp/artifacts/art-2;'
+            - store_artifacts:
+                  path: /tmp/art-1
+                  destination: artifact-file
+            - store_artifacts:
+                  path: /tmp/artifacts
+    le-vshred-smoke-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 4
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE VShred Smoke Tests'
+                  command: 'yarn test:le:vshred:smoke --browser << pipeline.parameters.browser >>'
+    le-marketing-smoke-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 4
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE Marketing Smoke Tests'
+                  command: 'yarn test:le:marketing:smoke --browser << pipeline.parameters.browser >>'
+    le-vshred-trainertool-smoke-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 7
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE VShred-TrainerTool Smoke Tests'
+                  command: 'yarn test:le:sn --browser << pipeline.parameters.browser >> --env tags=@ttSmoke,filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,SSH_USERNAME=<<pipeline.parameters.SSH_USERNAME>>,SSH_HOST=<<pipeline.parameters.SSH_HOST>>,SSH_PORT=<<pipeline.parameters.SSH_PORT>>,DB_HOST=<<pipeline.parameters.DB_HOST>>,DB_PORT=<<pipeline.parameters.DB_PORT>>,DB_DB=<<pipeline.parameters.DB_DB>>,DB_USER=<<pipeline.parameters.DB_USER>>,DB_PASSWORD=<<pipeline.parameters.DB_PASSWORD>>,LE_ADMIN_URL=<<pipeline.parameters.LE_ADMIN_URL>>,VS_ADMIN_URL=<<pipeline.parameters.VS_ADMIN_URL>>,LE_VSHRED_URL=<<pipeline.parameters.LE_VSHRED_URL>> --config baseUrl=<<pipeline.parameters.url>>'
+    le-vshred-program-purchase-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 15
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE VShred-Program Purchase Tests'
+                  command: 'yarn test:le:sn --browser << pipeline.parameters.browser >> --env tags=@vsPrograms,filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,SSH_USERNAME=<<pipeline.parameters.SSH_USERNAME>>,SSH_HOST=<<pipeline.parameters.SSH_HOST>>,SSH_PORT=<<pipeline.parameters.SSH_PORT>>,DB_HOST=<<pipeline.parameters.DB_HOST>>,DB_PORT=<<pipeline.parameters.DB_PORT>>,DB_DB=<<pipeline.parameters.DB_DB>>,DB_USER=<<pipeline.parameters.DB_USER>>,DB_PASSWORD=<<pipeline.parameters.DB_PASSWORD>>,LE_ADMIN_URL=<<pipeline.parameters.LE_ADMIN_URL>>,VS_ADMIN_URL=<<pipeline.parameters.VS_ADMIN_URL>>,LE_VSHRED_URL=<<pipeline.parameters.LE_VSHRED_URL>> --config baseUrl=<<pipeline.parameters.url>>'
+
+    vs-marketing-smoke-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 5
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'VS Marketing Smoke Tests'
+                  command: 'yarn test:vs:marketing:smoke --browser << pipeline.parameters.browser >>'
+    vs-marketing-blog-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 5
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'VS Marketing Blog Tests'
+                  command: 'yarn test:vs:marketing:blog --browser << pipeline.parameters.browser >>'
+
+    le-vshred-klaviyo-smoke-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 7
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE VShred-Klaviyo Smoke Tests'
+                  command: 'yarn test:le:sn --browser << pipeline.parameters.browser >> --env tags=@klaviyoSmoke,filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,SSH_USERNAME=<<pipeline.parameters.SSH_USERNAME>>,SSH_HOST=<<pipeline.parameters.SSH_HOST>>,SSH_PORT=<<pipeline.parameters.SSH_PORT>>,DB_HOST=<<pipeline.parameters.DB_HOST>>,DB_PORT=<<pipeline.parameters.DB_PORT>>,DB_DB=<<pipeline.parameters.DB_DB>>,DB_USER=<<pipeline.parameters.DB_USER>>,DB_PASSWORD=<<pipeline.parameters.DB_PASSWORD>>,LE_ADMIN_URL=<<pipeline.parameters.LE_ADMIN_URL>>,VS_ADMIN_URL=<<pipeline.parameters.VS_ADMIN_URL>>,LE_VSHRED_URL=<<pipeline.parameters.LE_VSHRED_URL>> --config baseUrl=<<pipeline.parameters.url>>'
+    le-vshred-run-feature-tag-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 20
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE VShred Run by tags'
+                  command: 'yarn test:le:sn --browser << pipeline.parameters.browser >> --env tags=<< pipeline.parameters.SCRIPT_TAG>>,filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,SSH_USERNAME=<<pipeline.parameters.SSH_USERNAME>>,SSH_HOST=<<pipeline.parameters.SSH_HOST>>,SSH_PORT=<<pipeline.parameters.SSH_PORT>>,DB_HOST=<<pipeline.parameters.DB_HOST>>,DB_PORT=<<pipeline.parameters.DB_PORT>>,DB_DB=<<pipeline.parameters.DB_DB>>,DB_USER=<<pipeline.parameters.DB_USER>>,DB_PASSWORD=<<pipeline.parameters.DB_PASSWORD>>,LE_ADMIN_URL=<<pipeline.parameters.LE_ADMIN_URL>>,VS_ADMIN_URL=<<pipeline.parameters.VS_ADMIN_URL>>,LE_VSHRED_URL=<<pipeline.parameters.LE_VSHRED_URL>> --config baseUrl=<<pipeline.parameters.url>>'
+    le-vshred-uat-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 10
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE VShred UAT Tests'
+                  command: 'yarn test:le:sn --browser << pipeline.parameters.browser >> --env tags=@uat,filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,LE_ADMIN_URL=https://le-uat.sculptnation.com,VS_ADMIN_URL=https://uat.vshred.com,LE_VSHRED_URL=https://le-uat.vshred.com --config baseUrl=https://le-uat.sculptnation.com'
+    # Define the beta test jobs
+    le-sculptnation-beta-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 7
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE SculptNation Beta Tests'
+                  command: 'yarn test:le:sn --browser << pipeline.parameters.browser >> --env tags=@beta,filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,SSH_USERNAME=<<pipeline.parameters.SSH_USERNAME>>,SSH_HOST=<<pipeline.parameters.SSH_HOST>>,SSH_PORT=<<pipeline.parameters.SSH_PORT>>,DB_HOST=<<pipeline.parameters.DB_HOST>>,DB_PORT=<<pipeline.parameters.DB_PORT>>,DB_DB=<<pipeline.parameters.DB_DB>>,DB_USER=<<pipeline.parameters.DB_USER>>,DB_PASSWORD=<<pipeline.parameters.DB_PASSWORD>>,LE_ADMIN_URL=<<pipeline.parameters.LE_ADMIN_URL>>,VS_ADMIN_URL=<<pipeline.parameters.VS_ADMIN_URL>>,LE_VSHRED_URL=<<pipeline.parameters.LE_VSHRED_URL>> --config baseUrl=<<pipeline.parameters.url>>'
+            - run:
+                  name: 'LE SculptNation Dynamic Tests'
+                  no_output_timeout: 30m
+                  command: |
+                      CYPRESS_TAGS="<< pipeline.parameters.SCRIPT_TAG >>"
+                        if [ -n "<< pipeline.parameters.ASSET_TYPE >>" ]; then
+                            CYPRESS_TAGS="${CYPRESS_TAGS},@<< pipeline.parameters.ASSET_TYPE >>-change"
+                            if [ -n "<< pipeline.parameters.ASSET_ID >>" ]; then
+                                CYPRESS_TAGS="${CYPRESS_TAGS},@id-<< pipeline.parameters.ASSET_ID >>"
+                            fi
+                        fi
+                        yarn test:le:sn --browser << pipeline.parameters.browser >> \
+                            --env tags="${CYPRESS_TAGS}",filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,SSH_USERNAME=<<pipeline.parameters.SSH_USERNAME>>,SSH_HOST=<<pipeline.parameters.SSH_HOST>>,SSH_PORT=<<pipeline.parameters.SSH_PORT>>,DB_HOST=<<pipeline.parameters.DB_HOST>>,DB_PORT=<<pipeline.parameters.DB_PORT>>,DB_DB=<<pipeline.parameters.DB_DB>>,DB_USER=<<pipeline.parameters.DB_USER>>,DB_PASSWORD=<<pipeline.parameters.DB_PASSWORD>>,LE_ADMIN_URL=<<pipeline.parameters.LE_ADMIN_URL>>,VS_ADMIN_URL=<<pipeline.parameters.VS_ADMIN_URL>>,LE_VSHRED_URL=<<pipeline.parameters.LE_VSHRED_URL>> \
+                            --config baseUrl=<<pipeline.parameters.url>>
+    le-sculptnation-beta-refund-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 3
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE SculptNation Beta Refund Tests'
+                  command: 'yarn test:le:sn --browser << pipeline.parameters.browser >> --env tags=@betaRefunds,filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,SSH_USERNAME=<<pipeline.parameters.SSH_USERNAME>>,SSH_HOST=<<pipeline.parameters.SSH_HOST>>,SSH_PORT=<<pipeline.parameters.SSH_PORT>>,DB_HOST=<<pipeline.parameters.DB_HOST>>,DB_PORT=<<pipeline.parameters.DB_PORT>>,DB_DB=<<pipeline.parameters.DB_DB>>,DB_USER=<<pipeline.parameters.DB_USER>>,DB_PASSWORD=<<pipeline.parameters.DB_PASSWORD>>,LE_ADMIN_URL=<<pipeline.parameters.LE_ADMIN_URL>>,VS_ADMIN_URL=<<pipeline.parameters.VS_ADMIN_URL>>,LE_VSHRED_URL=<<pipeline.parameters.LE_VSHRED_URL>> --config baseUrl=<<pipeline.parameters.url>>'
+    le-vshred-beta-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 4
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE VShred Beta Tests'
+                  command: 'yarn test:le:vshred:beta --browser << pipeline.parameters.browser >>'
+    le-vshred-trainertool-beta-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 4
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE VShred-TrainerTool Beta Tests'
+                  command: 'yarn test:le:sn --browser << pipeline.parameters.browser >> --env tags=@ttBeta,filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,SSH_USERNAME=<<pipeline.parameters.SSH_USERNAME>>,SSH_HOST=<<pipeline.parameters.SSH_HOST>>,SSH_PORT=<<pipeline.parameters.SSH_PORT>>,DB_HOST=<<pipeline.parameters.DB_HOST>>,DB_PORT=<<pipeline.parameters.DB_PORT>>,DB_DB=<<pipeline.parameters.DB_DB>>,DB_USER=<<pipeline.parameters.DB_USER>>,DB_PASSWORD=<<pipeline.parameters.DB_PASSWORD>>,LE_ADMIN_URL=<<pipeline.parameters.LE_ADMIN_URL>>,VS_ADMIN_URL=<<pipeline.parameters.VS_ADMIN_URL>>,LE_VSHRED_URL=<<pipeline.parameters.LE_VSHRED_URL>> --config baseUrl=<<pipeline.parameters.url>>'
+
+    # Define the ALL test jobs
+    le-core-full-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 10
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE Core All Tests'
+                  command: 'yarn test:le:sn --browser << pipeline.parameters.browser >> --env tags=@leCore,filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,SSH_USERNAME=<<pipeline.parameters.SSH_USERNAME>>,SSH_HOST=<<pipeline.parameters.SSH_HOST>>,SSH_PORT=<<pipeline.parameters.SSH_PORT>>,DB_HOST=<<pipeline.parameters.DB_HOST>>,DB_PORT=<<pipeline.parameters.DB_PORT>>,DB_DB=<<pipeline.parameters.DB_DB>>,DB_USER=<<pipeline.parameters.DB_USER>>,DB_PASSWORD=<<pipeline.parameters.DB_PASSWORD>>,LE_ADMIN_URL=<<pipeline.parameters.LE_ADMIN_URL>>,VS_ADMIN_URL=<<pipeline.parameters.VS_ADMIN_URL>>,LE_VSHRED_URL=<<pipeline.parameters.LE_VSHRED_URL>> --config baseUrl=<<pipeline.parameters.url>>'
+    le-sculptnation-all-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 10
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE SculptNation All Tests'
+                  command: 'yarn test:le:sn --browser << pipeline.parameters.browser >> --env filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,SSH_USERNAME=<<pipeline.parameters.SSH_USERNAME>>,SSH_HOST=<<pipeline.parameters.SSH_HOST>>,SSH_PORT=<<pipeline.parameters.SSH_PORT>>,DB_HOST=<<pipeline.parameters.DB_HOST>>,DB_PORT=<<pipeline.parameters.DB_PORT>>,DB_DB=<<pipeline.parameters.DB_DB>>,DB_USER=<<pipeline.parameters.DB_USER>>,DB_PASSWORD=<<pipeline.parameters.DB_PASSWORD>>,LE_ADMIN_URL=<<pipeline.parameters.LE_ADMIN_URL>>,VS_ADMIN_URL=<<pipeline.parameters.VS_ADMIN_URL>>,LE_VSHRED_URL=<<pipeline.parameters.LE_VSHRED_URL>> --config baseUrl=<<pipeline.parameters.url>>'
+    le-vshred-all-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 7
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE Vshred All Tests'
+                  command: 'yarn test:le:vshred:all --browser << pipeline.parameters.browser >>'
+    le-marketing-all-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 7
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE Marketing All Tests'
+                  command: 'yarn test:le:marketing:all --browser << pipeline.parameters.browser >>'
+    vs-vshred-trainertool-all-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 7
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'VS Vshred and Trainer Tool All Tests'
+                  command: 'yarn test:vstt:all --browser << pipeline.parameters.browser >>'
+    vs-marketing-all-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 7
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'VS Marketing All Tests'
+                  command: 'yarn test:vs:marketing:all --browser << pipeline.parameters.browser >>'
+    le-sculptnation-hotfix-tests:
+        parameters:
+            trigger_param:
+                type: boolean
+                default: true
+        circleci_ip_ranges: true
+        executor: with-chrome
+        parallelism: 10
+        steps:
+            - checkout
+            - add_ssh_keys:
+                  fingerprints:
+                      - '56:82:2b:69:18:f8:c9:87:14:b7:0c:3a:fb:ea:8b:de'
+            - run:
+                  name: 'Install test dependencies'
+                  command: 'yarn'
+            - run:
+                  name: 'Fix CI audio error'
+                  command: "echo -e 'pcm.!default {\n type plug\n slave.pcm 'null'\n}' > ~/.asoundrc"
+            - run:
+                  name: 'LE SculptNation Hotfix Tests'
+                  command: 'yarn test:le:sn --browser << pipeline.parameters.browser >> --env tags=@hotfixes,filterSpecs=true,GEOLOCATION=<<pipeline.parameters.geolocation>>,SSH_USERNAME=<<pipeline.parameters.SSH_USERNAME>>,SSH_HOST=<<pipeline.parameters.SSH_HOST>>,SSH_PORT=<<pipeline.parameters.SSH_PORT>>,DB_HOST=<<pipeline.parameters.DB_HOST>>,DB_PORT=<<pipeline.parameters.DB_PORT>>,DB_DB=<<pipeline.parameters.DB_DB>>,DB_USER=<<pipeline.parameters.DB_USER>>,DB_PASSWORD=<<pipeline.parameters.DB_PASSWORD>>,LE_ADMIN_URL=<<pipeline.parameters.LE_ADMIN_URL>>,VS_ADMIN_URL=<<pipeline.parameters.VS_ADMIN_URL>>,LE_VSHRED_URL=<<pipeline.parameters.LE_VSHRED_URL>> --config baseUrl=<<pipeline.parameters.url>>'
+# Invoke jobs via workflows
+# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+workflows:
+    # PR validation tests workflows for all projects
+    le-sculptnation-pr-validation-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-sculptnation-pr-validation-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-sculptnation-pr-validation-tests:
+                  context: LE-SculptNation
+                  requires:
+                      - lint-check
+    # smoke tests workflows
+    le-vshred-smoke-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-vshred-smoke-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-vshred-smoke-tests:
+                  context: LE-VShred
+                  requires:
+                      - lint-check
+    le-marketing-smoke-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-marketing-smoke-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-marketing-smoke-tests:
+                  context: LE-Marketing
+                  requires:
+                      - lint-check
+    le-vshred-trainertool-smoke-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-vshred-trainertool-smoke-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-vshred-trainertool-smoke-tests:
+                  context: LE-SculptNation
+                  requires:
+                      - lint-check
+    le-vshred-program-purchase-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-vshred-program-purchase-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-vshred-program-purchase-tests:
+                  context: LE-SculptNation
+                  requires:
+                      - lint-check
+    vs-marketing-smoke-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - vs-marketing-smoke-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - vs-marketing-smoke-tests:
+                  context: VS-Marketing
+                  requires:
+                      - lint-check
+
+    le-vshred-klaviyo-smoke-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-vshred-klaviyo-smoke-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-vshred-klaviyo-smoke-tests:
+                  context: LE-SculptNation
+                  requires:
+                      - lint-check
+    le-vshred-run-feature-tag-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-vshred-run-feature-tag-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-vshred-run-feature-tag-tests:
+                  context: LE-SculptNation
+                  requires:
+                      - lint-check
+    le-vshred-uat-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-vshred-uat-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-vshred-uat-tests:
+                  context: LE-SculptNation
+                  requires:
+                      - lint-check
+    vs-marketing-blog-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - vs-marketing-blog-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - vs-marketing-blog-tests:
+                  context: VS-Marketing
+                  requires:
+                      - lint-check
+    # beta tests workflows
+    le-sculptnation-beta-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-sculptnation-beta-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-sculptnation-beta-tests:
+                  context: LE-SculptNation
+                  requires:
+                      - lint-check
+        # beta tests workflows
+    le-sculptnation-beta-tests-refunds-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-sculptnation-beta-refund-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-sculptnation-beta-refund-tests:
+                  context: LE-SculptNation
+                  requires:
+                      - lint-check
+    le-vshred-beta-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-vshred-beta-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-vshred-beta-tests:
+                  context: LE-VShred
+                  requires:
+                      - lint-check
+    le-vshred-trainertool-beta-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-vshred-trainertool-beta-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-vshred-trainertool-beta-tests:
+                  context: LE-SculptNation
+                  requires:
+                      - lint-check
+    # ALL tests workflows
+    le-core-full-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-core-full-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-core-full-tests:
+                  context: LE-SculptNation
+                  requires:
+                      - lint-check
+    le-sculptnation-all-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-sculptnation-all-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-sculptnation-all-tests:
+                  context: LE-SculptNation
+                  requires:
+                      - lint-check
+    le-sculptnation-hotfix-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-sculptnation-hotfix-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-sculptnation-hotfix-tests:
+                  context: LE-SculptNation
+                  requires:
+                      - lint-check
+    le-vshred-all-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-vshred-all-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-vshred-all-tests:
+                  context: LE-VShred
+                  requires:
+                      - lint-check
+    le-marketing-all-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-marketing-all-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-marketing-all-tests:
+                  context: LE-Marketing
+                  requires:
+                      - lint-check
+    vs-vshred-trainertool-all-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - vs-vshred-trainertool-all-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - vs-vshred-trainertool-all-tests:
+                  context: VS-VShred-TrainerTool
+                  requires:
+                      - lint-check
+    vs-marketing-all-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - vs-marketing-all-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - vs-marketing-all-tests:
+                  context: VS-Marketing
+                  requires:
+                      - lint-check
+    #Hotfix Workflows
+    le-vshred-hotfix-tests-workflow:
+        when:
+            and:
+                - equal:
+                      - true
+                      - << pipeline.parameters.trigger_pipeline >>
+                - equal:
+                      - le-vshred-hotfix-tests-workflow
+                      - << pipeline.parameters.test_type >>
+        jobs:
+            - lint-check
+            - le-vshred-beta-tests:
+                  context: LE-VShred
+                  requires:
+                      - lint-check
+
+#Nighly beta runs branch
+nightly-build-branch:
+    triggers:
+        - schedule:
+              cron: '0 0 * * *' # Runs at midnight every day
+              filters:
+                  branches:
+                      only:
+                          - main
+    jobs:
+        - lint-check
+        - le-sculptnation-beta-tests:
+              context: LE-SculptNation
+              requires:
+                  - lint-check
+
+#Nighly beta runs tags
+nightly-build-tags:
+    triggers:
+        - schedule:
+              cron: '0 1 * * *' # Runs at 1am every day
+              filters:
+                  tags:
+                      only:
+                          - /@beta/
+    jobs:
+        - lint-check
+        - le-sculptnation-beta-tests:
+              context: LE-SculptNation
+              requires:
+                  - lint-check
