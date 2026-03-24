@@ -1583,10 +1583,10 @@ cypress-plugin-steps@^1.2.1:
   resolved "https://registry.yarnpkg.com/cypress-plugin-steps/-/cypress-plugin-steps-1.2.1.tgz#d146941f2c5a6644a4b6005dc39a3fdef9e8e5b6"
   integrity sha512-L2khZMhTMgbAMBQhh4x2SQweVlb8ugadVsQlunnwGVBN313YfhoxsvWaQjJjm/N+0z/oUSZoKD3yAYkcFKEw9A==
 
-cypress-real-events@^1.14.0:
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/cypress-real-events/-/cypress-real-events-1.14.0.tgz#c5495db50a2bd247f4accde983af7153566945d3"
-  integrity sha512-XmI8y3OZLh6cjRroPalzzS++iv+pGCaD9G9kfIbtspgv7GVsDt30dkZvSXfgZb4rAN+3pOkMVB7e0j4oXydW7Q==
+cypress-real-events@^1.15.0:
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/cypress-real-events/-/cypress-real-events-1.15.0.tgz#b84ed97455238139ac3d0c8f803991b30f22fc8a"
+  integrity sha512-in98xxTnnM9Z7lZBvvVozm99PBT2eEOjXRG5LKWyYvQnj9mGWXMiPNpfw7e7WiraBFh7XlXIxnE9Cu5o+52kQQ==
 
 cypress@^13.17.0:
   version "13.17.0"
