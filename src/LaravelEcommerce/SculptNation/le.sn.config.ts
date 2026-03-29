@@ -18,10 +18,10 @@ import {
 export default defineConfig({
     projectId: 'vk1aj4',
     env: {
-        klaviyoUrl: 'https://a.klaviyo.com',
+        klaviyoUrl: 'https://zzz.com',
     },
     e2e: {
-        baseUrl: 'https://staging.sculptnation.com',
+        baseUrl: 'https://xxx.abcxyz.com',
         watchForFileChanges: true,
         specPattern: '**/*.feature',
         supportFile: 'cypress/support/e2e.ts',
