@@ -95,10 +95,10 @@ Use this URL locally to test your geolocation change: https://www.w3schools.com/
 
 The LaravelEcommerce test project supports running tests in CircleCi on a different URL than the default baseUrl specified in the `le.sn.config.ts` file. To do so, just add a new `string` parameter called `url` to the list of available parameters in the Trigger Pipeline popup of CircleCi.
 
-By default, the URL will be `http://staging.sculptnation.com` (the one we use as a baseUrl in the framework and in PR validation tests in CircleCI). So you do not need to explicitly add the `url` parameter to the Trigger Pipeline popup if you wish to run on staging.
+By default, the URL will be `http://staging.abc.com` (the one we use as a baseUrl in the framework and in PR validation tests in CircleCI). So you do not need to explicitly add the `url` parameter to the Trigger Pipeline popup if you wish to run on staging.
 
-However, if you want to run on `le-sn-staging` for example, you need to add the `url` string parameter and populate it exactly like `https://staging.sculptnation.com` WITHOUT a `/` at the end.
+However, if you want to run on `le-sn-staging` for example, you need to add the `url` string parameter and populate it exactly like `https://staging.abc.com` WITHOUT a `/` at the end.
 
 ## Additional information and documentation
 
-[Please check this page for additional information and documentation.](https://vshred.atlassian.net/wiki/spaces/TT/pages/2201452569/CI+CD+2.0+EPIC+BREAKDOWN+ROADMAP)
+[Please check this page for additional information and documentation.]
