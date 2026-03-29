@@ -8,7 +8,7 @@ import { setupBrowserBeforeRun } from '../_libs/scripts';
 export default defineConfig({
     projectId: '68ho5n',
     e2e: {
-        baseUrl: 'https://staging-marketing-02.vshred.com',
+        baseUrl: 'https://marketing.abcxyz.com',
         watchForFileChanges: true,
         specPattern: '**/*.feature',
         supportFile: 'cypress/support/e2e.ts',
